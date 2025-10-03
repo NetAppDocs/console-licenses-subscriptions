@@ -13,4 +13,4 @@ summary: Manage your capacity-based licenses from the Console to ensure that you
 :imagesdir: ./media/
 
 [.lead]
-include::https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/task-manage-capacity-licenses.adoc[lines=15..-1]
+include::https://raw.githubusercontent.com/NetAppDocs/console-cloud-volumes-ontap/main/task-manage-capacity-licenses.adoc[lines=15..-1]

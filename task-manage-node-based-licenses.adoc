@@ -10,7 +10,7 @@ summary: Manage your node-based licenses in the Console to ensure that each Clou
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
+:imagesdir: https://docs.netapp.com/us-en/console-cloud-volumes-ontap/media/
 
 [.lead]
-include::https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/task-manage-node-licenses.adoc[lines=15..-1]
+include::https://raw.githubusercontent.com/NetAppDocs/console-cloud-volumes-ontap/main/task-manage-node-licenses.adoc[lines=15..-1]
