@@ -31,18 +31,18 @@ If the Console cannot add licenses automatically, you'll need to add them manual
 
 After you purchase a license from your NetApp sales representative, NetApp sends you an email with the serial number and licensing details. Use that serial number to add or update the license in the Console.
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[Learn how to add your NetApp Support Site account to Console credentials^].
+https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[Learn how to add your NetApp Support Site account to Console credentials^].
 
 
 == Supported services
 
 You can manage licenses and subscriptions for the following services in the Console:
 
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html[Backup and Recovery^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html[Cloud Volumes ONTAP^]
-* https://docs.netapp.com/us-en/bluexp-disaster-recovery/index.html[Disaster Recovery^] (BYOL only)
-* https://docs.netapp.com/us-en/bluexp-ransomware-protection/index.html[Ransomware Resilience^]
-* https://docs.netapp.com/us-en/bluexp-tiering/index.html[Cloud Tiering^]
+* https://docs.netapp.com/us-en/console-backup-recovery/index.html[Backup and Recovery^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/index.html[Cloud Volumes ONTAP^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/index.html[Disaster Recovery^] (BYOL only)
+* https://docs.netapp.com/us-en/console-ransomware-protection/index.html[Ransomware Resilience^]
+* https://docs.netapp.com/us-en/console-tiering/index.html[Cloud Tiering^]
 
 
 

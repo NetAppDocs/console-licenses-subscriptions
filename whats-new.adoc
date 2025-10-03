@@ -52,7 +52,7 @@ Email notifications are now supported with the BlueXP digital wallet.
 
 If you configure your notification settings, you can receive email notifications when your BYOL licenses are about to expire (a "Warning" notification) or if they have already expired (an "Error" notification).
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html[Learn how to set up email notifications^]
+https://docs.netapp.com/us-en/consosetup-admin/task-monitor-cm-operations.html[Learn how to set up email notifications^]
 
 === Licensed capacity for marketplace subscriptions
 

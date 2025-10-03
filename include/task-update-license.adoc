@@ -16,7 +16,7 @@ You can manually update a license using either method:
 
 When you purchase a license from a NetApp sales representative, you receive an email containing the serial number and licensing details. Use this serial number to update the license.
 
-NOTE: To enter the serial number, first https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to the Console^]. This NSS account must be authorized to access the serial number.
+NOTE: To enter the serial number, first https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to the Console^]. This NSS account must be authorized to access the serial number.
 
 .Steps
 
