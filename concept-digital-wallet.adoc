@@ -1,0 +1,50 @@
+---
+sidebar: sidebar
+permalink: concept-digital-wallet.html
+keywords: license, licensing, licenses, subscriptions,
+summary: "The licenses and subscriptions enable you to manage and monitor NetApp Console licenses, NetApp marketplace subscriptions, and NetApp Keystone."
+---
+
+= Learn about licenses and subscriptions
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can manage and monitor licenses purchased from NetApp (BYOL), marketplace subscriptions for NetApp data services (including Cloud Volumes ONTAP), and NetApp Keystone subscriptions in the NetApp Console.
+
+== How licenses and subscriptions display in the Console
+
+License and subscription information automatically displays in the Console when your Console account is also associated with a NetApp Support Site (NSS) account. If your Console account is not associated with an NSS account, you'll need to manually add licenses. When licenses are added manually, usage, capacity, and other details won't automatically update.
+
+NOTE: You need a Console agent deployed to view subscription information. An agent is also required to view node licenses for Cloud Volumes ONTAP.
+
+=== Automatic license discovery
+
+The Console automatically queries the NetApp licensing service to obtain license details associated with your NetApp Support Site account. When the query succeeds, the Console adds the licenses automatically.
+
+=== Manual license addition
+
+If the Console cannot add licenses automatically, you'll need to add them manually. This occurs when your Console account is not associated with your NetApp Support Site account.
+
+After you purchase a license from your NetApp sales representative, NetApp sends you an email with the serial number and licensing details. Use that serial number to add or update the license in the Console.
+
+https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[Learn how to add your NetApp Support Site account to Console credentials^].
+
+
+== Supported services
+
+You can manage licenses and subscriptions for the following services in the Console:
+
+* https://docs.netapp.com/us-en/console-backup-recovery/index.html[Backup and Recovery^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/index.html[Cloud Volumes ONTAP^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/index.html[Disaster Recovery^] (BYOL only)
+* https://docs.netapp.com/us-en/console-ransomware-protection/index.html[Ransomware Resilience^]
+* https://docs.netapp.com/us-en/console-tiering/index.html[Cloud Tiering^]
+
+
+
+
+
