@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concept-digital-wallet.html
+permalink: concept-licenses-subscriptions.html
 keywords: license, licensing, licenses, subscriptions,
 summary: "The licenses and subscriptions enable you to manage and monitor NetApp Console licenses, NetApp marketplace subscriptions, and NetApp Keystone."
 ---
