@@ -1,0 +1,14 @@
+
+The BlueXP digital wallet has been redesigned for ease of use and now provides additional subscription and license management.
+
+=== New Overview dashboard
+The digital wallet homepage has an updated dashboard of your NetApp licenses and Marketplace subscriptions, with the ability to drill-down into specific services, license types and required actions.
+
+=== Configuring subscriptions to credentials
+The BlueXP digital wallet now allows you to configure your subscriptions to provider credentials. Typically you do this when you first subscribe to a Marketplace subscription or annual contract. Previously changing the subscription's credentials could only be done on the Credentials page. 
+
+=== Associating subscriptions with organizations
+You can now update the organization to which a subscription is associated directly from digital wallet.
+
+=== Managing Cloud Volume ONTAP licenses
+You now manage Cloud Volumes ONTAP licenses through the home page or the *Direct licenses* tab.  Use the *Marketplace subscriptions* tab to view your subscription information.

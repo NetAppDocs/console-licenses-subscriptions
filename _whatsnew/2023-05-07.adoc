@@ -1,0 +1,14 @@
+=== Google Cloud private offers
+
+The BlueXP digital wallet now identifies Google Cloud Marketplace subscriptions that are associated with a private offer and shows the end date and term of the subscription. This enhancement enables you to verify that you've successfully accepted the private offer and to validate its terms.
+
+=== Charging usage breakdown
+
+Now you can find out what you're being charged for when you're subscribed to capacity-based licenses. The following types of usage reports are available for download from the BlueXP digital wallet. The usage reports provide capacity details of your subscriptions and tell you how you're being charged for the resources in your Cloud Volumes ONTAP subscriptions. The downloadable reports can be easily shared with others.
+
+* Cloud Volumes ONTAP package usage
+* High-level usage 
+* Storage VMs usage
+* Volumes usage
+
+For more information about the usage reports, refer to https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports[Download usage reports].

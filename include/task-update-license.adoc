@@ -1,0 +1,31 @@
+
+The Console notifies you when your licensed term nears expiration or when your licensed capacity approaches the limit. Update your license before it expires to avoid interruptions to your NetApp data services or Cloud Volumes ONTAP.
+
+After you purchase additional capacity from NetApp or extend your license term, the Console automatically updates the license when both conditions are met:
+
+* Your Console account is associated with a NetApp Support Site account
+* The Console has internet access
+
+If your Console account is not associated with your NSS account, or if the Console operates in private mode without internet access, you must manually update the license.
+
+
+You can manually update a license using either method:
+
+* Enter the serial number and associated NSS account
+* Upload the NetApp license file (or files for a Cloud Volumes ONTAP HA pair)
+
+When you purchase a license from a NetApp sales representative, you receive an email containing the serial number and licensing details. Use this serial number to update the license.
+
+NOTE: To enter the serial number, first https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to the Console^]. This NSS account must be authorized to access the serial number.
+
+.Steps
+
+. Contact your NetApp representative to purchase a new license.
++
+After you complete payment and the license registers with the NetApp Support Site, the Console automatically updates the license. The *Direct licenses* page reflects the change within 5 to 10 minutes.
+
+. If the Console cannot automatically update the license (for example, when operating in private mode), obtain a NetApp license file from support and manually upload it. <<obtain-license,Learn how to obtain a license file.>>
+
+. On the *Direct licenses* tab, select image:icon-action.png[More icon] for the serial number you are updating, and select *Update license*.
+
+. In the *Update license* page, upload the license file and select *Update license*.
