@@ -7,7 +7,7 @@ indexpage:
     - title: Get started
       links:
         - title: Learn about licenses and subscriptions
-          url: concept-digital-wallet.html
+          url: concept-licenses-subscriptions.html
     - title: Manage your licenses
       links:
         - title: Manage capacity-based licenses for Cloud Volumes ONTAP
