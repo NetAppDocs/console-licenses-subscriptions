@@ -1,12 +1,58 @@
 settings:
-  name: "Product Name"
+  name: "Licenses and subscriptions"
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: true
 
-sidebar: 
+sidebar:
   entries:
-  - title: Legal notices
-    url: /legal-notices.html
+    - title: Licenses and subscriptions documentation
+      url: /index.html
+    - title: Release notes
+      entries:
+        - title: What's new
+          url: /whats-new.html
+    - title: Get started
+      entries:
+      - title: Learn about 
+        url: /concept-digital-wallet.html
+    - title: Use licenses and subscriptions
+      entries:
+        - title: Use the Overview dashboard
+          url: /task-homepage.html
+        - title: Manage licenses
+          entries:
+            - title: Manage direct licenses
+              url: /task-manage-data-services-licenses.html
+            - title: Manage licenses for Cloud Volumes ONTAP
+              entries:
+                - title: Capacity-based licenses for Cloud Volumes ONTAP
+                  url: /task-manage-capacity-licenses.html
+                - title: Node-based licenses for Cloud Volumes ONTAP
+                  url: /task-manage-node-based-licenses.html
+        - title: Manage private offers
+          entries:
+            - title: Manage an AWS private offer
+              url: /task-manage-private-aws.html
+            - title: Manage an Azure private offer
+              url: /task-manage-private-azure.html
+            - title: Manage a Google Cloud private offer
+              url: /task-manage-private-google-cloud.html
+        - title: Manage Marketplace subscriptions
+          url: /task-manage-subscriptions.html
+        - title: Manage Keystone subscriptions
+          url: /task-manage-keystone.html
+        - title: Knowledge and support
+          entries:
+          - title: Register for support
+            url: /task-support-registration.html
+          - title: Get help
+            url: /task-get-help.html
+        - title: Legal notices
+          url: /legal-notices.html
+
+product-family:
+  name: NetApp Console
+  repo: console-family

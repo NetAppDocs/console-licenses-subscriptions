@@ -1,0 +1,132 @@
+---
+sidebar: sidebar
+permalink: task-manage-private-aws.html
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws
+summary: Manage your general and Hyperscaler specific, end-to-end Private Offer Process and NetApp Intelligent Services acceptance and activation guides for AWS, Azure, and Google Cloud.
+---
+
+= Accept and configure an AWS Marketplace private offer for the NetApp Console
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Accept a Marketplace private offer for the NetApp Console in the AWS console and configure AWS credentials in the Console.
+
+.Before you begin
+
+* Work with NetApp sales to create a private offer and obtain the activation link.  
+* Ensure you have the required AWS Marketplace permissions:  
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-private-offers-subscribing.html[Viewing and subscribing to a private offer]  
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-iam-users-groups-policies.html[Buyer permissions validation]
+
+== Accept the private offer in the AWS console
+
+Completing the subscription assignment in the Console is required to activate the purchase and apply discounted pricing.  
+
+[NOTE]
+====
+You must complete all steps to activate your private offer. Skipping steps may result in billing errors.  
+Accepting and activating the offer multiple times results in double charging.  
+====
+
+.Steps
+. Click the private offer activation link from your NetApp sales team.  
+   The link should look similar to the following:  
+   `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa` 
+
+   If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:  
+
+   * Using AWS managed policies: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions*, or *AWSMarketplaceFullAccess*  
+   * Using custom IAM policies: `aws-marketplace:ListPrivateListings` and `aws-marketplace:ViewSubscriptions`  
+
+. You are redirected to AWS Marketplace to view the private offer.  
++
+[NOTE]
+====
+Private offers are created on top of public listings. Use the *Offer selection* dropdown to switch between public and private offers.  
+====
+
+. Review the private offer details and confirm they match your agreement. If they are incorrect, do not accept. Contact your NetApp account team.  
++
+[NOTE]
+====
+Two types of private offers exist:  
+
+* *On-demand usage*  
+** Pricing information  
+** Legal terms  
+
+* *Contract*  
+** Duration and dates  
+** Renewal settings  
+** Contract options  
+** Total contract price  
+
+For contract offers, enter the number of units agreed upon. For Cloud Volumes ONTAP, ensure you select the correct license before subscribing.  
+====
+
+. To accept the private offer, do the following:  
+.. For on-demand usage, click *Subscribe*.  
+.. For contract offers, enter the number of units for each service and click *Create contract*.  
+
+. After acceptance, a banner confirms the subscription and provides registration instructions.  
+
+. Click *Set up your account*. This redirects to the NetApp Console to configure the subscription.  
++
+[NOTE]
+====
+If you accepted the offer but did not complete registration, return to the product page.  
+For contract listings, click *View purchase options* to display the offer, then select *Set up your account*.  
+====
+
+. Sign in at https://console.netapp.com with your Console account.  
+
+. After logging in, navigate to https://console.netapp.com/licenses/overview. You are prompted to:  
+.. Enter a *Display name* for the Marketplace subscription.  
+.. Select the Console *Accounts* with access to the subscription.  
+.. [Optional] Enable *Replace existing subscription* to overwrite an existing subscription for one account.  
++
+[NOTE]
+====
+- Replacement applies only to one Console account.  
+- To associate multiple accounts with the same subscription, configure additional accounts manually.  
+- If credentials were never associated with a subscription, associate them manually as described in the next section.  
+====
+
+. Click *Associate* and then *Done*.  
+
+[IMPORTANT]
+====
+Completing the subscription assignment in the Console is necessary to apply discounted pricing.  
+====
+
+== Configure the subscription with AWS credentials
+
+. In the Console, go to *Governance > Licenses and subscriptions* and select the *Marketplace subscriptions* tab.  
+
+. Locate the subscription created earlier. Expand the row to confirm it is associated with your Console account.  
++
+[NOTE]
+====
+Due to AWS Marketplace limitations, some details of private offers are not exposed outside the AWS console. If a field displays `N/A`, check the information directly in the AWS console.  
+====
+
+. Click the three-dot menu next to the subscription and select *Configure*.  
+
+. Select the appropriate *AWS account credential* and click *Configure*.  
+
+[NOTE]
+====
+Marketplace charges for these credentials are billed using the Marketplace subscription. For annual contracts, costs count against the contract usage.  
+====
+
+[IMPORTANT]
+====
+Repeat steps 1–4 for each AWS credential in your Console account that you want to associate with the subscription.  
+
+- For credentials in other Console organizations, use the *Organization* dropdown and repeat the steps.  
+- For credentials in other agents, use the *Agent* dropdown and repeat the steps.  
+====

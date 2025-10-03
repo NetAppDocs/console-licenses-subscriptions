@@ -1,0 +1,111 @@
+---
+sidebar: sidebar
+permalink: whats-new.html
+keywords: what's new, features, release notes, enhancements, fixes, licenses, subscriptions
+summary: Learn what's new with NetApp Console licenses and subscriptions. 
+
+---
+= What's new
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Learn what's new with NetApp Console licenses and subscriptions.
+//All links and images must use the absolute URL.
+
+// tag::whats-new[]
+
+== 06 October 2025
+
+include::_whatsnew/2025-10-06.adoc[]
+
+== 10 March 2025
+
+include::_whatsnew/2025-03-10.adoc[]
+
+== 10 February 2025
+
+include::_whatsnew/2025-02-10.adoc[]
+
+== 5 March 2024
+
+include::_whatsnew/2024-03-05.adoc[]
+
+== 30 July 2023
+
+include::_whatsnew/2023-07-30.adoc[]
+// end::whats-new[]
+
+== 7 May 2023
+
+include::_whatsnew/2023-05-07.adoc[]
+
+
+== 3 April 2023
+
+=== Email notifications
+
+Email notifications are now supported with the BlueXP digital wallet. 
+
+If you configure your notification settings, you can receive email notifications when your BYOL licenses are about to expire (a "Warning" notification) or if they have already expired (an "Error" notification).
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html[Learn how to set up email notifications^]
+
+=== Licensed capacity for marketplace subscriptions
+
+When viewing capacity-based licensing for Cloud Volumes ONTAP, the BlueXP digital wallet now shows the licensed capacity that you purchased with marketplace private offers.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html[Learn how to view the consumed capacity in your account].
+
+== 6 November 2022
+
+=== Subscriptions and annual contracts
+
+Your PAYGO subscriptions and annual contracts for BlueXP are now available to view and manage from the BlueXP digital wallet.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-subscriptions.html[Learn how to manage your subscriptions].
+
+== 18 September 2022
+
+=== Optimized I/O and WORM capacity
+
+The BlueXP digital wallet now shows a summary of the Optimized I/O licensing package and the provisioned WORM capacity for Cloud Volumes ONTAP systems across your account.
+
+These details can help you better understand how you're being charged and whether you need to purchase additional capacity.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html[Learn how to view the consumed capacity in your account].
+
+== 31 July 2022
+
+=== Change charging method
+
+You can now change the charging method for a Cloud Volumes ONTAP system that uses capacity-based licensing. For example, if you deployed a Cloud Volumes ONTAP system with the Essentials package, you can change it to the Professional package if your business needs changed.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html[Learn how to change charging methods].
+
+== 3 July 2022
+
+=== Consumed capacity
+
+The  now shows you the total consumed capacity in your account and the consumed capacity by licensing package. This can help you understand how you're being charged and whether you need to purchase additional capacity.
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["A screenshot that shows the  page for capacity-based licenses. The page provides an overview of the consumed capacity in your account and then breaks down the consumed capacity by licensing package."]
+
+== 27 February 2022
+
+=== Licenses for on-premises ONTAP clusters
+
+You can now view an inventory of your on-prem ONTAP clusters along with their hardware and service contracts expiration dates. Additional details about the clusters are also available.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html[Learn how to manage licenses for on-prem ONTAP clusters].
+
+== 2 January 2022
+
+=== Licensing terms update automatically
+
+If you change the capacity or term for any of your licenses, the license terms now automatically update in the . You don't need to manually update the license yourself.
+
+The automatic license update works with all types of Cloud Volumes ONTAP licenses and all licenses for data services.

@@ -1,0 +1,9 @@
+
+=== Ability to remove subscriptions
+You can now remove subscriptions from the digital wallet if you have unsubscribed from them.
+
+=== View consumed capacity for Marketplace subscriptions
+When viewing PAYGO subscriptions, you can now view the consumed capacity of the subscription.
+
+
+

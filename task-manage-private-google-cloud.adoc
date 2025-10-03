@@ -1,0 +1,115 @@
+---
+sidebar: sidebar
+permalink: task-manage-private-google-cloud.html
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud
+summary: Manage your general and Hyperscaler specific, end-to-end Private Offer Process and NetApp Intelligent Services acceptance and activation guides for AWS, Azure, and Google Cloud.
+---
+
+= Accept and configure a Google Cloud private offer for the NetApp Console
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+
+[.lead]
+Accept a Marketplace private offer for the NetApp Console listing in the Google Cloud console. Configure Google Cloud credentials in the Console.
+
+.Before you begin
+
+* Work with NetApp sales to create a private offer. Your sales team must provide you with the offer link.
+* Your billing account must not be on a free trial. Free trial accounts cannot accept private offers. If you attempt to use a trial billing account, you will receive an error and require assistance from the NetApp cloud team.
+* The following Google Cloud permissions are required to accept the offer:
+** `roles/billing.admin` for the targeted Cloud Billing account or Google Cloud organization
+** `roles/viewer` for the project billed to the Cloud Billing account
+
+== Accept the private offer in Google Cloud
+
+A Google Cloud project can be associated with only one Marketplace subscription. If you want to use two different subscriptions for workloads in the same Google Cloud project, you must create two separate Console accounts—one for each subscription.
+
+[IMPORTANT]
+====
+You must complete all steps to activate your private offer. Skipping steps can cause issues such as double charging.
+
+If you notice discrepancies in the offer terms, pricing, or details, or if you are unsure which offer to accept, do not accept the offer. Contact your NetApp account team for clarification.
+====
+
+[NOTE]
+====
+If you already have an active PAYGO subscription or an amended private offer, you only need to perform the acceptance steps. In these cases, the Marketplace updates the plan within the same listing and retains the same subscription ID, so the subscription association in the Console remains intact.
+====
+
+.Steps
+. Click the private offer activation link provided by your NetApp sales team. The link should look similar to the following:
+  `https://console.cloud.google.com/marketplace/private-offers/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee`
+. You are redirected to Google Cloud Marketplace where you can review the offer details:
+.. **Billing account**
+.. **Product**: NetApp Console
+.. **Offer details**
+.. **Pricing**
++
+[NOTE]
+====
+Review the plan details, term, and pricing carefully. If anything is incorrect, do not accept the offer. Contact your NetApp account team for an amendment.
+====
+
+. Confirm the information is accurate, accept the terms, and click **Accept**.
+. A loading icon appears while the subscription is created.
+. When the subscription is successfully created, a pop-up window displays:  
+   *Your order request has been sent to NetApp, Inc.*
+. Click **REGISTER WITH NETAPP, Inc.**. You are redirected to the NetApp Console to finish configuring your subscription. If the private offer was accepted by another individual in your organization:
+.. In Google Cloud Marketplace, go to **Orders**.  
+.. Locate the offer with status **Pending**.  
+.. Click the three-dot menu and select **Register with NetApp, Inc.**
+
+. You are redirected to `https://console.netapp.com` and prompted to sign in.
+. After logging in, you are redirected to `https://console.netapp.com/licenses/overview`. A popup is displayed where you must:
+.. Enter a display name for the *SaaS Marketplace Subscription*.
+.. Select the Console **Accounts** that should have access to the subscription.
+.. Optionally, you can enable **Replace existing subscription** if you want to automatically replace an existing Marketplace subscription in one Console account.
++
+[NOTE]
+====
+* This replacement option is limited to a single Console account.  
+* If you need to associate multiple Console accounts with the same Marketplace subscription, you must configure the additional accounts manually.
+====
+
+. Click **Associate** and then **Done**.
+
+== Associate the subscription with Google Cloud credentials
+
+. In the Console, go to **Governance > Licenses and subscriptions** and select the **Marketplace subscriptions** tab.
+. Validate the subscription details:
+.. Locate the subscription created in the acceptance process.  
+.. Verify that the correct plan is shown.  
+.. Expand the row to confirm the private offer association.
+
+[NOTE]
+====
+Due to Google Cloud Marketplace limitations, some fields might display `N/A`. This information is only available in the Google Cloud console.
+====
+
+. [Optional] To rename the subscription:
+.. Click the **three-dot menu** next to the subscription.  
+.. Select **Rename Subscription**.
+
+. Click the **three-dot menu** again and select **Configure**.
+. Select the appropriate Google Cloud account **Credential** and click **Configure**.
+
+The Marketplace charges for this Google Cloud credential are now billed through the Marketplace subscription. For Annual Contracts, usage for this credential counts against the annual contract.
+
+[IMPORTANT]
+====
+Repeat steps 1–5 for each Google Cloud credential in your Console account that you want to associate with the Marketplace subscription.  
+
+* To associate credentials from another Console account, use the **Account** dropdown to switch accounts and repeat the steps.  
+* To associate credentials for another agent, use the **Agent** dropdown and repeat the steps.
+====
+
+== View Google Cloud usage
+
+To view Google Cloud credit status and usage:
+
+. In the Google Cloud console, go to **Cloud Marketplace**.  
+. Click **Your Orders**.  
+. From the **Select Billing account** dropdown, choose the billing account associated with your private offer.  
+. Find your private offer in the table, click the **three-dot menu**, and select **View credit**.

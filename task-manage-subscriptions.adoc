@@ -1,0 +1,234 @@
+---
+sidebar: sidebar
+permalink: task-manage-subscriptions.html
+keywords: subscriptions, paygo subscriptions, contracts, annual contracts, capacity, bluexp, netapp console, marketplace
+summary: Subscribe to NetApp data services (including Cloud Volumes ONTAP) from a cloud provider's marketplace.
+---
+
+= Manage PAYGO subscriptions and contracts
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+When you subscribe to NetApp data services (including Cloud Volumes ONTAP) from a cloud provider's marketplace, you're redirected to the Console website where you save your subscription and associate it with your Console organization. After you subscribe, each subscription is available to manage in the Console.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html[Learn how to subscribe to NetApp data services (standard mode)^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html[Learn how to subscribe to NetApp data services (restricted mode)^]
+
+NOTE: The *Marketplace subscriptions* page lists all licenses. For license details for a specific data service, use the data service tiles on the *Overview* dashboard. link:task-homepage.html#overview-page[Learn more about the Overview dashboard].
+
+
+== Add a new marketplace subscription
+
+You can subscribe to a marketplace subscription directly from the Console.
+
+
+[role="tabbed-block"]
+====
+
+.AWS
+--
+The following video shows the steps to subscribe to NetApp Console from the AWS Marketplace:
+
+video::096e1740-d115-44cf-8c27-b051011611eb[panopto, title="Subscribe to NetApp Console from AWS Marketplace"]
+--
+
+.Azure
+--
+The following video shows the steps to subscribe to NetApp Console from the Azure Marketplace:
+
+video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto, title="Subscribe to NetApp Console from Azure Marketplace"]
+--
+
+.Google Cloud
+--
+The following video shows the steps to subscribe to NetApp Console from the Google Cloud Marketplace:
+
+video::373b96de-3691-4d84-b3f3-b05101161638[panopto, title="Subscribe to NetApp Console from Google Cloud Marketplace"]
+--
+
+====
+
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Marketplace Subscriptions*.
+
+. Above the *Subscriptions* table, select *Add Subscription*.
+
+. In the Add Subscription dialog, select a cloud provider.
+
+.. If choosing an AWS subscription, choose whether you want an annual contract or PAYGO subscription.
+
+. Select *Add subscription* to navigate to the provider's marketplace and complete the provided steps.
+
+. When finished at the cloud provider marketplace, return to the Console to complete the process. 
+
+
+== View your subscriptions
+
+You can view details about each PAYGO subscription and annual contract associated with your Console organization or account.
+
+For Google Cloud, you can also identify marketplace subscriptions associated with a private offer, which enables you to verify that you successfully accepted the offer.
+
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Marketplace Subscriptions*.
++
+You'll only see subscriptions associated with the organization you're currently viewing. 
+
+. As you view subscription information, you can interact with the table details as follows:
++
+- Use Advanced Search and Filtering to determine which subscriptions display in the table. You can search by specific subscription name and filter by various subscription parameters such as type and configuration.
++
+- Expand a row to view more details.
+- Select image:icon-column-selector.png[the plus icon at the end of the table header] to choose which columns appear in the table. 
++
+The Term and Auto Renew columns do not appear by default. The Auto Renew column displays renewal information for Azure contracts only.
+
++
+Note the following about the table information:
+
+Start date::
+The start date is when you successfully associated the subscription with your account and charging started.
+
+N/A::
+If you see N/A in the table, the information is not currently available from the cloud provider's API.
+
+Term::
+If your Google Cloud subscription is associated with a private offer that was modified after creation and acceptance, the term shows N/A. In this scenario, the API response from Google Cloud Marketplace doesn't include term-related information.
+
+Contracts::
+* When you expand contract details, the Console displays the available contract options and units (capacity or number of nodes) for your current plan.
+* The Console identifies the end date and whether the contract will renew soon, end soon, or has already ended.
+* If you have an AWS contract and changed any contract options after the start date, validate your contract options from the AWS Marketplace.
+* If you have a Google Cloud private offer, contract options aren't available.
+
+
+== Rename a subscription
+
+You can rename a subscription to better identify how your organization uses it.
+
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Marketplace Subscriptions*.
+
+. Select the action menu in the row that corresponds to the subscription you want to manage and choose *Rename*.
+
+
+== Configure a subscription with a provider credential
+
+Subscriptions are typically configured with the provider credential you created when you subscribed. In some cases, you may need to reconfigure a subscription to use a different credential to change how it is charged. The credential you associate with a subscription must also be associated with an agent.
+
+The credential format depends on the marketplace you are using. For example, Azure marketplace subscriptions are associated with the Azure subscription name, while AWS marketplace subscriptions use the AWS account ID. You can see a list of available credentials from the Credentials page. 
+
+The Configure option is grayed out if you have unsubscribed from a subscription.
+
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Marketplace Subscriptions*.
+
+. Select the action menu in the row that corresponds to the subscription you want to configure and choose *Configure*.
+
+. In the Configure dialog, choose a credential to configure with the subscription. You can only choose from credentials associated with the currently selected agent. If you don't see the credential you want to use, try switching to a different agent view.
+
+
+== Associate a subscription with a Console organization
+
+Associating a subscription with an organization ensures members of that organization can use that subscription for charging. 
+
+You can limit subscription use to a specific organization or share the subscription between multiple organizations.
+
+You must have the organization admin role to associate a subscription with an organization.
+
+
+NOTE: The Console supports Identity and Access Management (IAM) in standard mode, which uses organizations to manage users and resources. If you're using the Console in private or restricted mode, you use a Console _account_ to manage users and resources, including subscriptions. 
+
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Marketplace Subscriptions*.
+
+. In the row for the subscription you want to associate, open the action menu and select *Associate*.
+
+. In the *Associate the subscription* dialog, select one or more organizations to associate with the subscription. 
+
+. Select *Associate*.
+
+
+== View credentials associated with a subscription
+
+You can view the credentials for a specific subscription from the *Marketplace Subscriptions* page. This allows you to verify how the subscription is billed. Because credentials are tied to the agent you're using, you must select the agent associated with the subscription you want to view.
+
+NOTE: Use the Agent drop-down in the top navigation bar to switch agents if needed.
+
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Marketplace Subscriptions*.
+
+. On the row containing the subscription whose credentials you want to view, select View. If multiple credentials are associated with a subscription, no credentials may display and you are directed to select a different agent.
+
+
+=== Unconfigure a subscription
+
+Before you can remove a subscription, you must unconfigure it. This clears all associated data and settings.
+
+
+.Steps
+
+. In the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Marketplace Subscriptions*.
+
+. In the row for the subscription you want to unconfigure, click the action menu and select *Unconfigure*.
+
+. Follow the prompts to remove or reset any associated settings or data.
+
+. Wait for the status to update to *Unconfigured*.
+
+
+=== Remove a subscription
+
+When you unsubscribe from a subscription in your cloud provider (AWS, Google Cloud, or Azure), the Console shows the subscription status as *Unsubscribed*.
+
+You can remove *Unsubscribed* subscriptions from the Console so they no longer appear.
+
+[NOTE]
+====
+You can only remove subscriptions that are both *Unsubscribed* and *Unconfigured*.  
+All related settings, data, and configuration must be cleared or reset before removal.
+
+If the subscription is still configured, the *Remove* option is not displayed.  
+To make the option available, unconfigure the subscription by clearing any associated settings, services, or data.
+====
+
+.Steps
+
+. In the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Marketplace Subscriptions*.
+
+. In the row for the subscription you want to remove, open the action menu and select *Remove*.
++
+You can only remove subscriptions with a status of *Unsubscribed* and *Unconfigured*.
+
+. In the *Remove subscription* dialog, confirm that you want to remove the subscription.
