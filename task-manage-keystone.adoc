@@ -1,0 +1,108 @@
+---
+sidebar: sidebar
+permalink: task-manage-keystone.html
+keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription, keystone flex, bluexp, netapp console
+summary: Manage your Keystone subscriptions in the NetApp Console by enabling subscriptions for use with Cloud Volumes ONTAP and by requesting changes to the committed capacity for your subscription's service levels. Requesting additional capacity for a service level provides more storage for Cloud Volumes ONTAP systems.
+---
+
+= Manage Keystone subscriptions
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Manage your Keystone subscriptions in the NetApp Console by enabling subscriptions for use with Cloud Volumes ONTAP and by requesting changes to the committed capacity for your subscription's service levels. Requesting additional capacity for a service level provides more storage for Cloud Volumes ONTAP systems.
+
+//The contents of this page are reused in the bluexp-cloud-volumes-ontap doc site. As a result, any links from this page to other pages must use absolute URLs so that the links resolve from the console-cloud-volumes-ontap doc site.
+
+NetApp Keystone is a flexible pay-as-you-grow subscription-based service that delivers a hybrid cloud experience for customers who prefer OpEx to CapEx or leasing.
+
+https://www.netapp.com/services/keystone/[Learn more about Keystone^]
+
+
+== Authorize your account
+
+Before you can use and manage Keystone subscriptions in the Console, you need to contact NetApp to authorize your Console account with your Keystone subscriptions.
+
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Keystone Subscriptions*.
+
+. If you see the *Welcome to NetApp Keystone* page, send an email to the address listed on the page.
++
+A NetApp representative will process your request by authorizing your account to access the subscriptions.
+
+. Come back to the *Keystone Subscriptions* tab to view your subscriptions.
+
+
+== Link a subscription
+
+After NetApp authorizes your account, you can link Keystone subscriptions for use with Cloud Volumes ONTAP. This action enables users to select the subscription as the charging method for new Cloud Volumes ONTAP systems.
+
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Keystone Subscriptions*.
+
+. For the subscription that you want to link, click image:icon-action.png["An icon that is three side-by-side dots"] and select *Link*.
+
+
+.Result
+
+The subscription is now linked to your Console organization or account and available to select when creating a Cloud Volumes ONTAP working environment.
+
+
+== Request more or less committed capacity
+
+If you want to change the committed capacity for your subscription's service levels, you can send a request to NetApp directly from the Console. Requesting additional capacity for a service level provides more storage for Cloud Volumes ONTAP systems.
+
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Keystone Subscriptions*.
+
+. For the subscription that you want to adjust the capacity, click image:icon-action.png["An icon that is three side-by-side dots"] and select *View detail and edit*.
+
+. Enter the requested committed capacity for one or more subscriptions.
+
+. Scroll down, enter any additional details for the request, and then click *Submit*.
+
+
+.Result
+
+Your request creates a ticket in NetApp's system for processing.
+
+
+== Monitor usage
+
+The Digital Advisor dashboard enables you to monitor Keystone subscription usage and generate reports.
+
+https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html[Learn more about monitoring subscription usage^]
+
+
+== Unlink a subscription
+
+If you no longer want to use a Keystone subscription with the Console, you can unlink the subscription. Note that you can only unlink a subscription that isn't attached to an existing Cloud Volumes ONTAP subscription.
+
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Keystone*.
+
+. For the subscription that you want to unlink, click image:icon-action.png["An icon that is three side-by-side dots"] and select *Unlink*.
+
+
+.Result
+
+The subscription is unlinked from your Console organization or account and no longer available to select when creating a Cloud Volumes ONTAP working environment.

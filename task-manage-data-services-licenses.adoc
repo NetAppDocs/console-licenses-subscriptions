@@ -1,0 +1,45 @@
+---
+sidebar: sidebar
+permalink: task-manage-data-services-licenses.html
+keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, bluexp, netapp console, classification, tiering, backup and recovery, disaster recovery
+summary: "Manage licenses that you purchased directly from NetApp (BYOL) for use with NetApp data services. You can view used license capacity, how much free capacity you have remaining, and you'll see notifications if you reached the capacity limit or the expiration date."
+---
+
+= Manage licenses for NetApp data services
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can manage licenses that you purchased directly from NetApp (BYOL) for use with NetApp data services, including Cloud Volumes ONTAP. You can view used license capacity, how much free capacity you have remaining, and you'll see notifications when you reach the capacity limit or the expiration date.
+
+NOTE: The *Direct licenses* page lists all licenses. If you want license details for a specific data service, use the data service tiles on the *Overview* dashboard. link:task-homepage.html#overview-page[Learn more about the Overview dashboard].
+
+The instructions on this page provide information that applies to each service. For more specific information about the licensing for these services, refer to the following pages:
+
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html[Set up licensing for BlueXP backup and recovery^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html[Set up licensing for BlueXP disaster recovery^]
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html[Set up licensing for BlueXP ransomware protection^]
+* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html[Set up licensing for BlueXP tiering^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[Set up licensing for Cloud Volumes ONTAP^]
+
+
+== Obtain a license file
+
+include::_include/task-obtain-license.adoc[]
+
+== Add a license
+
+include::_include/task-add-license.adoc[]
+
+
+== Update a license
+
+include::_include/task-update-license.adoc[]
+
+
+== View license status
+
+include::_include/task-view-license-status.adoc[]

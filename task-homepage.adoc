@@ -1,0 +1,83 @@
+---
+sidebar: sidebar
+permalink: task-homepage.html
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, bluexp, netapp console, cloud volumes ontap license, cloud volumes ontap
+summary: Get an overview of all subscriptions and licenses for your organization on the overview dashboard in the Console.
+---
+[[overview-page]]
+== Use the dashboard overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Use the *Overview* dashboard in the Console to monitor the health of your licenses and subscriptions to ensure that you can manage costs and maintain service as subscriptions reach expiration dates or capacity limits. 
+
+You can view specific license and subscription information about each of your data services (including Cloud Volumes ONTAP) and drill down into details for each. 
+
+You'll also be alerted to upcoming capacity limits or expirations and be prompted to take action.
+
+=== View details about a specific data service
+
+The *Overview* dashboard provides the ability to view details on the following data services:
+
+* Cloud Volumes ONTAP
+* Disaster Recovery
+* Ransomware Resilience
+* Backup and Recovery
+* Cloud Tiering
+
+For example, administrators tasked with managing Cloud Volumes ONTAP resources can view the current capacity of each license or subscription, which gives them a focused view of resources within their purview. 
+
+NOTE: Although you can update and remove licenses from the dashboard, you cannot add a new license or subscription.
+
+link:task-manage-data-services-licenses.html[Learn more about managing licenses^].
+link:task-manage-subscriptions.html[Learn more about managing subscriptions^].
+
+.Steps
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Overview*.
+
+. Select *View* for the respective data service (including Cloud Volumes ONTAP) to view details and manage licenses and subscriptions. 
++
+Each tile provides a graphical overview of capacity. You can view the details page to see and manage payment methods for that capacity.
+
+. Select either the *Licenses* or *Subscriptions* tab. 
+
+. Filter the table by selecting a column filter and a value to filter by. For example, on the *Subscriptions* tab, you can filter the Type column by Annual Contract or Subscription.
+
+. Customize the columns shown in the table. You can add and remove columns from the table by selecting the *Column* icon to indicate which columns you want to show or hide.
+
+. Expand any row to view details of what the subscription or license includes, capacity purchased, and terms.
+
+. Use the actions menu to manage a specific license or subscription, such as updating a license or associating a subscription with a different organization.
++ 
+You cannot add new licenses or subscriptions from the *Overview* page for a specific service. You can only add licenses or subscriptions from the *Direct licenses* tab or the *Marketplace subscriptions* tab, respectively.
+
++ 
+
+link:task-data-services-licenses.html[Learn more about managing licenses.]
+link:task-manage-subscriptions.html[Learn more about managing subscriptions.]
+
+=== Resolve license or subscription issues
+
+You can view license and subscription issues that need to be resolved. Issues include licenses and subscriptions that are expiring or reaching capacity.
+
+. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+
+. Select *Overview*.
+
+. Select *Resolve* for the *Requires action* tile to view issues that need to be adjusted. If *Resolve* does not display, there are no issues that require action at this time. 
+
+. From the *Requires action* page, select either the *Licenses* tab or the *Subscriptions* tab.
+
+. Use the actions menu to resolve the issue. 
+
++ 
+
+link:task-manage-data-services-licenses.html[Learn more about managing licenses^].
+link:task-manage-subscriptions.html[Learn more about managing subscriptions^].
