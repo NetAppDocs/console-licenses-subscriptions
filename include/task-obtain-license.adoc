@@ -1,0 +1,27 @@
+
+You should obtain a NetApp license file to upload if the Console does not have internet access (private mode installations).
+
+When you purchase a license from a NetApp sales representative, you receive an email containing the serial number and licensing details. Use the serial number to obtain the license file if licenses do not appear automatically in the Console.
+
+.Steps
+. Find your Console account ID:
+.. In the upper right of the Console, select image:icon-settings-option.png[The settings icon which displays in the top right of the web console.] > *Identity & Access Management*.
+.. On the Organization page, look for your account ID and copy it. 
++
+If no account ID is listed and you only have an organization ID, copy the first eight characters of the organization ID and append it to *account-*
++
+For example, if this is your organization ID:
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
++
+Your account ID would be: 
++
+account-ea10e1c6
+
+. Sign in to the https://mysupport.netapp.com[NetApp Support Site^] and select *Systems > Software Licenses*.
+
+. Enter the serial number for your license.
+
+. In the *License Key* column, select *Get NetApp License File*.
+
+. Enter your Console account ID (this is called a Tenant ID on the support site) and select *Submit* to download the license file.

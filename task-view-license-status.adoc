@@ -1,0 +1,7 @@
+To manage licenses, you can group licenses based on the service name. This allows you to see all licenses related to a specific service. You can expand a row to view detailed information about each license related to the service. The root row for each service displays the service name and the used capacity for that service.
+The licenses are automatically grouped by service name. The root row for each service shows the service name and the used capacity for that service.
+
+.Steps
+
+. From the BlueXP menu, select *Governance* > *Digital wallet*, and then select the *Direct licenses* tab.
+. Click a service name row to expand it. This displays all licenses related to that service. Each expanded row displays detailed information about the licenses, including license ID, serial number, capacity, and expiration date.

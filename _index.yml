@@ -1,14 +1,30 @@
 indexpage:
-  title: # Unquoted string 
-  lead: # Quoted string
-  summary: # Quoted string 
-  keywords: # Unquoted comma-delimited list of keywords 
-  tiles: 
-    # Tile definition 
-    - title: # Quoted or unquoted string
-      links: 
-        # Link definition
-        - title: # Quoted or unquoted string
-          url: # Path to target
-        # Next link on this tile (title/url pair)
-    # Next tile on this page (title/links)
+  title: Licenses and subscriptions documentation
+  lead: Manage and monitor your licenses and subscriptions in the NetApp Console.
+  summary: Manage and monitor your licenses and subscriptions in the NetApp Console.
+  keywords: netapp console, bluexp, documentation, licenses, subscriptions
+  tiles:
+    - title: Get started
+      links:
+        - title: Learn about licenses and subscriptions
+          url: concept-digital-wallet.html
+    - title: Manage your licenses
+      links:
+        - title: Manage capacity-based licenses for Cloud Volumes ONTAP
+          url: task-manage-capacity-licenses.html
+        - title: Manage licenses for NetApp data services
+          url: task-manage-data-services-licenses.html
+    - title: Manage your subscriptions
+      links:
+        - title: Manage Marketplace subscriptions and contracts
+          url: task-manage-subscriptions.html
+        - title: Manage Keystone subscriptions
+          url: task-manage-keystone.html
+    - title: Blogs & community
+      links:
+        - title: NetApp Community
+          url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+        - title: BlueXP blog
+          url: https://bluexp.netapp.com/blog
+        - title: Cloud webinars
+          url: https://bluexp.netapp.com/events

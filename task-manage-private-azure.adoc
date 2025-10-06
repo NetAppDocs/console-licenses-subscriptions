@@ -1,0 +1,123 @@
+---
+sidebar: sidebar
+permalink: task-manage-private-azure.html
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure
+summary: Manage your general and Hyperscaler specific, end-to-end Private Offer Process and NetApp Intelligent Services acceptance and activation guides for AWS, Azure, and Google Cloud.
+---
+
+= Accept and activate an Azure private offer for the NetApp Console
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Accept and subscribe to a Marketplace private offer for the NetApp Console in the Azure portal. Configure Azure credentials in the Console.
+
+.Before you begin
+
+* Work with NetApp sales to create a private offer for your Azure Billing ID.  
+* You have the required permissions to accept a private offer in the Azure Marketplace:
+** Enterprise Agreement (EA): *Enterprise administrator*  
+** Microsoft Customer Agreement (MCA): *Billing account owner* or *Billing account contributor*  
+* You must have the required permissions to purchase a private offer in the Azure Marketplace and create a subscription:
+** *Subscription owner* or *Subscription contributor* of the Azure subscription being used  
+* A single individual can both accept and purchase the private offer if they have the necessary permissions.  
+
+== Accept and subscribe to the private offer in the Azure portal
+
+An Azure subscription can be associated with only one Marketplace subscription.  
+If you want to use two different Marketplace subscriptions for workloads in the same Azure subscription, you must create two separate Console accounts—one for each subscription.  
+If you have multiple Cloud Volumes ONTAP instances and want to split billing across different subscriptions, create separate Console accounts for each subscription.  
+
+[IMPORTANT]
+====
+You must complete all steps to accept and activate your private offer. Skipping steps may result in activation issues or double charging.  
+
+If you notice discrepancies in the offer terms, pricing, or details, or if you are unsure which offer to accept, do not accept the offer. Contact your NetApp sales team.  
+
+Accepting and activating the offer multiple times results in double charging.  
+====
+
+.Steps
+. Click the private offer link provided by your NetApp sales team and sign in.  
+  If no link is available, sign in directly to the Azure portal.  
+
+. Search or select *Marketplace* from the Azure services.  
+
+. On the Marketplace page, click *Private offer management* under the *Management* section.  
+
+. Click *View + accept* to review the details of the private offer.  
+
+.. Validate that the *plan details*, *term*, and *pricing* are correct.  
+.. If details are incorrect, do not subscribe. Contact your NetApp sales team to correct the offer.  
+
+. Confirm and click *Accept private offer*.  
+
+. Click *Purchase* to complete the purchasing process.  
++
+[NOTE]
+====
+If the *Purchase* button is not available, confirm that you have the required purchasing permissions.  
+If you do not, copy and share the purchase window link with someone in your organization who is authorized.  
+====
+
+. In the purchasing workflow:  
+.. Select the *Azure subscription* to use.  
+.. Select the *Resource group* where the subscription will be created.  
+.. Enter a *Name* for the new subscription.  
+
+. Optionally, set *Tags* (for product, site location, workload definition, or naming convention).  
+
+. Click *Review and subscribe*, validate the details, and then click *Subscribe*.  
+
+. When the subscription is successfully created, click *Configure account now*. This redirects you to the NetApp Console to complete configuration.  
++
+[NOTE]
+====
+Azure-side automation can take 30 seconds to 5 minutes to complete.  
+If the page was closed before you clicked *Configure account now*, return to the service in the Azure portal.  
+The subscription displays as *Pending configuration*. Select it to continue configuration.  
+====
+
+. You are redirected to https://console.netapp.com and prompted to sign in.  
+
+. After logging in, you are redirected to https://console.netapp.com/licenses/overview.  
+   You are prompted to:  
+.. Enter a *Display name* for the Marketplace Subscription.  
+.. Select the Console *Accounts* that should have access to this subscription.  
+.. Optionally, you can enable *Replace existing subscription* to automatically replace an existing Marketplace subscription in one Console account.  
++
+[NOTE]
+====
+* This replacement option is limited to a single Console account.  
+* To associate multiple Console accounts with the same Marketplace subscription, configure the additional accounts manually.  
+====
+
+. Click *Associate* and then *Done*.  
+
+[IMPORTANT]
+====
+Completing the subscription assignment in the Console is necessary to activate the purchase and apply discounted pricing.  
+====
+
+== Configure the subscription with Azure credentials
+
+. In the Console, go to *Governance > Licenses and subscriptions* and select the *Marketplace subscriptions* tab.  
+. Validate the subscription details:  
+.. Locate the Marketplace subscription you created.  
+.. Expand the row to review details and confirm the subscription is associated with your Console account.  
+
+. Click the *three-dot menu* next to the subscription and select *Configure*.  
+. Select the appropriate *Azure subscription* and click *Configure*.  
+
+The Marketplace charges for this Azure credential are now billed through the Marketplace subscription. For Annual Contracts, usage for this credential counts against the annual contract.  
+
+[IMPORTANT]
+====
+Repeat Steps 1–4 for each Azure credential in your Console account that you want to associate with the subscription.  
+
+* To associate credentials from another Console organization, use the *Organization* dropdown to switch organizations and repeat the steps.  
+* To associate credentials from another agent, use the *Agent* dropdown to switch and repeat the steps.  
+====
