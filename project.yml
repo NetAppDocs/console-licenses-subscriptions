@@ -8,7 +8,7 @@ settings:
 
 sidebar:
   entries:
-    - title: Licenses and subscriptions documentation
+    - title: Licenses and subscriptions docs
       url: /index.html
     - title: Release notes
       entries:
@@ -17,7 +17,7 @@ sidebar:
     - title: Get started
       entries:
       - title: Learn about 
-        url: /concept-digital-wallet.html
+        url: /concept-licenses-subscriptions.html
     - title: Use licenses and subscriptions
       entries:
         - title: Use the Overview dashboard

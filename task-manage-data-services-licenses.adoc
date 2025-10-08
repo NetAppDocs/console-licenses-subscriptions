@@ -19,11 +19,11 @@ NOTE: The *Direct licenses* page lists all licenses. If you want license details
 
 The instructions on this page provide information that applies to each service. For more specific information about the licensing for these services, refer to the following pages:
 
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html[Set up licensing for BlueXP backup and recovery^]
-* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html[Set up licensing for BlueXP disaster recovery^]
-* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html[Set up licensing for BlueXP ransomware protection^]
-* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html[Set up licensing for BlueXP tiering^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[Set up licensing for Cloud Volumes ONTAP^]
+* https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html[Set up licensing for NetApp Backup and Recovery^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html[Set up licensing for NetApp Disaster Recovery^]
+* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html[Set up licensing for NetApp Ransomware Resilience^]
+* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html[Set up licensing for NetApp Cloud Tiering^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html[Set up licensing for Cloud Volumes ONTAP^]
 
 
 == Obtain a license file
