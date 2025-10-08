@@ -8,7 +8,7 @@ settings:
 
 sidebar:
   entries:
-    - title: Licenses and subscriptions documentation
+    - title: Licenses and subscriptions docs
       url: /index.html
     - title: Release notes
       entries:
