@@ -25,34 +25,6 @@ NOTE: The *Marketplace subscriptions* page lists all licenses. For license detai
 
 You can subscribe to a marketplace subscription directly from the Console.
 
-
-[role="tabbed-block"]
-====
-
-.AWS
---
-The following video shows the steps to subscribe to NetApp Console from the AWS Marketplace:
-
-video::096e1740-d115-44cf-8c27-b051011611eb[panopto, title="Subscribe to NetApp Console from AWS Marketplace"]
---
-
-.Azure
---
-The following video shows the steps to subscribe to NetApp Console from the Azure Marketplace:
-
-video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto, title="Subscribe to NetApp Console from Azure Marketplace"]
---
-
-.Google Cloud
---
-The following video shows the steps to subscribe to NetApp Console from the Google Cloud Marketplace:
-
-video::373b96de-3691-4d84-b3f3-b05101161638[panopto, title="Subscribe to NetApp Console from Google Cloud Marketplace"]
---
-
-====
-
-
 .Steps
 
 . From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
