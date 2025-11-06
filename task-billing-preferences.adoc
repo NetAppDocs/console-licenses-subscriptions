@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concept-licenses-subscriptions.html
+permalink: task-billing-preferences.html
 keywords: billing, configure, license, licensing, licenses, subscriptions, marketplace, keystone
 summary: "Learn how licenses and subscriptions define how NetApp Console manages usage, billing, and renewals across direct licenses, cloud marketplace contracts, and NetApp Keystone."
 ---
