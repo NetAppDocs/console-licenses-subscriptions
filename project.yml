@@ -44,12 +44,14 @@ sidebar:
           url: /task-manage-subscriptions.html
         - title: Manage Keystone subscriptions
           url: /task-manage-keystone.html
-        - title: Billing
+        - title: Billing preferences
           entries:
-           - title: Billing preferences
+           - title: Learn about billing preferences
              url: /concept-billing-preferences.html
-           - title: Configure billing preferences
-             url: /task-billing-preferences.html
+          - title: Manage billing preferences
+             url: /task-manage-billing-preferences.html
+           - title: Terms and definitions
+             url: /concept-billing-preferences-terms.html
         - title: Knowledge and support
           entries:
           - title: Register for support

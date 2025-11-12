@@ -1,11 +1,11 @@
---
+---
 sidebar: sidebar
 permalink: concept-billing-preferences.html
-keywords: license, licensing, licenses, subscriptions,
-summary: "The licenses and subscriptions enable you to manage and monitor NetApp Console licenses, NetApp marketplace subscriptions, and NetApp Keystone."
+keywords: billing, configure, license, licensing, licenses, subscriptions, marketplace, keystone
+summary: "Learn how licenses and subscriptions define how NetApp Console manages usage, billing, and renewals across direct licenses, cloud marketplace contracts, and NetApp Keystone."
 ---
 
-= Learn about licenses and subscriptions
+= Learn about billing preferences for licenses and subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,71 +13,119 @@ summary: "The licenses and subscriptions enable you to manage and monitor NetApp
 :imagesdir: ./media/
 
 [.lead]
-Billing preferences control how NetApp Console handles payments, invoices, and renewal behavior for your licenses and subscriptions. You set preferences at one of two levels:
+Billing preferences determine how you handle payments, invoices, and renewal behavior for your organization’s active licenses and subscriptions. 
+You can apply these preferences globally, so they affect all billing relationships within your organization, or at the individual subscription level when a specific contract requires its own configuration.
 
-* *Global* — applies across direct licenses, marketplace subscriptions, and Keystone subscriptions.
-* *Per subscription* — applies only to a specific marketplace or direct license contract.
+- *Marketplace subscriptions* correspond to cloud marketplace contracts (AWS, Azure, or Google Cloud) where usage charges are through a hyperscaler account.  
+- *Direct licenses* represent licenses purchased directly from NetApp, managed in NetApp Console through license keys, invoice recipients, and renewal options.  
+- *Keystone subscriptions* are managed under your Keystone agreement, where invoice recipients and cost center tags are handled through the same interface.
 
-The UI labels reflect the source of billing:
-
-* *Marketplace subscriptions* — Billing occurs through AWS Marketplace, Azure Marketplace, or Google Cloud Marketplace. You can choose the billing account, region, and renewal options provided by the cloud marketplace.
-* *Direct licenses* — Billing occurs through NetApp. You manage license keys, invoice contacts, and auto-renewal in NetApp Console.
-* *Keystone subscriptions* — Billing occurs through your Keystone agreement. You manage invoice recipients and cost center tags in NetApp Console.
+You can configure how your organization allocates and pays for services depending on your procurement model.
 
 == Permissions
-You need the *Account Admin* or *Billing Admin* role to change billing preferences. Operators can view preferences but cannot modify them.
+Only users with the *Account Admin* or *Billing Admin* role can modify billing preferences. These roles ensure that only authorized users can change invoice contacts, cost centers, or renewal settings that affect the organization’s billing data.  
+Users with the *Operator* role can view existing preferences but do not have permission to edit them.
 
-== Why set billing preferences?
-Billing preferences let you:
-* enforce a single invoice contact list across services,
-* align usage to cost centers,
-* manage auto-renewal and expiry notifications,
-* ensure new Cloud Volumes ONTAP (CVO) systems inherit the correct billing account.
+== Billing preferences
+
+Billing preferences ensure that usage charges and renewals are applied correctly. Configuring them properly reduces billing disputes and makes it easier to manage hybrid licensing models that combine NetApp-owned and marketplace-purchased capacity.
+
+For example, global billing preferences can unify your invoice contact list so all services share a single billing administrator. You can also use cost center tags to align usage across departments or regions, and enable automatic renewal to prevent service interruptions.  
+New Cloud Volumes ONTAP (CVO) deployments automatically inherit the billing mode you define here, which keeps your organization’s chargeback model consistent as new systems are added.
+
+Billing preferences are configured in the *Licenses and subscriptions* section of NetApp Console.  
+
+From there, you can:
+- Set billing preferences for your organization
+- Enable custom CVO configuration for advanced mapping
+- Edit or update marketplace subscription details
+
+== Fields
+
+Billing fields store metadata about how each license or subscription is billed.  
+They describe who is billed, how renewals occur, and which account or cost center each service belongs to.  
+
+=== Marketplace fields
+
+Marketplace fields describe contracts that originate from a cloud provider such as AWS, Azure, or Google Cloud.  
+These fields define how NetApp Console connects your subscriptions with the billing information stored in the provider’s marketplace.  
+They also control how renewals, regional assignments, and billing accounts are managed.
+
+- *Marketplace provider* — Identifies the cloud platform where billing is handled.  
+  The provider determines the supported features, contract types, and renewal rules.  
+  For example, AWS Marketplace subscriptions use account-based billing, while Azure may support both account and tenant-based models.
+
+- *Billing account or subscription ID* — Specifies the unique identifier for the account used to process charges.  
+  This ensures that usage data is billed to the correct cloud billing profile.  
+
+- *Contract term* — Defines the subscription duration and renewal settings.  
 
 
-= Billing fields
-:page-role: reference
+=== Direct license fields
 
-== Common fields
-* *Invoice contacts* — Primary and secondary email addresses for invoices and dunning notices.
-* *Notification contacts* — Emails for threshold and expiry alerts.
-* *Cost center / tag* — Free-form label used in exports and APIs (for example, `CC-APAC-042`).
-* *Auto-renewal* — When enabled, renews the license or subscription before expiry.
-* *Billing currency* — Read-only. Shown where supported by the provider.
+Direct license fields apply to NetApp-managed contracts purchased directly rather than through a cloud marketplace.  
+They define how NetApp invoices you, where the charges are sent, and what legal entity appears on the invoice.  
+These fields are critical for organizations using purchase orders or centralized corporate billing.
 
-== Marketplace fields
-* *Marketplace provider* — AWS, Azure, or Google Cloud.
-* *Billing account / subscription ID* — The cloud billing account to charge.
-* *Contract term* — Term length and renewal behavior.
-* *Region* — Region where the marketplace contract is anchored (read-only in most cases).
 
-== Direct license fields
-* *Payment method* — Purchase order or credit card (where available).
-* *Company legal entity* — Name shown on invoices.
-* *Tax identifiers* — Optional fields for VAT/GST.
+=== Keystone fields
 
-== Keystone fields
-* *Agreement ID* — Keystone contract identifier.
-* *Service scope* — Services covered by the agreement.
+Keystone fields apply to usage that falls under a NetApp Keystone subscription agreement.  
+They allow you to connect metered service usage to your Keystone billing profile, aligning subscription data with other capacity-based licensing models.
 
-= Billing options and definitions
-:page-role: reference
+- *Agreement ID* — A unique identifier for the Keystone contract.  
+  It links the billing record in NetApp Console with your Keystone agreement and allows synchronization of usage reporting.
 
-== Terms and options
-* **NetApp licenses first** — Bills against active NetApp licenses. Additional usage moves to the marketplace.
-* **Marketplace subscriptions only** — All usage is billed through marketplace contracts.
-* **PAYGO (Pay-As-You-Go)** — Flexible subscription billed by actual usage.
-* **Annual contract** — Fixed-term marketplace subscription (12, 24, or 36 months).
-* **Auto renew** — Renews the contract automatically at expiration.
-* **Custom CVO configuration** — Advanced mode for mapping multiple subscriptions per hyperscaler.
-* **Direct license** — NetApp-managed license used before marketplace capacity.
-* **Hyperscaler** — AWS, Azure, or Google Cloud provider.
-* **Confirm changes dialog** — Appears before applying updates to prevent accidental billing changes.
+- *Service scope* — Lists the services or capacity pools that fall under the Keystone agreement.  
+  This field clarifies which workloads or deployments are included in the contract and ensures that only eligible resources are billed through Keystone.
 
-== Typical configuration paths
-| Scenario | Recommended billing option |
-|-----------|-----------------------------|
-| Using purchased NetApp capacity | NetApp licenses first |
-| Using marketplace contracts only | Marketplace subscriptions only |
-| Billing multiple projects under one cloud provider | Enable Custom CVO configuration |
-| Reverting to default billing | Disable Custom CVO configuration |
+
+== Billing options and definitions
+
+Billing options define how NetApp Console prioritizes and applies usage charges when multiple billing sources are connected.  
+They control which account is charged first and how billing switches between NetApp licenses and marketplace subscriptions when capacity limits are reached.
+
+=== Terms and options
+
+You can choose between billing modes depending on your organization’s procurement strategy:
+
+- *NetApp licenses first* — Prioritizes billing through active NetApp licenses.  
+  When capacity from these licenses is exhausted, usage automatically rolls over to the linked marketplace subscription.
+
+- *Marketplace subscriptions only* — Directs all billing through marketplace contracts, bypassing NetApp licenses.  
+  This is common for organizations that standardize procurement through cloud provider billing.
+
+- *PAYGO (Pay-As-You-Go)* — Bills only for actual usage.  
+
+- *Annual contract* — Locks in a defined subscription term.  
+
+- *Auto-renew* — Enables automatic continuation of licenses or marketplace contracts when they expire.  
+  Disabling this option requires manual renewal to prevent service interruption.
+
+- *Custom CVO configuration* — Allows mapping multiple marketplace subscriptions to a single hyperscaler.  
+  This might be useful when different business units or projects require distinct billing accounts within the same cloud environment.
+
+- *Confirm changes dialog* — Appears before applying billing updates, allowing administrators to review and confirm modifications.  
+  This safeguard helps prevent accidental configuration changes that could redirect charges to the wrong account.
+
+
+=== Typical configuration paths
+
+The following examples illustrate how different billing setups align with common cases:
+
+|===
+| Scenario | Recommended billing option
+
+| Your organization purchased NetApp capacity directly | *NetApp licenses first*
+| All usage is billed through marketplace contracts | *Marketplace subscriptions only*
+| You bill multiple projects under one cloud provider | *Enable Custom CVO configuration*
+| You want to revert to a simple single-source billing setup | *Disable Custom CVO configuration*
+|===
+
+
+For instance, consider an organization that combines both direct NetApp licenses and marketplace subscriptions.  
+A typical configuration would set *NetApp licenses first* as the default billing mode to use prepaid capacity before marketplace billing.  
+Then, under *Custom CVO configuration*, each hyperscaler (AWS, Azure, Google Cloud) would be assigned its corresponding subscription ID.  
+
+After saving these settings, administrators can review the mappings under *Licenses and subscriptions* to verify that each service points to the correct account.  
+For additional validation, they can compare usage data in NetApp Console against cloud billing dashboards and adjust cost center tags or contacts as needed to maintain reporting consistency.
