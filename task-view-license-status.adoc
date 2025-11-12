@@ -3,5 +3,5 @@ The licenses are automatically grouped by service name. The root row for each se
 
 .Steps
 
-. From the BlueXP menu, select *Governance* > *Digital wallet*, and then select the *Direct licenses* tab.
+. From the Console menu, select *Governance* > *Digital wallet*, and then select the *Direct licenses* tab.
 . Click a service name row to expand it. This displays all licenses related to that service. Each expanded row displays detailed information about the licenses, including license ID, serial number, capacity, and expiration date.
