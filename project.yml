@@ -46,12 +46,12 @@ sidebar:
           url: /task-manage-keystone.html
         - title: Billing preferences
           entries:
-           - title: Learn about billing preferences
-             url: /concept-billing-preferences.html
+          - title: Learn about billing preferences
+            url: /concept-billing-preferences.html
           - title: Manage billing preferences
-             url: /task-manage-billing-preferences.html
-           - title: Terms and definitions
-             url: /concept-billing-preferences-terms.html
+            url: /task-manage-billing-preferences.html
+          - title: Terms and definitions
+            url: /concept-billing-preferences-terms.html
         - title: Knowledge and support
           entries:
           - title: Register for support
