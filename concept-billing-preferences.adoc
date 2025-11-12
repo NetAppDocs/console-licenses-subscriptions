@@ -18,7 +18,6 @@ You can apply these preferences globally, so they affect all billing relationshi
 
 - *Marketplace subscriptions* correspond to cloud marketplace contracts (AWS, Azure, or Google Cloud) where usage charges are through a hyperscaler account.  
 - *Direct licenses* represent licenses purchased directly from NetApp, managed in NetApp Console through license keys, invoice recipients, and renewal options.  
-- *Keystone subscriptions* are managed under your Keystone agreement, where invoice recipients and cost center tags are handled through the same interface.
 
 You can configure how your organization allocates and pays for services depending on your procurement model.
 
@@ -104,9 +103,6 @@ You can choose between billing modes depending on your organization’s procurem
 
 - *Custom CVO configuration* — Allows mapping multiple marketplace subscriptions to a single hyperscaler.  
   This might be useful when different business units or projects require distinct billing accounts within the same cloud environment.
-
-- *Confirm changes dialog* — Appears before applying billing updates, allowing administrators to review and confirm modifications.  
-  This safeguard helps prevent accidental configuration changes that could redirect charges to the wrong account.
 
 
 === Typical configuration paths
