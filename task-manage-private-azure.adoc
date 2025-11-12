@@ -95,29 +95,10 @@ The subscription displays as *Pending configuration*. Select it to continue conf
 * To associate multiple Console accounts with the same Marketplace subscription, configure the additional accounts manually.  
 ====
 
-. Click *Associate* and then *Done*.  
-
-[IMPORTANT]
-====
-Completing the subscription assignment in the Console is necessary to activate the purchase and apply discounted pricing.  
-====
-
-== Configure the subscription with Azure credentials
-
-. In the Console, go to *Governance > Licenses and subscriptions* and select the *Marketplace subscriptions* tab.  
-. Validate the subscription details:  
-.. Locate the Marketplace subscription you created.  
-.. Expand the row to review details and confirm the subscription is associated with your Console account.  
-
-. Click the *three-dot menu* next to the subscription and select *Configure*.  
-. Select the appropriate *Azure subscription* and click *Configure*.  
-
-The Marketplace charges for this Azure credential are now billed through the Marketplace subscription. For Annual Contracts, usage for this credential counts against the annual contract.  
-
-[IMPORTANT]
-====
-Repeat Steps 1–4 for each Azure credential in your Console account that you want to associate with the subscription.  
-
-* To associate credentials from another Console organization, use the *Organization* dropdown to switch organizations and repeat the steps.  
-* To associate credentials from another agent, use the *Agent* dropdown to switch and repeat the steps.  
-====
+. Click **Associate**.
+. Complete the form to associate the subscription with your Console organization. Then, Click **Associate**.
+. After associating the subscription, navigate and select the **Billing preferences** tab.
+. Review the marketplace subscription options. 
+. Select the marketplace subscription you want to bill. This only applies when there is more than one option. 
+. Select **Save changes**.
+. Repeat these steps as needed, if there are multiple sunscriptions across multiple hyperscalers. 
