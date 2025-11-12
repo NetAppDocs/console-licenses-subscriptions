@@ -96,37 +96,10 @@ For contract listings, click *View purchase options* to display the offer, then 
 - If credentials were never associated with a subscription, associate them manually as described in the next section.  
 ====
 
-. Click *Associate* and then *Done*.  
-
-[IMPORTANT]
-====
-Completing the subscription assignment in the Console is necessary to apply discounted pricing.  
-====
-
-== Configure the subscription with AWS credentials
-
-. In the Console, go to *Governance > Licenses and subscriptions* and select the *Marketplace subscriptions* tab.  
-
-. Locate the subscription created earlier. Expand the row to confirm it is associated with your Console account.  
-+
-[NOTE]
-====
-Due to AWS Marketplace limitations, some details of private offers are not exposed outside the AWS console. If a field displays `N/A`, check the information directly in the AWS console.  
-====
-
-. Click the three-dot menu next to the subscription and select *Configure*.  
-
-. Select the appropriate *AWS account credential* and click *Configure*.  
-
-[NOTE]
-====
-Marketplace charges for these credentials are billed using the Marketplace subscription. For annual contracts, costs count against the contract usage.  
-====
-
-[IMPORTANT]
-====
-Repeat steps 1–4 for each AWS credential in your Console account that you want to associate with the subscription.  
-
-- For credentials in other Console organizations, use the *Organization* dropdown and repeat the steps.  
-- For credentials in other agents, use the *Agent* dropdown and repeat the steps.  
-====
+. Click **Associate**.
+. Complete the form to associate the subscription with your Console organization. Then, Click **Associate**.
+. After associating the subscription, navigate and select the **Billing preferences** tab.
+. Review the marketplace subscription options. 
+. Select the marketplace subscription you want to bill. This only applies when there is more than one option. 
+. Select **Save changes**.
+. Repeat these steps as needed, if there are multiple sunscriptions across multiple hyperscalers. 

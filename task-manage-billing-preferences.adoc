@@ -1,0 +1,113 @@
+---
+sidebar: sidebar
+permalink: task-manage-billing-preferences.html
+keywords: billing, configure, license, licensing, licenses, subscriptions, marketplace, keystone, cvo
+summary: Configure billing preferences in NetApp Console to control how licenses, marketplace subscriptions, and Keystone agreements are billed and renewed.
+---
+
+= Manage billing preferences
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can configure and manage billing preferences in NetApp Console to control how capacity usage, renewals, and invoices are applied to your organization’s accounts.  
+Billing preferences determine whether usage charges come from NetApp licenses, cloud marketplace contracts, or Keystone agreements.
+
+.Before you begin
+
+* You have the *Billing Admin* or *Organization Admin* role.
+* All relevant marketplace subscriptions are linked to your organization.
+* You reviewed the existing configuration in *Licenses and subscriptions*.
+
+== Set billing preferences
+
+You can select how the Console applies usage charges across billing sources. This determines which accounts are charged first and how renewals are handled.
+
+.Steps
+
+. In NetApp Console, select *Governance > Licenses and subscriptions*.
+. Select *Billing preferences*.
+. Choose one of the following billing modes:
++
+** *NetApp licenses first* – Use NetApp licenses first, then marketplace subscriptions for additional usage.
+** *Marketplace subscriptions only* – Bill all usage directly through marketplace subscriptions.
++
+. Under *Marketplace subscriptions*, select the subscription for each hyperscaler (AWS, Azure, and Google Cloud).
+. If you use multiple subscriptions under a single hyperscaler, enable *Custom CVO configuration*.
+. (Optional) Update *Invoice contacts* and *Notification contacts*.
+. (Optional) Enter a *Cost center tag* to associate billing with internal accounting codes.
+. Select *Save changes*.
+. When prompted, review the confirmation dialog and select *Confirm*.
+
+.Result
+
+NetApp Console updates the billing mappings. Future service charges and renewals now use the selected configuration.
+
+NOTE: Changing the billing mode redistributes how service charges are applied. New Cloud Volumes ONTAP (CVO) instances automatically inherit the selected configuration.
+
+
+== Enable custom CVO configuration
+
+Custom CVO configuration allows you to assign multiple marketplace subscriptions under the same hyperscaler.  
+Use this mode if your organization maintains different billing accounts for separate business units or environments.
+
+.Steps
+
+. In NetApp Console, select *Governance > Licenses and subscriptions*.
+. Select *Billing preferences*.
+. Under **Marketplace subscripitions**, enable *Custom CVO configuration*.
+. Select **Save changes**.
+
+.Result
+
+You can now assign specific marketplace subscriptions to individual Cloud Volumes ONTAP instances under the same hyperscaler.
+
+WARNING: After this is enabled, custom CVO configuration cannot be reverted from the **Billing preferences** tab. Disabling it resets all CVO billing to the standard billing configuration for your data services.
+
+
+== Edit marketplace configuration
+
+You can edit marketplace configuration details to associate subscriptions with cloud projects or to update contract information.
+
+.Steps
+
+. Open *Licenses and subscriptions*.
+. Select *Billing preferences*.
+. Select the view for the following:
++
+** *Marketplace subscription name*
+** *Cloud project* (Google Cloud only)
+** *Subscription type* (Annual or PAYGO)
++
+. Select *Save changes*.
+
+.Result
+
+The new configuration takes effect immediately, and billing data synchronizes with the cloud provider.
+
+TIP: To map one subscription to multiple cloud projects, ensure that *Custom CVO configuration* is enabled first.
+
+
+== Confirm or revert billing changes
+
+Every update to billing preferences requires confirmation to prevent accidental changes.
+
+.Confirm changes
+
+. After editing billing preferences, select *Save changes*.
+. Review the summary in the confirmation dialog.
+. Select *Save to apply updates, or *Cancel* to discard them.
+
+.Revert to standard billing
+
+. Open *Billing preferences*.
+. Disable *Custom CVO configuration*.
+. When prompted, confirm that you want to revert to the standard configuration.
+
+.Result
+
+CVO instances return to the default standard billing method used for the other data services.
+

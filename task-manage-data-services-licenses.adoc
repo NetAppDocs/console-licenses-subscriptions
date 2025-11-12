@@ -42,4 +42,4 @@ include::_include/task-update-license.adoc[]
 
 == View license status
 
-include::_include/task-view-license-status.adoc[]
+include::task-view-license-status.adoc[]

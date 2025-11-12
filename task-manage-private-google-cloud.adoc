@@ -73,43 +73,10 @@ Review the plan details, term, and pricing carefully. If anything is incorrect, 
 * If you need to associate multiple Console accounts with the same Marketplace subscription, you must configure the additional accounts manually.
 ====
 
-. Click **Associate** and then **Done**.
-
-== Associate the subscription with Google Cloud credentials
-
-. In the Console, go to **Governance > Licenses and subscriptions** and select the **Marketplace subscriptions** tab.
-. Validate the subscription details:
-.. Locate the subscription created in the acceptance process.  
-.. Verify that the correct plan is shown.  
-.. Expand the row to confirm the private offer association.
-
-[NOTE]
-====
-Due to Google Cloud Marketplace limitations, some fields might display `N/A`. This information is only available in the Google Cloud console.
-====
-
-. [Optional] To rename the subscription:
-.. Click the **three-dot menu** next to the subscription.  
-.. Select **Rename Subscription**.
-
-. Click the **three-dot menu** again and select **Configure**.
-. Select the appropriate Google Cloud account **Credential** and click **Configure**.
-
-The Marketplace charges for this Google Cloud credential are now billed through the Marketplace subscription. For Annual Contracts, usage for this credential counts against the annual contract.
-
-[IMPORTANT]
-====
-Repeat steps 1–5 for each Google Cloud credential in your Console account that you want to associate with the Marketplace subscription.  
-
-* To associate credentials from another Console account, use the **Account** dropdown to switch accounts and repeat the steps.  
-* To associate credentials for another agent, use the **Agent** dropdown and repeat the steps.
-====
-
-== View Google Cloud usage
-
-To view Google Cloud credit status and usage:
-
-. In the Google Cloud console, go to **Cloud Marketplace**.  
-. Click **Your Orders**.  
-. From the **Select Billing account** dropdown, choose the billing account associated with your private offer.  
-. Find your private offer in the table, click the **three-dot menu**, and select **View credit**.
+. Click **Associate**.
+. Complete the form to associate the subscription with your Console organization. Then, Click **Associate**.
+. After associating the subscription, navigate and select the **Billing preferences** tab.
+. Review the marketplace subscription options. 
+. Select the marketplace subscription you want to bill. This only applies when there is more than one option. 
+. Select **Save changes**.
+. Repeat these steps as needed, if there are multiple sunscriptions across multiple hyperscalers. 
