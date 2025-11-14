@@ -30,7 +30,7 @@ View the status of the hardware and software contracts for your on-premises ONTA
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *On-Premises ONTAP*.
 +
@@ -57,7 +57,7 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html[Le
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *On-Premises ONTAP*.
 +

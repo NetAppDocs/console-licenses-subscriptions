@@ -7,7 +7,7 @@ After you purchase a license from your NetApp sales representative, NetApp sends
 NOTE: To enter the serial number, first https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to the Console^]. This is the NetApp Support Site account that is authorized to access the serial number.
 
 .Steps
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions* and then select the *Direct licenses* tab.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions* and then select the *Direct licenses* tab.
 . Select *Add license*.
 . In the *Add license* dialog, enter the license information and select *Add license*:
 +

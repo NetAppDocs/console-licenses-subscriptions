@@ -13,7 +13,7 @@ summary: Configure billing preferences in NetApp Console to control how licenses
 :imagesdir: ./media/
 
 [.lead]
-You can configure and manage billing preferences in NetApp Console to control how capacity usage, renewals, and invoices are applied to your organization’s accounts.  
+You can configure and manage billing preferences in the NetApp Console to control how capacity usage, renewals, and invoices are applied to your organization’s accounts.  
 Billing preferences determine whether usage charges come from NetApp licenses, cloud marketplace contracts, or Keystone agreements.
 
 .Before you begin
@@ -28,7 +28,7 @@ You can select how the Console applies usage charges across billing sources. Thi
 
 .Steps
 
-. In NetApp Console, select *Governance > Licenses and subscriptions*.
+. In NetApp Console, select *Administration > Licenses and subscriptions*.
 . Select *Billing preferences*.
 . Choose one of the following billing modes:
 +
@@ -56,7 +56,7 @@ Use this mode if your organization maintains different billing accounts for sepa
 
 .Steps
 
-. In NetApp Console, select *Governance > Licenses and subscriptions*.
+. In NetApp Console, select *Administration > Licenses and subscriptions*.
 . Select *Billing preferences*.
 . Under **Marketplace subscripitions**, enable *Custom CVO configuration*.
 . Select **Save changes**.
@@ -79,7 +79,7 @@ You can edit marketplace configuration details to associate subscriptions with c
 . Select the view for the following:
 +
 ** *Marketplace subscription name*
-** *Cloud project* (Google Cloud only)
+** *Cloud project*
 ** *Subscription type* (Annual or PAYGO)
 +
 . Select *Save changes*.

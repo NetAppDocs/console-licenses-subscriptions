@@ -15,8 +15,8 @@ summary: Subscribe to NetApp data services (including Cloud Volumes ONTAP) from 
 [.lead]
 When you subscribe to NetApp data services (including Cloud Volumes ONTAP) from a cloud provider's marketplace, you're redirected to the Console website where you save your subscription and associate it with your Console organization. After you subscribe, each subscription is available to manage in the Console.
 
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html[Learn how to subscribe to NetApp data services (standard mode)^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html[Learn how to subscribe to NetApp data services (restricted mode)^]
+* https://docs.netapp.com/us-en/console-setup-admin/task-subscribe-standard-mode.html[Learn how to subscribe to NetApp data services (standard mode)^]
+* https://docs.netapp.com/us-en/console-setup-admin/task-subscribe-restricted-mode.html[Learn how to subscribe to NetApp data services (restricted mode)^]
 
 NOTE: The *Marketplace subscriptions* page lists all licenses. For license details for a specific data service, use the data service tiles on the *Overview* dashboard. link:task-homepage.html#overview-page[Learn more about the Overview dashboard].
 
@@ -27,7 +27,7 @@ You can subscribe to a marketplace subscription directly from the Console.
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Marketplace Subscriptions*.
 
@@ -51,7 +51,7 @@ For Google Cloud, you can also identify marketplace subscriptions associated wit
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Marketplace Subscriptions*.
 +
@@ -92,7 +92,7 @@ You can rename a subscription to better identify how your organization uses it.
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Marketplace Subscriptions*.
 
@@ -110,7 +110,7 @@ The Configure option is grayed out if you have unsubscribed from a subscription.
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Marketplace Subscriptions*.
 
@@ -133,7 +133,7 @@ NOTE: The Console supports Identity and Access Management (IAM) in standard mode
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Marketplace Subscriptions*.
 
@@ -153,7 +153,7 @@ NOTE: Use the Agent drop-down in the top navigation bar to switch agents if need
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Marketplace Subscriptions*.
 
@@ -167,7 +167,7 @@ Before you can remove a subscription, you must unconfigure it. This clears all a
 
 .Steps
 
-. In the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. In the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Marketplace Subscriptions*.
 
@@ -195,7 +195,7 @@ To make the option available, unconfigure the subscription by clearing any assoc
 
 .Steps
 
-. In the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. In the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Marketplace Subscriptions*.
 
