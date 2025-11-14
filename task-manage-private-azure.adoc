@@ -101,4 +101,6 @@ The subscription displays as *Pending configuration*. Select it to continue conf
 . Review the marketplace subscription options. 
 . Select the marketplace subscription you want to bill. This only applies when there is more than one option. 
 . Select **Save changes**.
-. Repeat these steps as needed, if there are multiple sunscriptions across multiple hyperscalers. 
+. Repeat these steps as needed, if there are multiple subscriptions across multiple hyperscalers. 
+
+For more information on marketplace subscriptions and and direct licenses billing, see the link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html[Billing preferences documentation].

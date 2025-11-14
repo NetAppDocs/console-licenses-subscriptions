@@ -38,7 +38,7 @@ link:task-manage-subscriptions.html[Learn more about managing subscriptions^].
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Overview*.
 
@@ -67,7 +67,7 @@ link:task-manage-subscriptions.html[Learn more about managing subscriptions.]
 
 You can view license and subscription issues that need to be resolved. Issues include licenses and subscriptions that are expiring or reaching capacity.
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Overview*.
 
