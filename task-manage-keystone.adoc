@@ -29,7 +29,7 @@ Before you can use and manage Keystone subscriptions in the Console, you need to
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Keystone Subscriptions*.
 
@@ -47,7 +47,7 @@ After NetApp authorizes your account, you can link Keystone subscriptions for us
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Keystone Subscriptions*.
 
@@ -66,7 +66,7 @@ If you want to change the committed capacity for your subscription's service lev
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Keystone Subscriptions*.
 
@@ -96,7 +96,7 @@ If you no longer want to use a Keystone subscription with the Console, you can u
 
 .Steps
 
-. From the NetApp Console menu, select *Governance > Licenses and subscriptions*.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Keystone*.
 
