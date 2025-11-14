@@ -105,4 +105,4 @@ For contract listings, click *View purchase options* to display the offer, then 
 . Repeat these steps as needed, if there are multiple subscriptions across multiple hyperscalers. 
 
 
-For more information on marketplace subscriptions and and direct licenses billing, see the link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html[Billing preferences documentation].
+For more information on marketplace subscriptions and direct licenses billing, see the link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html[Billing preferences documentation].
