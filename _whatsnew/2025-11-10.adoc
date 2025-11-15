@@ -3,5 +3,4 @@
 You can now configure and manage *Billing preferences* directly within in NetApp Console.
 This enhancement enables administrators to define and view how capacity usage, renewals, and costs are billed across direct NetApp licenses, cloud marketplace subscriptions, and Keystone agreement.  
 
-For more information, see the .
-link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html[Billing preferences documentation]
+For more information, see the link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html[Billing preferences documentation^].
