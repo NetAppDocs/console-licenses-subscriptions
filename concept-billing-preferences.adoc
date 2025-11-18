@@ -23,8 +23,26 @@ You can configure how your organization allocates and pays for services dependin
 
 == Permissions
 
-Only users with the *Account Admin* or *Billing Admin* role can modify billing preferences. These roles ensure that only authorized users can change invoice contacts, cost centers, or renewal settings that affect the organization’s billing data.  
-Users with the *Operator* role can view existing preferences but do not have permission to edit them.
+The management of licenses and subscriptions within the NetApp Console is controlled through user roles. These roles provide distinct access levels, enabling or restricting specific actions that users can take for this feature.
+	
+[cols="2,5",options="header"]
+|===
+|Role |Description
+	
+|*Admin*
+|Users with this role have full control over licenses and subscriptions. Admin users can:
+	
+- View all licenses and subscriptions.
+- Add new licenses.
+- Associate subscriptions with accounts.
+- Modify existing license details.
+- Delete licenses or disassociate subscriptions.
+	
+|*Viewer*
+|Users with this role have read-only access. Viewer users can:
+	
+- View all licenses and subscriptions.
+|===
 
 == Billing preferences
 

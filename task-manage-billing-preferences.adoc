@@ -18,9 +18,9 @@ Billing preferences determine whether usage charges come from NetApp licenses, c
 
 .Before you begin
 
-* You have the *Billing Admin* or *Organization Admin* role.
-* All relevant marketplace subscriptions are linked to your organization.
-* You reviewed the existing configuration in *Licenses and subscriptions*.
+- You have access to the *Admin* role.
+- All relevant marketplace subscriptions are linked to your organization.
+- You reviewed the existing configuration for *licenses and subscriptions*.
 
 == Set billing preferences
 
@@ -65,7 +65,7 @@ Use this mode if your organization maintains different billing accounts for sepa
 
 You can now assign specific marketplace subscriptions to individual Cloud Volumes ONTAP instances under the same hyperscaler.
 
-WARNING: After this is enabled, custom CVO configuration cannot be reverted from the **Billing preferences** tab. Disabling it resets all CVO billing to the standard billing configuration for your data services.
+WARNING: After this is enabled, custom CVO configuration cannot be reverted from the **Billing preferences**. Disabling this resets all CVO billing to the standard billing configuration for your data services.
 
 
 == Edit marketplace configuration
@@ -99,7 +99,7 @@ Every update to billing preferences requires confirmation to prevent accidental 
 
 . After editing billing preferences, select *Save changes*.
 . Review the summary in the confirmation dialog.
-. Select *Save to apply updates, or *Cancel* to discard them.
+. Select *Save* to apply updates, or *Cancel* to discard them.
 
 .Revert to standard billing
 
