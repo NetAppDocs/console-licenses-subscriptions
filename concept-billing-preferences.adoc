@@ -33,17 +33,17 @@ The management of licenses and subscriptions within the NetApp Console is contro
 a| 
 
 Users with this role have full control over licenses and subscriptions. Admin users can:	
-- View all licenses and subscriptions.
-- Add new licenses.
-- Associate subscriptions with accounts.
-- Modify existing license details.
-- Delete licenses or disassociate subscriptions.
+  - View all licenses and subscriptions.
+  - Add new licenses.
+  - Associate subscriptions with accounts.
+  - Modify existing license details.
+  - Delete licenses or disassociate subscriptions.
 	
 |*Viewer*
 a|
 
 Users with this role have read-only access. Viewer users can:
-- View all licenses and subscriptions.
+  - View all licenses and subscriptions.
 
 |===
 
