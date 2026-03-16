@@ -1,4 +1,4 @@
---
+---
 sidebar: sidebar
 permalink: concept-billing-preferences-terms.html
 keywords: license, licensing, licenses, subscriptions,
