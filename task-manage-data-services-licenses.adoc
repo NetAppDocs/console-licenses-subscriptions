@@ -22,7 +22,7 @@ The instructions on this page provide information that applies to each service. 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-licensing.html[Set up licensing for NetApp Backup and Recovery^]
 * https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-licensing.html[Set up licensing for NetApp Disaster Recovery^]
 * https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-licenses.html[Set up licensing for NetApp Ransomware Resilience^]
-* https://docs.netapp.com/us-en/data-services-tiering/task-licensing-cloud-tiering.html[Set up licensing for NetApp Cloud Tiering^]
+* https://docs.netapp.com/us-en/data-services-cloud-tiering/task-licensing-cloud-tiering.html[Set up licensing for NetApp Cloud Tiering^]
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html[Set up licensing for Cloud Volumes ONTAP^]
 
 
