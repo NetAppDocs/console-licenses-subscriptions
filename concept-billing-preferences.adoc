@@ -61,7 +61,7 @@ Billing preferences are configured in the *Licenses and subscriptions* section o
 From there, you can:
 
 - Set billing preferences for your organization
-- Enable custom CVO configuration for advanced mapping
+- Enable advanced mapping of Cloud Volumes ONTAP instances to marketplace subscriptions
 - Edit or update marketplace subscription details
 
 == Fields
@@ -126,7 +126,7 @@ You can choose between billing modes depending on your organization’s procurem
 - *Auto-renew* — Enables automatic continuation of licenses or marketplace contracts when they expire.  
   Disabling this option requires manual renewal to prevent service interruption.
 
-- *Custom CVO configuration* — Allows mapping multiple marketplace subscriptions to a single hyperscaler.  
+- *Custom Cloud Volumes ONTAP configuration* — Allows mapping multiple marketplace subscriptions to a single hyperscaler.  
   This might be useful when different business units or projects require distinct billing accounts within the same cloud environment.
 
 

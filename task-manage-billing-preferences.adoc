@@ -49,23 +49,23 @@ NetApp Console updates the billing mappings. Future service charges and renewals
 NOTE: Changing the billing mode redistributes how service charges are applied. New Cloud Volumes ONTAP (CVO) instances automatically inherit the selected configuration.
 
 
-== Enable custom CVO configuration
+== Enable custom Cloud Volumes ONTAP configuration
 
-Custom CVO configuration allows you to assign multiple marketplace subscriptions under the same hyperscaler.  
+You can now assign specific marketplace subscriptions to individual Cloud Volumes ONTAP instances under the same hyperscaler. 
 Use this mode if your organization maintains different billing accounts for separate business units or environments.
 
 .Steps
 
 . In NetApp Console, select *Administration > Licenses and subscriptions*.
 . Select *Billing preferences*.
-. Under **Marketplace subscripitions**, enable *Custom CVO configuration*.
+. Under **Marketplace subscriptions**, enable *Custom CVO configuration*.
 . Select **Save changes**.
 
 .Result
 
 You can now assign specific marketplace subscriptions to individual Cloud Volumes ONTAP instances under the same hyperscaler.
 
-WARNING: After this is enabled, custom CVO configuration cannot be reverted from the **Billing preferences**. Disabling this resets all CVO billing to the standard billing configuration for your data services.
+WARNING: After this is enabled, custom Cloud Volumes ONTAP configuration cannot be reverted from the **Billing preferences**. Disabling this resets all Cloud Volumes ONTAP billing to the standard billing configuration for your data services.
 
 
 == Edit marketplace configuration
@@ -109,5 +109,5 @@ Every update to billing preferences requires confirmation to prevent accidental 
 
 .Result
 
-CVO instances return to the default standard billing method used for the other data services.
+Cloud Volumes ONTAP instances return to the default standard billing method used for the other data services.
 
