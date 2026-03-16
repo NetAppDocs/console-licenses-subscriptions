@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-manage-private-azure.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure
-summary: Manage your general and Hyperscaler specific, end-to-end Private Offer Process and NetApp Intelligent Services acceptance and activation guides for AWS, Azure, and Google Cloud.
+summary: Accept and subscribe to a Marketplace private offer for the NetApp Console in the Azure portal. Configure Azure credentials in the Console.
 ---
 
 = Accept and activate an Azure private offer for the NetApp Console
@@ -91,7 +91,7 @@ The subscription displays as *Pending configuration*. Select it to continue conf
 +
 [NOTE]
 ====
-* This replacement option is limited to a single Console account.  
+* This replacement option is limited to a single Console organization.  
 * To associate multiple Console accounts with the same Marketplace subscription, configure the additional accounts manually.  
 ====
 
@@ -101,6 +101,6 @@ The subscription displays as *Pending configuration*. Select it to continue conf
 . Review the marketplace subscription options. 
 . Select the marketplace subscription you want to bill. This only applies when there is more than one option. 
 . Select **Save changes**.
-. Repeat these steps as needed, if there are multiple subscriptions across multiple hyperscalers. 
+. Repeat these steps as needed, if there are multiple subscriptions across multiple cloud providers. 
 
 For more information on marketplace subscriptions and direct licenses billing, see the link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html[Billing preferences documentation].
