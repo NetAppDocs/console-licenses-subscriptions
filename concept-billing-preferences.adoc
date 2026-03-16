@@ -16,7 +16,7 @@ summary: "Learn how licenses and subscriptions define how NetApp Console manages
 Billing preferences allows you to determine how you handle payments and renewal behavior for your active licenses and subscriptions. 
 You can apply these preferences globally, so they affect all billing relationships, or at the individual subscription level when a specific contract requires its own configuration.
 
-- *Marketplace subscriptions* correspond to cloud marketplace contracts (AWS, Azure, or Google Cloud) where usage charges are through a hyperscaler account.  
+- *Marketplace subscriptions* correspond to cloud marketplace contracts (AWS, Azure, or Google Cloud) where usage charges are through a cloud provider account  
 - *Direct licenses* represent licenses purchased directly from NetApp, managed in NetApp Console through license keys, invoice recipients, and renewal options.  
 
 You can configure how your organization allocates and pays for services depending on your procurement model.
@@ -126,7 +126,7 @@ You can choose between billing modes depending on your organization’s procurem
 - *Auto-renew* — Enables automatic continuation of licenses or marketplace contracts when they expire.  
   Disabling this option requires manual renewal to prevent service interruption.
 
-- *Custom Cloud Volumes ONTAP configuration* — Allows mapping multiple marketplace subscriptions to a single hyperscaler.  
+- *Custom Cloud Volumes ONTAP configuration* — Allows mapping multiple marketplace subscriptions to a cloud provider.  
   This might be useful when different business units or projects require distinct billing accounts within the same cloud environment.
 
 
@@ -146,7 +146,7 @@ The following examples illustrate how different billing setups align with common
 
 For instance, consider an organization that combines both direct NetApp licenses and marketplace subscriptions.  
 A typical configuration would set *NetApp licenses first* as the default billing mode to use prepaid capacity before marketplace billing.  
-Then, under *Custom CVO configuration*, each hyperscaler (AWS, Azure, Google Cloud) would be assigned its corresponding subscription ID.  
+Then, under *Custom CVO configuration*, each cloud provider (AWS, Azure, Google Cloud) would be assigned its corresponding subscription ID.  
 
 After saving these settings, administrators can review the mappings under *Licenses and subscriptions* to verify that each service points to the correct account.  
 For additional validation, they can compare usage data in NetApp Console against cloud billing dashboards and adjust cost center tags or contacts as needed to maintain reporting consistency.

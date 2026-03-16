@@ -35,8 +35,8 @@ You can select how the Console applies usage charges across billing sources. Thi
 ** *NetApp licenses first* – Use NetApp licenses first, then marketplace subscriptions for additional usage.
 ** *Marketplace subscriptions only* – Bill all usage directly through marketplace subscriptions.
 +
-. Under *Marketplace subscriptions*, select the subscription for each hyperscaler (AWS, Azure, and Google Cloud).
-. If you use multiple subscriptions under a single hyperscaler, enable *Custom CVO configuration*.
+. Under *Marketplace subscriptions*, select the subscription for each cloud provider (AWS, Azure, and Google Cloud).
+. If you use multiple subscriptions under a single cloud provider, enable *Custom CVO configuration*.
 . (Optional) Update *Invoice contacts* and *Notification contacts*.
 . (Optional) Enter a *Cost center tag* to associate billing with internal accounting codes.
 . Select *Save changes*.
@@ -51,7 +51,7 @@ NOTE: Changing the billing mode redistributes how service charges are applied. N
 
 == Enable custom Cloud Volumes ONTAP configuration
 
-You can now assign specific marketplace subscriptions to individual Cloud Volumes ONTAP instances under the same hyperscaler. 
+You can now assign specific marketplace subscriptions to individual Cloud Volumes ONTAP instances under the same cloud provider. 
 Use this mode if your organization maintains different billing accounts for separate business units or environments.
 
 .Steps
@@ -63,7 +63,7 @@ Use this mode if your organization maintains different billing accounts for sepa
 
 .Result
 
-You can now assign specific marketplace subscriptions to individual Cloud Volumes ONTAP instances under the same hyperscaler.
+You can now assign specific marketplace subscriptions to individual Cloud Volumes ONTAP instances under the same cloud provider.
 
 WARNING: After this is enabled, custom Cloud Volumes ONTAP configuration cannot be reverted from the **Billing preferences**. Disabling this resets all Cloud Volumes ONTAP billing to the standard billing configuration for your data services.
 
