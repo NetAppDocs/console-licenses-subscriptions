@@ -10,6 +10,7 @@ summary: Accept a Marketplace private offer for the NetApp Console listing in th
 :nofooter:
 :icons: font
 :linkattrs:
+:imagesdir: ./media/
 
 [.lead]
 Accept a Marketplace private offer for the NetApp Console listing in the Google Cloud console. Configure Google Cloud credentials in the Console.
