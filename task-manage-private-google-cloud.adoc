@@ -65,8 +65,8 @@ Review the plan details, term, and pricing carefully. If anything is incorrect, 
 . You are redirected to `https://console.netapp.com` and prompted to sign in.
 . After logging in, you are redirected to `https://console.netapp.com/licenses/overview`. A popup is displayed where you must:
 .. Enter a display name for the *SaaS Marketplace Subscription*.
-.. Select the Console **Accounts** that should have access to the subscription.
-.. Optionally, you can enable **Replace existing subscription** if you want to automatically replace an existing Marketplace subscription in one Console account.
+.. Select the Console *Organizations* that should have access to the subscription.
+.. Optionally, you can enable **Replace existing subscription** if you want to automatically replace an existing Marketplace subscription in one Console organization.
 +
 [NOTE]
 ====

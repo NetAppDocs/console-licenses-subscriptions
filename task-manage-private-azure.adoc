@@ -86,8 +86,8 @@ The subscription displays as *Pending configuration*. Select it to continue conf
 . After logging in, you are redirected to https://console.netapp.com/licenses/overview.  
    You are prompted to:  
 .. Enter a *Display name* for the Marketplace Subscription.  
-.. Select the Console *Accounts* that should have access to this subscription.  
-.. Optionally, you can enable *Replace existing subscription* to automatically replace an existing Marketplace subscription in one Console account.  
+.. Select the Console *Organizations* that should have access to this subscription.  
+.. Optionally, you can enable *Replace existing subscription* to automatically replace an existing Marketplace subscription in one Console organization.  
 +
 [NOTE]
 ====
