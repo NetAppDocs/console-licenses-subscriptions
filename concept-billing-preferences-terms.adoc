@@ -1,4 +1,4 @@
---
+---
 sidebar: sidebar
 permalink: concept-billing-preferences-terms.html
 keywords: license, licensing, licenses, subscriptions,
@@ -53,7 +53,7 @@ Billing preferences let you:
 * **PAYGO (Pay-As-You-Go)** — Flexible subscription billed by actual usage.
 * **Annual contract** — Fixed-term marketplace subscription.
 * **Auto renew** — Renews the contract automatically at expiration.
-* **Custom CVO configuration** — Advanced mode for mapping multiple subscriptions per hyperscaler.
+* **Custom CVO configuration** — Advanced mode for mapping multiple subscriptions per cloud provider.
 * **Direct license** — NetApp-managed license used before marketplace capacity.
 * **Hyperscaler** — AWS, Azure, or Google Cloud provider.
 * **Confirm changes dialog** — Appears before applying updates to prevent accidental billing changes.

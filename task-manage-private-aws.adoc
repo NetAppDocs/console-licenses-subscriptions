@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-manage-private-aws.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws
-summary: Manage your general and Hyperscaler specific, end-to-end Private Offer Process and NetApp Intelligent Services acceptance and activation guides for AWS, Azure, and Google Cloud.
+summary: Accept a Marketplace private offer for the NetApp Console in the AWS Marketplace Portal and configure AWS credentials in the Console.
 ---
 
 = Accept and configure an AWS Marketplace private offer for the NetApp Console
@@ -13,7 +13,7 @@ summary: Manage your general and Hyperscaler specific, end-to-end Private Offer 
 :imagesdir: ./media/
 
 [.lead]
-Accept a Marketplace private offer for the NetApp Console in the AWS console and configure AWS credentials in the Console.
+Accept a Marketplace private offer for the NetApp Console in the AWS Marketplace Portal and configure AWS credentials in the Console.
 
 .Before you begin
 
@@ -22,7 +22,7 @@ Accept a Marketplace private offer for the NetApp Console in the AWS console and
 ** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-private-offers-subscribing.html[Viewing and subscribing to a private offer]  
 ** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-iam-users-groups-policies.html[Buyer permissions validation]
 
-== Accept the private offer in the AWS console
+== Accept the private offer in the AWS Marketplace Portal
 
 Completing the subscription assignment in the Console is required to activate the purchase and apply discounted pricing.  
 
@@ -82,12 +82,12 @@ If you accepted the offer but did not complete registration, return to the produ
 For contract listings, click *View purchase options* to display the offer, then select *Set up your account*.  
 ====
 
-. Sign in at https://console.netapp.com with your Console account.  
+. Sign in at https://console.netapp.com.  
 
 . After logging in, navigate to https://console.netapp.com/licenses/overview. You are prompted to:  
 .. Enter a *Display name* for the Marketplace subscription.  
-.. Select the Console *Accounts* with access to the subscription.  
-.. [Optional] Enable *Replace existing subscription* to overwrite an existing subscription for one account.  
+.. Select the Console *Organization* with access to the subscription.  
+.. [Optional] Enable *Replace existing subscription* to overwrite an existing subscription for an organization.  
 +
 [NOTE]
 ====
@@ -102,7 +102,7 @@ For contract listings, click *View purchase options* to display the offer, then 
 . Review the marketplace subscription options. 
 . Select the marketplace subscription you want to bill. This only applies when there is more than one option. 
 . Select **Save changes**.
-. Repeat these steps as needed, if there are multiple subscriptions across multiple hyperscalers. 
+. Repeat these steps as needed, if there are multiple subscriptions across multiple cloud providers. 
 
 
 For more information on marketplace subscriptions and direct licenses billing, see the link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html[Billing preferences documentation].

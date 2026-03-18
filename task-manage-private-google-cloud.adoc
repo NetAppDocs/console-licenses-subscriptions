@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-manage-private-google-cloud.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud
-summary: Manage your general and Hyperscaler specific, end-to-end Private Offer Process and NetApp Intelligent Services acceptance and activation guides for AWS, Azure, and Google Cloud.
+summary: Accept a Marketplace private offer for the NetApp Console listing in the Google Cloud console. Configure Google Cloud credentials in the Console.
 ---
 
 = Accept and configure a Google Cloud private offer for the NetApp Console
@@ -10,6 +10,7 @@ summary: Manage your general and Hyperscaler specific, end-to-end Private Offer 
 :nofooter:
 :icons: font
 :linkattrs:
+:imagesdir: ./media/
 
 [.lead]
 Accept a Marketplace private offer for the NetApp Console listing in the Google Cloud console. Configure Google Cloud credentials in the Console.
@@ -64,8 +65,8 @@ Review the plan details, term, and pricing carefully. If anything is incorrect, 
 . You are redirected to `https://console.netapp.com` and prompted to sign in.
 . After logging in, you are redirected to `https://console.netapp.com/licenses/overview`. A popup is displayed where you must:
 .. Enter a display name for the *SaaS Marketplace Subscription*.
-.. Select the Console **Accounts** that should have access to the subscription.
-.. Optionally, you can enable **Replace existing subscription** if you want to automatically replace an existing Marketplace subscription in one Console account.
+.. Select the Console *Organizations* that should have access to the subscription.
+.. Optionally, you can enable **Replace existing subscription** if you want to automatically replace an existing Marketplace subscription in one Console organization.
 +
 [NOTE]
 ====
@@ -79,7 +80,7 @@ Review the plan details, term, and pricing carefully. If anything is incorrect, 
 . Review the marketplace subscription options. 
 . Select the marketplace subscription you want to bill. This only applies when there is more than one option. 
 . Select **Save changes**.
-. Repeat these steps as needed, if there are multiple subscriptions across multiple hyperscalers. 
+. Repeat these steps as needed, if there are multiple subscriptions across multiple cloud providers. 
 
 
 For more information on marketplace subscriptions and direct licenses billing, see the link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html[Billing preferences documentation].
