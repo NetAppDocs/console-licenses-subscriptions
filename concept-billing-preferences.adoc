@@ -54,7 +54,7 @@ Users with this role have read-only access. Viewer users can:
 Billing preferences ensure that usage charges and renewals are applied correctly. Configuring them properly reduces billing disputes and makes it easier to manage hybrid licensing models that combine NetApp-owned and marketplace-purchased capacity.
 
 For example, global billing preferences can unify your invoice contact list so all services share a single billing administrator. You can also use cost center tags to align usage across departments or regions, and enable automatic renewal to prevent service interruptions.  
-New Cloud Volumes ONTAP (CVO) deployments automatically inherit the billing mode you define here, which keeps your organization’s chargeback model consistent as new systems are added.
+New Cloud Volumes ONTAP deployments automatically inherit the billing mode you define here, which keeps your organization's chargeback model consistent as new systems are added.
 
 Billing preferences are configured in the *Licenses and subscriptions* section of NetApp Console.  
 
@@ -72,7 +72,7 @@ They describe who is billed, how renewals occur, and which account or cost cente
 === Marketplace fields
 
 Marketplace fields describe contracts that originate from a cloud provider such as AWS, Azure, or Google Cloud.  
-These fields define how NetApp Console connects your subscriptions with the billing information stored in the provider’s marketplace.  
+These fields define how NetApp Console connects your subscriptions with the billing information stored in the provider's marketplace.  
 They also control how renewals, regional assignments, and billing accounts are managed.
 
 - *Marketplace provider* — Identifies the cloud platform where billing is handled.  
@@ -111,7 +111,7 @@ They control which account is charged first and how billing switches between Net
 
 === Terms and options
 
-You can choose between billing modes depending on your organization’s procurement strategy:
+You can choose between billing modes depending on your organization's procurement strategy:
 
 - *NetApp licenses first* — Prioritizes billing through active NetApp licenses.  
   When capacity from these licenses is exhausted, usage automatically rolls over to the linked marketplace subscription.

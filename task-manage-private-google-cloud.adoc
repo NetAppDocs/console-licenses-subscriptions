@@ -40,7 +40,7 @@ If you already have an active PAYGO subscription or an amended private offer, yo
 ====
 
 .Steps
-. Click the private offer activation link provided by your NetApp sales team. The link should look similar to the following:
+. Select the private offer activation link provided by your NetApp sales team. The link should look similar to the following:
   `https://console.cloud.google.com/marketplace/private-offers/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee`
 . You are redirected to Google Cloud Marketplace where you can review the offer details:
 .. **Billing account**
@@ -53,14 +53,14 @@ If you already have an active PAYGO subscription or an amended private offer, yo
 Review the plan details, term, and pricing carefully. If anything is incorrect, do not accept the offer. Contact your NetApp account team for an amendment.
 ====
 
-. Confirm the information is accurate, accept the terms, and click **Accept**.
+. Confirm the information is accurate, accept the terms, and select **Accept**.
 . A loading icon appears while the subscription is created.
 . When the subscription is successfully created, a pop-up window displays:  
    *Your order request has been sent to NetApp, Inc.*
-. Click **REGISTER WITH NETAPP, Inc.**. You are redirected to the NetApp Console to finish configuring your subscription. If the private offer was accepted by another individual in your organization:
+. Select **REGISTER WITH NETAPP, Inc.**. You are redirected to the NetApp Console to finish configuring your subscription. If the private offer was accepted by another individual in your organization:
 .. In Google Cloud Marketplace, go to **Orders**.  
 .. Locate the offer with status **Pending**.  
-.. Click the three-dot menu and select **Register with NetApp, Inc.**
+.. Select the three-dot menu and select **Register with NetApp, Inc.**
 
 . You are redirected to `https://console.netapp.com` and prompted to sign in.
 . After logging in, you are redirected to `https://console.netapp.com/licenses/overview`. A popup is displayed where you must:
@@ -74,8 +74,8 @@ Review the plan details, term, and pricing carefully. If anything is incorrect, 
 * If you need to associate multiple Console accounts with the same Marketplace subscription, you must configure the additional accounts manually.
 ====
 
-. Click **Associate**.
-. Complete the form to associate the subscription with your Console organization. Then, Click **Associate**.
+. Select **Associate**.
+. Complete the form to associate the subscription with your Console organization. Select **Associate**.
 . After associating the subscription, navigate and select the **Billing preferences** tab.
 . Review the marketplace subscription options. 
 . Select the marketplace subscription you want to bill. This only applies when there is more than one option. 
