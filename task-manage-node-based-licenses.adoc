@@ -10,7 +10,7 @@ summary: Manage your node-based licenses in the Console to ensure that each Clou
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/media/
 
 [.lead]
 include::https://raw.githubusercontent.com/NetAppDocs/storage-management-cloud-volumes-ontap/main/task-manage-node-licenses.adoc[lines=15..-1]
