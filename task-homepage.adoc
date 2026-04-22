@@ -17,7 +17,7 @@ The *Overview* dashboard in the Console helps you monitor the statuses of your l
 
 You can view specific license and subscription information about each of your data services (including Cloud Volumes ONTAP). 
 
-Licenses and subscriptions also alerts you to upcoming capacity limits or expirations, prompting you to take the requisite action. 
+The Licenses and subscriptions dashboard alerts you to upcoming capacity limits or expirations, prompting you to take the requisite action. 
 
 === View details about a specific data service
 
