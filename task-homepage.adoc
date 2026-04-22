@@ -13,15 +13,15 @@ summary: Get an overview of all subscriptions and licenses for your organization
 :imagesdir: ./media/
 
 [.lead]
-Use the *Overview* dashboard in the Console to monitor the health of your licenses and subscriptions to ensure that you can manage costs and maintain service as subscriptions reach expiration dates or capacity limits. 
+The *Overview* dashboard in the Console helps you monitor the statuses of your licenses and subscriptions to ensure that you can manage costs and maintain service as subscriptions reach expiration dates or capacity limits. 
 
-You can view specific license and subscription information about each of your data services (including Cloud Volumes ONTAP) and drill down into details for each. 
+You can view specific license and subscription information about each of your data services (including Cloud Volumes ONTAP). 
 
-You'll also be alerted to upcoming capacity limits or expirations and be prompted to take action.
+Licenses and subscriptions also alerts you to upcoming capacity limits or expirations, prompting you to take the requisite action. 
 
 === View details about a specific data service
 
-The *Overview* dashboard provides the ability to view details on the following data services:
+The *Overview* dashboard provides details about the following services:
 
 * Cloud Volumes ONTAP
 * Disaster Recovery
@@ -65,13 +65,13 @@ link:task-manage-subscriptions.html[Learn more about managing subscriptions.]
 
 === Resolve license or subscription issues
 
-You can view license and subscription issues that need to be resolved. Issues include licenses and subscriptions that are expiring or reaching capacity.
+In the Overview dashboard, you can view license and subscription issues that need to be resolved. Issues include licenses and subscriptions that are expiring or reaching capacity.
 
 . From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
 . Select *Overview*.
 
-. Select *Resolve* for the *Requires action* tile to view issues that need to be adjusted. If *Resolve* does not display, there are no issues that require action at this time. 
+. In the *Requires action* tile, select *Resolve* to view issues that need to be adjusted. If *Resolve* does not display, there are no issues requiring action.  
 
 . From the *Requires action* page, select either the *Licenses* tab or the *Subscriptions* tab.
 

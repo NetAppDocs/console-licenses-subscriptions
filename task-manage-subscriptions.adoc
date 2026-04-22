@@ -171,7 +171,7 @@ Before you can remove a subscription, you must unconfigure it. This clears all a
 
 . Select *Marketplace Subscriptions*.
 
-. In the row for the subscription you want to unconfigure, click the action menu and select *Unconfigure*.
+. In the row for the subscription you want to unconfigure, select the action menu and select *Unconfigure*.
 
 . Follow the prompts to remove or reset any associated settings or data.
 
