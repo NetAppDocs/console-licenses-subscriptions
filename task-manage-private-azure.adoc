@@ -41,21 +41,21 @@ Accepting and activating the offer multiple times results in double charging.
 ====
 
 .Steps
-. Click the private offer link provided by your NetApp sales team and sign in.  
+. Select the private offer link provided by your NetApp sales team and sign in.  
   If no link is available, sign in directly to the Azure portal.  
 
 . Search or select *Marketplace* from the Azure services.  
 
-. On the Marketplace page, click *Private offer management* under the *Management* section.  
+. On the Marketplace page, select *Private offer management* under the *Management* section.  
 
-. Click *View + accept* to review the details of the private offer.  
+. Select *View + accept* to review the details of the private offer.  
 
 .. Validate that the *plan details*, *term*, and *pricing* are correct.  
 .. If details are incorrect, do not subscribe. Contact your NetApp sales team to correct the offer.  
 
-. Confirm and click *Accept private offer*.  
+. Confirm and select *Accept private offer*.  
 
-. Click *Purchase* to complete the purchasing process.  
+. Select *Purchase* to complete the purchasing process.  
 +
 [NOTE]
 ====
@@ -70,14 +70,14 @@ If you do not, copy and share the purchase window link with someone in your orga
 
 . Optionally, set *Tags* (for product, site location, workload definition, or naming convention).  
 
-. Click *Review and subscribe*, validate the details, and then click *Subscribe*.  
+. Select *Review and subscribe*, validate the details, and then select *Subscribe*.  
 
-. When the subscription is successfully created, click *Configure account now*. This redirects you to the NetApp Console to complete configuration.  
+. When the subscription is successfully created, select *Configure account now*. This redirects you to the NetApp Console to complete configuration.  
 +
 [NOTE]
 ====
-Azure-side automation can take 30 seconds to 5 minutes to complete.  
-If the page was closed before you clicked *Configure account now*, return to the service in the Azure portal.  
+Azure-side automation can take between 30 seconds and 5 minutes to complete.  
+If the page was closed before you selected *Configure account now*, return to the service in the Azure portal.  
 The subscription displays as *Pending configuration*. Select it to continue configuration.  
 ====
 
@@ -87,7 +87,7 @@ The subscription displays as *Pending configuration*. Select it to continue conf
    You are prompted to:  
 .. Enter a *Display name* for the Marketplace Subscription.  
 .. Select the Console *Organizations* that should have access to this subscription.  
-.. Optionally, you can enable *Replace existing subscription* to automatically replace an existing Marketplace subscription in one Console organization.  
+.. Optionally, enable *Replace existing subscription* to automatically replace an existing Marketplace subscription in one Console organization.  
 +
 [NOTE]
 ====
@@ -95,8 +95,8 @@ The subscription displays as *Pending configuration*. Select it to continue conf
 * To associate multiple Console accounts with the same Marketplace subscription, configure the additional accounts manually.  
 ====
 
-. Click **Associate**.
-. Complete the form to associate the subscription with your Console organization. Then, Click **Associate**.
+. Select **Associate**.
+. Complete the form to associate the subscription with your Console organization. Select **Associate**.
 . After associating the subscription, navigate and select the **Billing preferences** tab.
 . Review the marketplace subscription options. 
 . Select the marketplace subscription you want to bill. This only applies when there is more than one option. 

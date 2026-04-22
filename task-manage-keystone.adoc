@@ -51,7 +51,7 @@ After NetApp authorizes your account, you can link Keystone subscriptions for us
 
 . Select *Keystone Subscriptions*.
 
-. For the subscription that you want to link, click image:icon-action.png["An icon that is three side-by-side dots"] and select *Link*.
+. For the subscription that you want to link, select image:icon-action.png["An icon that is three side-by-side dots"] and select *Link*.
 
 
 .Result
@@ -70,11 +70,11 @@ If you want to change the committed capacity for your subscription's service lev
 
 . Select *Keystone Subscriptions*.
 
-. For the subscription that you want to adjust the capacity, click image:icon-action.png["An icon that is three side-by-side dots"] and select *View detail and edit*.
+. For the subscription that you want to adjust the capacity, select image:icon-action.png["An icon that is three side-by-side dots"] and select *View detail and edit*.
 
 . Enter the requested committed capacity for one or more subscriptions.
 
-. Scroll down, enter any additional details for the request, and then click *Submit*.
+. Scroll down, enter any additional details for the request, and then select *Submit*.
 
 
 .Result
@@ -100,7 +100,7 @@ If you no longer want to use a Keystone subscription with the Console, you can u
 
 . Select *Keystone*.
 
-. For the subscription that you want to unlink, click image:icon-action.png["An icon that is three side-by-side dots"] and select *Unlink*.
+. For the subscription that you want to unlink, select image:icon-action.png["An icon that is three side-by-side dots"] and select *Unlink*.
 
 
 .Result

@@ -137,7 +137,7 @@ NOTE: The Console supports Identity and Access Management (IAM) in standard mode
 
 . Select *Marketplace Subscriptions*.
 
-. In the row for the subscription you want to associate, open the action menu and select *Associate*.
+. In the row for the subscription you want to associate, open the action menu then select *Associate*.
 
 . In the *Associate the subscription* dialog, select one or more organizations to associate with the subscription. 
 
@@ -171,7 +171,7 @@ Before you can remove a subscription, you must unconfigure it. This clears all a
 
 . Select *Marketplace Subscriptions*.
 
-. In the row for the subscription you want to unconfigure, click the action menu and select *Unconfigure*.
+. In the row for the subscription you want to unconfigure, select the action menu then *Unconfigure*.
 
 . Follow the prompts to remove or reset any associated settings or data.
 
