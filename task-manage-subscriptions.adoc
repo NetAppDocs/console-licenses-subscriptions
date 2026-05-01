@@ -134,13 +134,9 @@ NOTE: The Console supports Identity and Access Management (IAM) in standard mode
 .Steps
 
 . From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
-
 . Select *Marketplace Subscriptions*.
-
 . In the row for the subscription you want to associate, open the action menu then select *Associate*.
-
-. In the *Associate the subscription* dialog, select one or more organizations to associate with the subscription. 
-
+. In the *Associate the subscription* dialog, select the Console organizations you want to associate with the subscription. 
 . Select *Associate*.
 
 
@@ -157,13 +153,12 @@ NOTE: Use the Agent drop-down in the top navigation bar to switch agents if need
 
 . Select *Marketplace Subscriptions*.
 
-. On the row containing the subscription whose credentials you want to view, select View. If multiple credentials are associated with a subscription, no credentials may display and you are directed to select a different agent.
+. On the row containing the subscription whose credentials you want to view, select *View*. If multiple credentials are associated with a subscription, no credentials may display and you are directed to select a different agent.
 
 
 === Unconfigure a subscription
 
 Before you can remove a subscription, you must unconfigure it. This clears all associated data and settings.
-
 
 .Steps
 
@@ -180,18 +175,12 @@ Before you can remove a subscription, you must unconfigure it. This clears all a
 
 === Remove a subscription
 
-When you unsubscribe from a subscription in your cloud provider (AWS, Google Cloud, or Azure), the Console shows the subscription status as *Unsubscribed*.
+When you unsubscribe from a subscription in your cloud provider (AWS, Google Cloud, or Azure), the Console shows the subscription status as *Unsubscribed*. When you've unsubscribed from a subscription, you can also remove it from Licenses and subscriptions. 
 
-You can remove *Unsubscribed* subscriptions from the Console so they no longer appear.
-
-[NOTE]
-====
-You can only remove subscriptions that are both *Unsubscribed* and *Unconfigured*.  
-All related settings, data, and configuration must be cleared or reset before removal.
-
-If the subscription is still configured, the *Remove* option is not displayed.  
-To make the option available, unconfigure the subscription by clearing any associated settings, services, or data.
-====
+.Before you begin
+* You can only remove subscriptions with a status of *Unsubscribed*. All related settings, data, and configuration must be cleared or reset before removal.
++
+If the subscription is still configured, the *Remove* option is not available. 
 
 .Steps
 
@@ -203,4 +192,4 @@ To make the option available, unconfigure the subscription by clearing any assoc
 +
 You can only remove subscriptions with a status of *Unsubscribed* and *Unconfigured*.
 
-. In the *Remove subscription* dialog, confirm that you want to remove the subscription.
+. In the *Remove subscription* dialog, select *Remove* to confirm that you want to remove the subscription.
