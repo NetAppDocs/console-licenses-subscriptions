@@ -189,7 +189,5 @@ If the subscription is still configured, the *Remove* option is not available.
 . Select *Marketplace Subscriptions*.
 
 . In the row for the subscription you want to remove, open the action menu and select *Remove*.
-+
-You can only remove subscriptions with a status of *Unsubscribed* and *Unconfigured*.
 
 . In the *Remove subscription* dialog, select *Remove* to confirm that you want to remove the subscription.
