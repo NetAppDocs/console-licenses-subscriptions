@@ -1,4 +1,4 @@
-License information automatically displays in the **Licenses and subscriptions** section when the NetApp Console account associated with the license is also a NetApp Support Site account and has internet access. If you used a Console account that is not associated with your NSS account, you'll need to manually add a license. 
+License information automatically displays in the **Licenses and subscriptions** section if the NetApp Console account associated with the license is also a NetApp Support Site account. If you used a Console account that is not associated with your NSS account, you'll need to manually add a license. 
 
 You can add the license in the Console either by entering the serial number and the associated NSS account, or by uploading the NetApp license file (NLF). You should obtain a NetApp license file to upload if the Console does not have internet access (private mode installations).
 
@@ -7,7 +7,8 @@ After you purchase a license from your NetApp sales representative, NetApp sends
 NOTE: To enter the serial number, first https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to the Console^]. This is the NetApp Support Site account that is authorized to access the serial number.
 
 .Steps
-. From the NetApp Console menu, select *Administration > Licenses and subscriptions* and then select the *Direct licenses* tab.
+. From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
+. Select the *Direct licenses* tab.
 . Select *Add license*.
 . In the *Add license* dialog, enter the license information and select *Add license*:
 +

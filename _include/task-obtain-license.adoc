@@ -5,7 +5,7 @@ When you purchase a license from a NetApp sales representative, you receive an e
 
 .Steps
 . Find your Console account ID:
-.. In the upper right of the Console, select image:icon-settings-option.png[The settings icon which displays in the top right of the web console.] > *Identity & Access Management*.
+.. In the Console's navigation menu, select *Administration* > *Identity and access*.
 .. On the Organization page, look for your account ID and copy it. 
 +
 If no account ID is listed and you only have an organization ID, copy the first eight characters of the organization ID and append it to *account-*
