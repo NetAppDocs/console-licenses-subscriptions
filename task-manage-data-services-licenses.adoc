@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-manage-data-services-licenses.html
 keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, bluexp, netapp console, classification, tiering, backup and recovery, disaster recovery
-summary: "Manage licenses that you purchased directly from NetApp (BYOL) for use with NetApp data services. You can view used license capacity, how much free capacity you have remaining, and you'll see notifications if you reached the capacity limit or the expiration date."
+summary: "Manage licenses that you purchased directly from NetApp (BYOL) for use with NetApp data services. You can view used license capacity, capacity usage, and upcoming expirations."
 ---
 
 = Manage licenses for NetApp data services
@@ -13,7 +13,7 @@ summary: "Manage licenses that you purchased directly from NetApp (BYOL) for use
 :imagesdir: ./media/
 
 [.lead]
-You can manage licenses that you purchased directly from NetApp (BYOL) for use with NetApp data services, including Cloud Volumes ONTAP. You can view used license capacity, how much free capacity you have remaining, and you'll see notifications when you reach the capacity limit or the expiration date.
+You can manage licenses that you purchased directly from NetApp (BYOL) for use with NetApp data services, including Cloud Volumes ONTAP. You can view used license capacity, capacity usage, and upcoming expirations.
 
 NOTE: The *Direct licenses* page lists all licenses. If you want license details for a specific data service, use the data service tiles on the *Overview* dashboard. link:task-homepage.html#overview-page[Learn more about the Overview dashboard].
 

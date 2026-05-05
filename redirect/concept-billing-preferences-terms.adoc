@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concept-billing-preferences-terms.html
 keywords: license, licensing, licenses, subscriptions,
-summary: "The licenses and subscriptions enable you to manage and monitor NetApp Console licenses, NetApp marketplace subscriptions, and NetApp Keystone."
+summary: "Licenses and subscriptions enables you to manage and monitor NetApp Console licenses, NetApp marketplace subscriptions, and NetApp Keystone."
 ---
 
 = Terms and definitions
@@ -18,7 +18,7 @@ Billing preferences control how NetApp Console handles payments, invoices, and r
 * *Global* — applies across direct licenses, marketplace subscriptions, and Keystone subscriptions.
 * *Per subscription* — applies only to a specific marketplace or direct license contract.
 
-The source of billing can be the following:
+Billing sources can be: 
 
 * *Marketplace subscriptions* — Billing occurs through AWS Marketplace, Azure Marketplace, or Google Cloud Marketplace. You can choose the billing account, region, and renewal options provided by the cloud marketplace.
 * *Direct licenses* — Billing occurs through NetApp. You manage license keys, invoice contacts, and auto-renewal in NetApp Console.
