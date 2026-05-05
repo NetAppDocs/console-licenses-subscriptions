@@ -59,9 +59,12 @@ Billing preferences let you:
 * **Confirm changes dialog** — Appears before applying updates to prevent accidental billing changes.
 
 == Typical configuration paths
+
+[options="header"]
+|===
 | Scenario | Recommended billing option |
-|-----------|-----------------------------|
 | Using purchased NetApp capacity | NetApp licenses first |
 | Using marketplace contracts only | Marketplace subscriptions only |
 | Billing multiple projects under one cloud provider | Enable Custom CVO configuration |
 | Reverting to default billing | Disable Custom CVO configuration |
+|===
