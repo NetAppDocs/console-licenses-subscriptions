@@ -101,6 +101,6 @@ The subscription displays as *Pending configuration*. Select it to continue conf
 . Review the marketplace subscription options. 
 . Select the marketplace subscription you want to bill. This only applies when there is more than one option. 
 . Select **Save changes**.
-. Repeat these steps as needed, if there are multiple subscriptions across multiple cloud providers. 
+. Repeat these steps as needed if there are multiple subscriptions across multiple cloud providers. 
 
 For more information on marketplace subscriptions and direct licenses billing, see link:concept-billing-preferences.html[Learn about billing preferences for licenses and subscriptions].
