@@ -10,5 +10,5 @@ The BlueXP digital wallet now allows you to configure your subscriptions to prov
 === Associating subscriptions with organizations
 You can now update the organization to which a subscription is associated directly from digital wallet.
 
-=== Managing Cloud Volume ONTAP licenses
-You now manage Cloud Volumes ONTAP licenses through the home page or the *Direct licenses* tab.  Use the *Marketplace subscriptions* tab to view your subscription information.
+=== Managing Cloud Volumes ONTAP licenses
+You now manage Cloud Volumes ONTAP licenses through the home page or the *Direct licenses* tab. Use the *Marketplace subscriptions* tab to view your subscription information.

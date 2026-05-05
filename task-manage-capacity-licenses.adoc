@@ -5,7 +5,7 @@ keywords: license, licensing, capacity license, capacity based license, add lice
 summary: Manage your capacity-based licenses from the Console to ensure that your NetApp account has enough capacity for your Cloud Volumes ONTAP systems.
 ---
 
-= Manage capacity-based Cloud Volume ONTAP licenses
+= Manage capacity-based Cloud Volumes ONTAP licenses
 :hardbreaks:
 :nofooter:
 :icons: font

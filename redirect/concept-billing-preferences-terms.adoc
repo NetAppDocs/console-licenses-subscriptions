@@ -25,18 +25,20 @@ Billing sources can be:
 * *Keystone subscriptions* — Billing occurs through your Keystone agreement. You manage invoice recipients and cost center tags in NetApp Console.
 
 == Permissions
+
 You need the *Account Admin* or *Billing Admin* role to change billing preferences. Operators can view preferences but cannot modify them.
 
 == Set billing preferences
 
 Billing preferences let you:
-- enforce a single invoice contact list across services,
-- align usage to cost centers,
-- manage auto-renewal and expiry notifications,
-- ensure new Cloud Volumes ONTAP (CVO) systems inherit the correct billing account.
+
+* enforce a single invoice contact list across services,
+* align usage to cost centers,
+* manage auto-renewal and expiry notifications,
+* ensure new Cloud Volumes ONTAP (CVO) systems inherit the correct billing account.
 
 
-= Billing fields
+== Billing fields
 :page-role: reference
 
 == Marketplace fields
@@ -44,7 +46,7 @@ Billing preferences let you:
 * *Billing account / subscription ID* — The cloud billing account to charge.
 * *Contract term* — Term length and renewal behavior.
 
-= Billing options and definitions
+== Billing options and definitions
 :page-role: reference
 
 == Terms and options
@@ -62,9 +64,9 @@ Billing preferences let you:
 
 [options="header"]
 |===
-| Scenario | Recommended billing option |
-| Using purchased NetApp capacity | NetApp licenses first |
-| Using marketplace contracts only | Marketplace subscriptions only |
-| Billing multiple projects under one cloud provider | Enable Custom CVO configuration |
-| Reverting to default billing | Disable Custom CVO configuration |
+| Scenario | Recommended billing option 
+| Using purchased NetApp capacity | NetApp licenses first 
+| Using marketplace contracts only | Marketplace subscriptions only 
+| Billing multiple projects under one cloud provider | Enable Custom CVO configuration 
+| Reverting to default billing | Disable Custom CVO configuration 
 |===
