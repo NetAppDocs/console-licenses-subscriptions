@@ -27,28 +27,23 @@ Accept a Marketplace private offer for the NetApp Console in the AWS Marketplace
 Completing the subscription assignment in the Console is required to activate the purchase and apply discounted pricing.  
 
 [NOTE]
-====
-You must complete all steps to activate your private offer. Skipping steps may result in billing errors.  
-Accepting and activating the offer multiple times results in double charging.  
-====
+You must complete all steps to activate your private offer. Skipping steps may result in billing errors. Accepting and activating the offer multiple times results in double charging. 
 
 .Steps
-. Select the private offer activation link from your NetApp sales team.  
-   The link should look similar to the following:  
-   `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa` 
-
-   If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:  
-
-   * Using AWS managed policies: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions*, or *AWSMarketplaceFullAccess*  
-   * Using custom IAM policies: `aws-marketplace:ListPrivateListings` and `aws-marketplace:ViewSubscriptions`  
-
+. Select the private offer activation link from your NetApp sales team. 
++
+The link should look similar to the following: `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
++
+If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:  
++
+* Using AWS managed policies: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions*, or *AWSMarketplaceFullAccess*  
++
+* Using custom IAM policies: `aws-marketplace:ListPrivateListings` and `aws-marketplace:ViewSubscriptions`  
 . You are redirected to AWS Marketplace to view the private offer.  
 +
 [NOTE]
-====
 Private offers are created on top of public listings. Use the *Offer selection* dropdown to switch between public and private offers.  
-====
-
++
 . Review the private offer details and confirm they match your agreement. If they are incorrect, do not accept. Contact your NetApp account team.  
 +
 [NOTE]
