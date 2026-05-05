@@ -1,0 +1,2 @@
+*Required Console role*
+To perform this task, you need the Licenses and subscriptions admin role.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html[Learn about Licenses and subscriptions roles for NetApp Console^].
