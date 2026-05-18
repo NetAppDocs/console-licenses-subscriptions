@@ -21,6 +21,7 @@ NetApp Keystone is a flexible pay-as-you-grow subscription-based service that de
 
 https://www.netapp.com/services/keystone/[Learn more about Keystone^]
 
+include::_include/role-requirement.adoc[]
 
 == Authorize your account
 

@@ -18,9 +18,10 @@ Billing preferences determine whether usage charges come from NetApp licenses, c
 
 .Before you begin
 
-- You have access to the *Admin* role.
 - All relevant marketplace subscriptions are linked to your organization.
 - You reviewed the existing configuration for *licenses and subscriptions*.
+
+include::_include/role-requirement.adoc[]
 
 == Set billing preferences
 
@@ -37,10 +38,10 @@ You can select how the Console applies usage charges across billing sources. Thi
 +
 . Under *Marketplace subscriptions*, select the subscription for each cloud provider (AWS, Azure, and Google Cloud).
 . If you use multiple subscriptions under a single cloud provider, enable *Custom CVO configuration*.
-. (Optional) Update *Invoice contacts* and *Notification contacts*.
-. (Optional) Enter a *Cost center tag* to associate billing with internal accounting codes.
+. Optionally, update *Invoice contacts* and *Notification contacts*.
+. Optionally, nter a *Cost center tag* to associate billing with internal accounting codes.
 . Select *Save changes*.
-. When prompted, review the confirmation dialog and select *Confirm*.
+. When prompted, review the confirmation dialog then select *Confirm*.
 
 .Result
 
