@@ -155,24 +155,6 @@ NOTE: Use the Agent drop-down in the top navigation bar to switch agents if need
 
 . On the row containing the subscription whose credentials you want to view, select *View*. If multiple credentials are associated with a subscription, no credentials may display and you are directed to select a different agent.
 
-
-=== Unconfigure a subscription
-
-Before you can remove a subscription, you must unconfigure it. This clears all associated data and settings.
-
-.Steps
-
-. In the NetApp Console menu, select *Administration > Licenses and subscriptions*.
-
-. Select *Marketplace Subscriptions*.
-
-. In the row for the subscription you want to unconfigure, select the action menu then *Unconfigure*.
-
-. Follow the prompts to remove or reset any associated settings or data.
-
-. Wait for the status to update to *Unconfigured*.
-
-
 === Remove a subscription
 
 When you unsubscribe from a subscription in your cloud provider (AWS, Google Cloud, or Azure), the Console shows the subscription status as *Unsubscribed*. When you've unsubscribed from a subscription, you can also remove it from Licenses and subscriptions. 
