@@ -20,6 +20,7 @@ When you subscribe to NetApp data services (including Cloud Volumes ONTAP) from 
 
 NOTE: The *Marketplace subscriptions* page lists all licenses. For license details for a specific data service, use the data service tiles on the *Overview* dashboard. link:task-homepage.html#overview-page[Learn more about the Overview dashboard].
 
+include::_include/role-requirement.adoc[]
 
 == Add a new marketplace subscription
 

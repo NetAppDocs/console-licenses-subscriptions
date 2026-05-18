@@ -18,9 +18,10 @@ Billing preferences determine whether usage charges come from NetApp licenses, c
 
 .Before you begin
 
-- You have access to the *Admin* role.
 - All relevant marketplace subscriptions are linked to your organization.
 - You reviewed the existing configuration for *licenses and subscriptions*.
+
+include::_include/role-requirement.adoc[]
 
 == Set billing preferences
 
