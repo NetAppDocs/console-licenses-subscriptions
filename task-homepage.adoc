@@ -73,9 +73,7 @@ In the Overview dashboard, you can view license and subscription issues that nee
 
 . From the *Requires action* page, select either the *Licenses* tab or the *Subscriptions* tab.
 
-. Use the actions menu to resolve the issue. 
-
-+ 
-
-link:task-manage-data-services-licenses.html[Learn more about managing licenses].
-link:task-manage-subscriptions.html[Learn more about managing subscriptions].
+. Use the actions menu to resolve the issue.  
++
+* link:task-manage-data-services-licenses.html[Learn more about managing licenses].
+* link:task-manage-subscriptions.html[Learn more about managing subscriptions].

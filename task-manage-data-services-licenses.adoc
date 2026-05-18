@@ -25,6 +25,7 @@ The instructions on this page provide information that applies to each service. 
 * https://docs.netapp.com/us-en/data-services-cloud-tiering/task-licensing-cloud-tiering.html[Set up licensing for NetApp Cloud Tiering^]
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html[Set up licensing for Cloud Volumes ONTAP^]
 
+include::_include/role-requirement.adoc[]
 
 == Obtain a license file
 

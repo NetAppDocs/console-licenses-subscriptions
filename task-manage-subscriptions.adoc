@@ -20,6 +20,7 @@ When you subscribe to NetApp data services (including Cloud Volumes ONTAP) from 
 
 NOTE: The *Marketplace subscriptions* page lists all licenses. For license details for a specific data service, use the data service tiles on the *Overview* dashboard. link:task-homepage.html#overview-page[Learn more about the Overview dashboard].
 
+include::_include/role-requirement.adoc[]
 
 == Add a new marketplace subscription
 
@@ -154,24 +155,6 @@ NOTE: Use the Agent drop-down in the top navigation bar to switch agents if need
 . Select *Marketplace Subscriptions*.
 
 . On the row containing the subscription whose credentials you want to view, select *View*. If multiple credentials are associated with a subscription, no credentials may display and you are directed to select a different agent.
-
-
-=== Unconfigure a subscription
-
-Before you can remove a subscription, you must unconfigure it. This clears all associated data and settings.
-
-.Steps
-
-. In the NetApp Console menu, select *Administration > Licenses and subscriptions*.
-
-. Select *Marketplace Subscriptions*.
-
-. In the row for the subscription you want to unconfigure, select the action menu then *Unconfigure*.
-
-. Follow the prompts to remove or reset any associated settings or data.
-
-. Wait for the status to update to *Unconfigured*.
-
 
 === Remove a subscription
 
