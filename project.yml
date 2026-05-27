@@ -50,14 +50,14 @@ sidebar:
             url: /concept-billing-preferences.html
           - title: Manage billing preferences
             url: /task-manage-billing-preferences.html
-        - title: Knowledge and support
-          entries:
-          - title: Register for support
-            url: /task-support-registration.html
-          - title: Get help
-            url: /task-get-help.html
-        - title: Legal notices
-          url: /legal-notices.html
+    - title: Knowledge and support
+      entries:
+      - title: Register for support
+        url: /task-support-registration.html
+      - title: Get help
+        url: /task-get-help.html
+    - title: Legal notices
+      url: /legal-notices.html
 
 product-family:
   name: NetApp Console
