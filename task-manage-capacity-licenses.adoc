@@ -23,7 +23,7 @@ You can manage capacity-based Cloud Volumes ONTAP licenses from the NetApp Conso
 
 NOTE: While the actual usage and metering for the products and services managed in the Console are always calculated in GiB and TiB, the terms GB/GiB and TB/TiB are used interchangeably. This is reflected in the Cloud Marketplace listings, price quotes, listing descriptions, and in other supporting documentation
 
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[Learn more about Cloud Volumes ONTAP licenses].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[Learn more about Cloud Volumes ONTAP licenses^].
 
 == How licenses are added to NetApp Console
 
@@ -57,7 +57,7 @@ image:screenshot_cvo_licensing_card.png[width=300 a screenshot displaying the ca
 +
 . Select the *Licenses* tab to see details for each package license that you have purchased.
 +
-To better understand the capacities that display for the Essentials package, you should be familiar with how charging works. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging[Learn about charging for the Essentials package].
+To better understand the capacities that display for the Essentials package, you should be familiar with how charging works. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging[Learn about charging for the Essentials package^].
 +
 . Select the *Subscriptions* tab to see the consumed capacity by license consumption model. This tab includes both PAYGO and annual contract licenses. 
 + 
