@@ -15,7 +15,7 @@ summary: Manage your capacity-based licenses from the NetApp Console to ensure t
 [.lead]
 Manage your capacity-based licenses from the NetApp Console to ensure that your NetApp account has enough capacity for your Cloud Volumes ONTAP systems.
 
-//The contents of this page are reused in the bluexp-digital-wallet doc site. As a result, any links from this page to other pages must use absolute URLs so that the links resolve from the Console doc site.
+//The contents of this page are reused in the CVO doc site. As a result, any links from this page to other pages must use absolute URLs so that the links resolve from the Console doc site.
 
 _Capacity-based licenses_ enable you to pay for Cloud Volumes ONTAP per TiB of capacity.
 

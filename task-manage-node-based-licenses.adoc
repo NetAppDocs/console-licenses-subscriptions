@@ -16,7 +16,7 @@ summary: Manage your node-based licenses in the NetApp Console to ensure that ea
 [.lead]
 Manage node-based licenses in the NetApp Console to ensure that each Cloud Volumes ONTAP system has a valid license with the required capacity.
 
-//The contents of this page are reused in the bluexp-digital-wallet doc site. As a result, any links from this page to other pages must use absolute URLs so that the links resolve from the bluexp-NetApp Console doc site.
+//The contents of this page are reused in the CVO doc site. As a result, any links from this page to other pages must use absolute URLs so that the links resolve from the bluexp-NetApp Console doc site.
 
 _Node-based licenses_ are the previous generation licensing model (and not available for new customers):
 
