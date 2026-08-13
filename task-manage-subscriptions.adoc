@@ -38,6 +38,8 @@ You can subscribe to a marketplace subscription directly from the Console.
 
 .. If choosing an AWS subscription, choose whether you want an annual contract or PAYGO subscription.
 
+NOTE: For AWS, your account might have more than one NetApp marketplace subscription available. If you associate only the standalone Cloud Volumes ONTAP subscription, you can deploy Cloud Volumes ONTAP using Essentials, but configuring Backup and Recovery requires a different subscription. To choose which subscription is used for Cloud Volumes ONTAP capacity billing (including changing billing for existing systems), go to *Administration > Licenses and subscriptions > Billing preferences*.
+
 . Select *Add subscription* to navigate to the provider's marketplace and complete the provided steps.
 
 . When finished at the cloud provider marketplace, return to the Console to complete the process. 

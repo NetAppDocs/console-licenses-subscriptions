@@ -64,6 +64,25 @@ From there, you can:
 - Enable advanced mapping of Cloud Volumes ONTAP instances to marketplace subscriptions
 - Edit or update marketplace subscription details
 
+== Flexible billing for Cloud Volumes ONTAP and data services in AWS
+
+In AWS, Cloud Volumes ONTAP capacity and NetApp data services can be billed through different AWS Marketplace subscriptions. Due to AWS Enterprise Discount Program (EDP) changes, NetApp recommends using the standalone Cloud Volumes ONTAP subscription for Cloud Volumes ONTAP capacity billing and the NetApp Intelligent Services (NIS) subscription for NetApp data services billing. 
+
+If both a standalone Cloud Volumes ONTAP subscription and the NetApp Intelligent Services (NIS) subscription are available for your AWS account, you can use Billing preferences to select which subscription is used for Cloud Volumes ONTAP capacity billing.
+
+NOTE: Billing behavior depends on whether you have existing Cloud Volumes ONTAP systems already running and billed through NIS, or you are deploying new systems after adding the standalone Cloud Volumes ONTAP subscription. For existing systems, adding the standalone subscription does not change billing unless you update *Billing preferences*. For new deployments created after the standalone subscription is available, the standalone subscription is used by default for Cloud Volumes ONTAP capacity billing (Essentials/Freemium), unless you override it in *Billing preferences*.
+
+- Standalone Cloud Volumes ONTAP subscription (recommended): Cloud Volumes ONTAP capacity (Essentials/Freemium)
+- NetApp Intelligent Services (NIS) subscription: NetApp data services (and Cloud Volumes ONTAP Professional)
+
+The standalone Cloud Volumes ONTAP subscription supports only capacity-based Essentials and Freemium packages. The Professional package is not supported and continues to bill through NIS. If you have only the standalone subscription associated, you can deploy Cloud Volumes ONTAP using Essentials, but configuring Backup and Recovery requires a different subscription.
+
+*Where to configure it*
+
+You associate AWS marketplace subscriptions under *Administration > Licenses and subscriptions > Marketplace subscriptions*, and you choose the Marketplace subscription used for Cloud Volumes ONTAP capacity billing under *Administration > Licenses and subscriptions > Billing preferences*. You can verify charging details using Cloud Volumes ONTAP usage reports.
+
+NOTE: No duplicate metering occurs when you use multiple subscription types or migrate between listings.
+
 == Fields
 
 Billing fields store metadata about how each license or subscription is billed.  
