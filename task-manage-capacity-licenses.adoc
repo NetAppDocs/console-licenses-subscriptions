@@ -101,6 +101,8 @@ The Console always attempts to charge against a license first. If a license isn'
 
 * If you have a private offer or contract from your cloud provider's marketplace, changing to a charging method that's not included in your contract will result in charging against BYOL (if you purchased a license from NetApp) or PAYGO.
 
+* If you plan to bill Cloud Volumes ONTAP capacity through the standalone Cloud Volumes ONTAP subscription in AWS marketplace, the Cloud Volumes ONTAP system must use a supported capacity-based package (Essentials or Freemium). The Professional package is not supported for the standalone listing and continues to bill through the NIS subscription. After selecting the package you want, use *Billing preferences* in NetApp Console to choose the marketplace subscription used for Cloud Volumes ONTAP billing. 
+
 .Steps
 
 . From the left navigation pane, select *Administration > 	Licenses and subscriptions*.

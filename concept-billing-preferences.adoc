@@ -68,7 +68,7 @@ From there, you can:
 
 In AWS, Cloud Volumes ONTAP capacity and NetApp data services can be billed through different AWS marketplace subscriptions. For details on AWS Enterprise Discount Program (EDP) changes and recommendations, see the link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws[Cloud Volumes ONTAP release notes]. 
 
-If both a standalone Cloud Volumes ONTAP subscription and the NetApp Intelligent Services (NIS) subscription are available for your AWS account, you can use Billing preferences to select which subscription is used for Cloud Volumes ONTAP capacity billing.
+If both a standalone Cloud Volumes ONTAP subscription and the NetApp Intelligent Services (NIS) subscription are available for your AWS account, you can use *Billing preferences* to select which subscription is used for Cloud Volumes ONTAP capacity billing.
 
 NOTE: Billing behavior depends on whether you have existing Cloud Volumes ONTAP systems already running and billed through NIS, or you are deploying new systems after adding the standalone Cloud Volumes ONTAP subscription. For existing systems, adding the standalone subscription does not change billing unless you update *Billing preferences*. For new deployments created after the standalone subscription is available, the standalone subscription is used by default for Cloud Volumes ONTAP capacity billing (Essentials/Freemium), unless you override it in *Billing preferences*.
 
