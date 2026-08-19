@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task-manage-capacity-licenses.html
-keywords: license, licenses, licensing, capacity license, capacity based license, add license, install license, digital wallet
+keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet
 summary: Manage your capacity-based licenses from the NetApp Console to ensure that your NetApp account has enough capacity for your Cloud Volumes ONTAP systems.
 ---
 
