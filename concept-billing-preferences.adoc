@@ -64,6 +64,25 @@ From there, you can:
 - Enable advanced mapping of Cloud Volumes ONTAP instances to marketplace subscriptions
 - Edit or update marketplace subscription details
 
+== Flexible billing for Cloud Volumes ONTAP and data services in AWS
+
+In AWS, Cloud Volumes ONTAP capacity and NetApp data services can be billed through different AWS marketplace subscriptions. For details on AWS Enterprise Discount Program (EDP) changes and recommendations, see the link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws[Cloud Volumes ONTAP release notes]. 
+
+If both a standalone Cloud Volumes ONTAP subscription and the NetApp Intelligent Services (NIS) subscription are available for your AWS account, you can use *Billing preferences* to select which subscription is used for Cloud Volumes ONTAP capacity billing.
+
+NOTE: Billing behavior depends on whether you have existing Cloud Volumes ONTAP systems already running and billed through NIS, or you are deploying new systems after adding the standalone Cloud Volumes ONTAP subscription. For existing systems, adding the standalone subscription does not change billing unless you update *Billing preferences*. For new deployments created after the standalone subscription is available, the standalone subscription is used by default for Cloud Volumes ONTAP capacity billing (Essentials/Freemium), unless you override it in *Billing preferences*.
+
+- Standalone Cloud Volumes ONTAP subscription (recommended): Cloud Volumes ONTAP capacity (Essentials/Freemium)
+- NetApp Intelligent Services (NIS) subscription: NetApp data services (and Cloud Volumes ONTAP Professional)
+
+The standalone Cloud Volumes ONTAP subscription supports only capacity-based Essentials and Freemium packages. The Professional package is not supported and continues to bill through NIS. If you have only the standalone subscription associated, you can deploy Cloud Volumes ONTAP using Essentials, but configuring Backup and Recovery requires a different subscription.
+
+=== Where to configure it
+
+You associate AWS marketplace subscriptions under *Administration > Licenses and subscriptions > Marketplace subscriptions*, and you choose the marketplace subscription used for Cloud Volumes ONTAP capacity billing under *Administration > Licenses and subscriptions > Billing preferences*. You can verify charging details using Cloud Volumes ONTAP usage reports.
+
+NOTE: No duplicate metering occurs when you use multiple subscription types or migrate between listings.
+
 == Fields
 
 Billing fields store metadata about how each license or subscription is billed.  
@@ -77,7 +96,7 @@ They also control how renewals, regional assignments, and billing accounts are m
 
 - *Marketplace provider* — Identifies the cloud platform where billing is handled.  
   The provider determines the supported features, contract types, and renewal rules.  
-  For example, AWS Marketplace subscriptions use account-based billing, while Azure may support both account and tenant-based models.
+  For example, AWS marketplace subscriptions use account-based billing, while Azure may support both account and tenant-based models.
 
 - *Billing account or subscription ID* — Specifies the unique identifier for the account used to process charges.  
   This ensures that usage data is billed to the correct cloud billing profile.  
