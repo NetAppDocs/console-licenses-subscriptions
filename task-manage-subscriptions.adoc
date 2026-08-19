@@ -26,6 +26,8 @@ include::_include/role-requirement.adoc[]
 
 You can subscribe to a marketplace subscription directly from the Console.
 
+NOTE: For AWS, your account might have more than one NetApp marketplace subscription available. If you associate only the standalone Cloud Volumes ONTAP subscription, you can deploy Cloud Volumes ONTAP using Essentials, but configuring Backup and Recovery requires a different subscription. To choose which subscription is used for Cloud Volumes ONTAP capacity billing (including changing billing for existing systems), go to *Administration > Licenses and subscriptions > Billing preferences*.
+
 .Steps
 
 . From the NetApp Console menu, select *Administration > Licenses and subscriptions*.

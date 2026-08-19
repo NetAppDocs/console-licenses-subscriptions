@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task-manage-capacity-licenses.html
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet
+keywords: license, licenses, licensing, capacity license, capacity based license, add license, install license, digital wallet
 summary: Manage your capacity-based licenses from the NetApp Console to ensure that your NetApp account has enough capacity for your Cloud Volumes ONTAP systems.
 ---
 
@@ -100,6 +100,8 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[
 The Console always attempts to charge against a license first. If a license isn't available, it charges against a marketplace subscription. You don't have to convert a BYOL subscription to marketplace subscription or vice versa.
 
 * If you have a private offer or contract from your cloud provider's marketplace, changing to a charging method that's not included in your contract will result in charging against BYOL (if you purchased a license from NetApp) or PAYGO.
+
+* If you plan to bill Cloud Volumes ONTAP capacity through the standalone Cloud Volumes ONTAP subscription in AWS marketplace, the Cloud Volumes ONTAP system must use a supported capacity-based package (Essentials or Freemium). The Professional package is not supported for the standalone listing and continues to bill through the NIS subscription. After selecting the package you want, use *Billing preferences* in NetApp Console to choose the marketplace subscription used for Cloud Volumes ONTAP billing. 
 
 .Steps
 
