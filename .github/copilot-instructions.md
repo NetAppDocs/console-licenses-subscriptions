@@ -6,7 +6,6 @@ Product: NetApp Console licenses and subscriptions
 This repository documents the *Licenses and subscriptions* area of *NetApp Console*. It covers how users manage and monitor *direct licenses*, cloud *Marketplace subscriptions*, *private offers*, *Keystone subscriptions*, and *billing preferences* for services including *Cloud Volumes ONTAP*, *Backup and Recovery*, *Cloud Tiering*, *Disaster Recovery*, and *Ransomware Resilience*.
 
 ### Repository structure
-- `./` – Root-level concept and task pages for the main doc set, including overview, direct licenses, subscriptions, *Cloud Volumes ONTAP* licensing models, *Keystone*, billing preferences, private offers, support, and legal notices.
 - `_include/` – Reusable partials for shared role requirements and license-management steps such as obtaining, adding, updating, and viewing licenses.
 - `_whatsnew/` – Dated release-note entries for the *What's new* page.
 - `media/` – Images referenced by the AsciiDoc topics.
