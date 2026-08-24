@@ -33,14 +33,14 @@ This repository documents the *Licenses and subscriptions* area of *NetApp Conso
 - *NSS* = *NetApp Support Site*.
 - *CVO* refers to *Cloud Volumes ONTAP*; *Custom CVO configuration* means mapping multiple marketplace subscriptions under one cloud provider.
 - *SVM* = *storage virtual machine* in the *Cloud Volumes ONTAP* usage reports.
-- The main UI terms in this repository are *Overview*, *Direct licenses*, *Marketplace Subscriptions*, *Keystone Subscriptions*, *Billing preferences*, *Requires action*, and *Usage report*.
+- The main UI terms in this repository are *Overview*, *Direct licenses*, *Marketplace subscriptions*, *Keystone subscriptions*, *Billing preferences*, *Requires action*, and *Usage report*.
 - A *private offer* is a marketplace offer accepted in *AWS*, *Azure*, or *Google Cloud* and then completed in the Console by associating the resulting subscription.
 
 ### Typical user workflows
 **License onboarding:** Associate an *NSS* account with the Console → allow automatic discovery or obtain a license file/serial number → add or update the *direct license* → review license status in *Overview* or *Direct licenses*
 
-**Marketplace subscription setup:** Subscribe in *AWS*, *Azure*, or *Google Cloud* Marketplace → return or register in the Console → associate the subscription with a Console organization or account → configure billing or credentials as needed → manage it from *Marketplace Subscriptions* or *Overview*
+**Marketplace subscription setup:** Subscribe in *AWS*, *Azure*, or *Google Cloud* Marketplace → return or register in the Console → associate the subscription with a Console organization or account → configure billing or credentials as needed → manage it from *Marketplace subscriptions* or *Overview*
 
 **Billing configuration:** Open *Billing preferences* → choose *NetApp licenses first* or *Marketplace subscriptions only* → select per-cloud marketplace subscriptions or enable *Custom CVO configuration* → save and confirm the changes → new *Cloud Volumes ONTAP* instances inherit the billing setup
 
-**Keystone enablement for Cloud Volumes ONTAP:** Contact NetApp to authorize the account → open *Keystone Subscriptions* → link the subscription → use it when creating a *Cloud Volumes ONTAP* working environment → request committed-capacity changes or monitor usage
+**Keystone enablement for Cloud Volumes ONTAP:** Contact NetApp to authorize the account → open *Keystone subscriptions* → link the subscription → use it when creating a *Cloud Volumes ONTAP* working environment → request committed-capacity changes or monitor usage
