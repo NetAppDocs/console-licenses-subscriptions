@@ -41,10 +41,10 @@ The Licenses and subscriptions menu enables you to view details about each of yo
 . Select the *Licenses* tab.
 
 . View details in the table about each of your PAYGO licenses.
-//+
-//image:screenshot_paygo_licenses.png["A screenshot that shows a table in the Licenses and subscriptions page with three paygo licenses. Each row shows the name, type of system, serial number, package, and a link to manage the license."]
++
+image:screenshot_paygo_licenses.png["A screenshot that shows a table in the Licenses and subscriptions page with three paygo licenses. Each row shows the name, type of system, serial number, package, and a link to manage the license."]
 
-//. If needed, click *Manage PAYGO License* to change the PAYGO license or to change the instance type.
+. If needed, click *Manage PAYGO License* to change the PAYGO license or to change the instance type.
 
 == Manage BYOL licenses
 
