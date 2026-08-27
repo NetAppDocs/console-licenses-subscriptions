@@ -38,15 +38,11 @@ The Licenses and subscriptions menu enables you to view details about each of yo
 
 . On the Cloud Volumes ONTAP tile, select *View*.
 
-. Select *Node Based Licenses* from the drop-down. [REVIEWER: confirm this label with Shubham]
-
-. Click *PAYGO*.
-
 . View details in the table about each of your PAYGO licenses.
-+
-image:screenshot_paygo_licenses.png["A screenshot that shows a table in the Licenses and subscriptions page with three paygo licenses. Each row shows the name, type of system, serial number, package, and a link to manage the license."]
+//+
+//image:screenshot_paygo_licenses.png["A screenshot that shows a table in the Licenses and subscriptions page with three paygo licenses. Each row shows the name, type of system, serial number, package, and a link to manage the license."]
 
-. If needed, click *Manage PAYGO License* to change the PAYGO license or to change the instance type.
+//. If needed, click *Manage PAYGO License* to change the PAYGO license or to change the instance type.
 
 == Manage BYOL licenses
 
@@ -69,7 +65,7 @@ Add a BYOL license to the Console so that you can select the license when you cr
 
 . On the Cloud Volumes ONTAP tile, select *View*.
 
-. Select *Node Based Licenses* from the drop-down. [REVIEWER: confirm this label with Shubham]
+. Select the *Licenses* tab.
 
 . Click *Unassigned*.
 
@@ -108,7 +104,7 @@ link:https://mydemo.netapp.com/player/?demoId=c96ef113-c338-4e44-9bda-81a8d252de
 
 . On the Cloud Volumes ONTAP tile, select *View*.
 
-. Select *Node Based Licenses* from the drop-down. [REVIEWER: confirm this label with Shubham]
+. Select the *Licenses* tab.
 
 . Click *Unassigned*.
 
@@ -154,7 +150,7 @@ When you renew a BYOL subscription by contacting a NetApp representative, the Co
 
 . On the Cloud Volumes ONTAP tile, select *View*.
 
-. Select *Node Based Licenses* from the drop-down. [REVIEWER: confirm this label with Shubham]
+. Select the *Licenses* tab.
 
 . In the *BYOL* tab, expand the details for a Cloud Volumes ONTAP system.
 
@@ -188,7 +184,7 @@ Purchase an extra capacity license by contacting us through the chat icon in the
 
 . On the Cloud Volumes ONTAP tile, select *View*.
 
-. Select *Node Based Licenses* from the drop-down. [REVIEWER: confirm this label with Shubham]
+. Select the *Licenses* tab.
 
 . In the *BYOL* tab, expand the details for a Cloud Volumes ONTAP system.
 
@@ -210,7 +206,7 @@ If you extended the term of an extra capacity license, you'll need to update the
 
 . On the Cloud Volumes ONTAP tile, select *View*.
 
-. Select *Node Based Licenses* from the drop-down. [REVIEWER: confirm this label with Shubham]
+. Select the *Licenses* tab.
 
 . In the *BYOL* tab, expand the details for a Cloud Volumes ONTAP system.
 
@@ -232,7 +228,7 @@ If an extra capacity license expired and is no longer in use, then you can remov
 
 . On the Cloud Volumes ONTAP tile, select *View*.
 
-. Select *Node Based Licenses* from the drop-down. [REVIEWER: confirm this label with Shubham]
+. Select the *Licenses* tab.
 
 . In the *BYOL* tab, expand the details for a Cloud Volumes ONTAP system.
 
