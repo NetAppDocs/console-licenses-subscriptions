@@ -10,7 +10,7 @@ summary: View contract details for each of your on-premises ONTAP clusters.
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 In the NetApp Console, you can discover an ONTAP cluster and view contract details for each on-premises ONTAP cluster you've discovered. 

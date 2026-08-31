@@ -10,7 +10,7 @@ summary: "Licenses and subscriptions enables you to manage and monitor NetApp Co
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 Billing preferences control how NetApp Console handles payments, invoices, and renewal behavior for your licenses and subscriptions. You set preferences at one of two levels:
