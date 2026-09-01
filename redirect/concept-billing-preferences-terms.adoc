@@ -1,8 +1,6 @@
 ---
-sidebar: sidebar
 permalink: concept-billing-preferences-terms.html
-keywords: license, licensing, licenses, subscriptions,
-summary: "Licenses and subscriptions enables you to manage and monitor NetApp Console licenses, NetApp marketplace subscriptions, and NetApp Keystone."
+redirect: concept-billing-preferences.html
 ---
 
 = Terms and definitions
