@@ -26,7 +26,7 @@ include::_include/role-requirement.adoc[]
 
 You can subscribe to a marketplace subscription directly from the Console.
 
-NOTE: For AWS, your account might have more than one NetApp marketplace subscription available. If you associate only the standalone Cloud Volumes ONTAP subscription, you can deploy Cloud Volumes ONTAP using Essentials, but configuring Backup and Recovery requires a different subscription. To choose which subscription is used for Cloud Volumes ONTAP capacity billing (including changing billing for existing systems), go to *Administration > Licenses and subscriptions > Billing preferences*.
+NOTE: For AWS, your account might have more than one NetApp marketplace subscription available, across four offering types: Cloud Volumes ONTAP only (annual contract), Cloud Volumes ONTAP only (PAYGO), NetApp Intelligence Services (annual contract), and NetApp Intelligence Services (PAYGO). If you associate only the standalone Cloud Volumes ONTAP subscription, you can deploy Cloud Volumes ONTAP using Essentials, but configuring Backup and Recovery requires a different subscription. To choose which subscription is used for Cloud Volumes ONTAP capacity billing (including changing billing for existing systems), go to *Administration > Licenses and subscriptions > Billing preferences*.
 
 .Steps
 
@@ -36,9 +36,14 @@ NOTE: For AWS, your account might have more than one NetApp marketplace subscrip
 
 . Above the *Subscriptions* table, select *Add Subscription*.
 
-. In the Add Subscription dialog, select a cloud provider.
+. In the *Add Subscription* dialog, select a cloud provider.
 
-.. If choosing an AWS subscription, choose whether you want an annual contract or PAYGO subscription.
+.. If choosing an AWS subscription, choose the offering you want:
++
+- Cloud Volumes ONTAP only (annual contract)
+- Cloud Volumes ONTAP only (PAYGO)
+- NetApp Intelligence Services (annual contract)
+- NetApp Intelligence Services (PAYGO)
 
 . Select *Add subscription* to navigate to the provider's marketplace and complete the provided steps.
 
