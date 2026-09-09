@@ -18,17 +18,17 @@ Manage your BYOL (bring your own license) licenses in the NetApp Console to ensu
 
 //The contents of this page are reused in the CVO doc site. As a result, any links from this page to other pages must use absolute URLs so that the links resolve from the bluexp-NetApp Console doc site.
 
-NetApp recommends capacity-based licensing for all new deployments. If you have an existing license using the previous-generation model, you can convert it to capacity-based licensing. For instructions, see Convert to capacity-based licensing below.
+NetApp recommends capacity-based licensing for all new deployments. If you have an existing license using the previous-generation model, you must convert it to capacity-based licensing. For instructions, see Convert to capacity-based licensing below.
 
-NOTE: PAYGO (pay-as-you-go) subscriptions from your cloud provider's marketplace aren't available for private-mode deployments. In private mode, NetApp provides BYOL licenses directly. Node-based licenses are available only for existing private-mode deployments and can't be newly deployed; if you have an existing node-based license, you can convert it to capacity-based licensing.
+NOTE: PAYGO (pay-as-you-go) subscriptions from your cloud provider's marketplace aren't available for private-mode deployments. In private mode, NetApp provides BYOL licenses directly. Node-based licenses are available only for existing private-mode deployments and can't be newly deployed. NetApp has restricted the purchase, extension, and renewal of node-based licenses in private mode since June 25, 2025. If you have an existing node-based license, you must convert it to capacity-based licensing.
 
 You can manage your BYOL Cloud Volumes ONTAP licenses from the NetApp Console.
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[Learn more about Cloud Volumes ONTAP licenses^].
 
-== Manage PAYGO licenses
+== Manage PAYGO subscriptions
 
-The Licenses and subscriptions menu enables you to view details about each of your PAYGO Cloud Volumes ONTAP systems, including the serial number and PAYGO license type.
+The Licenses and subscriptions menu enables you to view details about each of your PAYGO Cloud Volumes ONTAP systems, including the serial number and PAYGO subscription type.
 
 .Steps
 
@@ -38,7 +38,7 @@ The Licenses and subscriptions menu enables you to view details about each of yo
 
 . On the Cloud Volumes ONTAP tile, select *View*.
 
-. In the *Subscriptions* tab, view details in the table about each of your PAYGO licenses.
+. In the *Subscriptions* tab, view details in the table about each of your PAYGO subscriptions.
 
 //+
 //image:screenshot_paygo_licenses.png["A screenshot that shows a table in the Licenses and subscriptions page with three paygo licenses. Each row shows the name, type of system, serial number, package, and a link to manage the license."]
@@ -163,7 +163,7 @@ When you renew a BYOL subscription by contacting a NetApp representative, the Co
 
 The Console updates the license on the Cloud Volumes ONTAP system.
 
-=== Manage extra capacity licenses
+=== Manage extra capacity licenses (node-based licenses only)
 
 This procedure applies to node-based licenses only. Capacity-based licenses draw from a shared capacity pool and don't require separate extra capacity licenses.
 
