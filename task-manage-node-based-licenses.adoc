@@ -53,13 +53,13 @@ Manage licenses that you purchased directly from NetApp by adding and removing s
 [NOTE]
 NetApp has restricted the purchase, extension, and renewal of BYOL licensing. For more information, refer to https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#restricted-availability-of-byol-licensing-for-cloud-volumes-ontap[Restricted availability of BYOL licensing for Cloud Volumes ONTAP^].
 
-BYOL licensing for Cloud Volumes ONTAP now includes both node-based licenses and capacity-based (by-cap) licenses purchased directly from NetApp. PAYGO subscriptions from your cloud provider's marketplace are available only for capacity-based licensing.
+BYOL licensing for Cloud Volumes ONTAP now includes both node-based licenses and capacity-based licenses purchased directly from NetApp. PAYGO subscriptions from your cloud provider's marketplace are available only for capacity-based licensing.
 
 For *capacity-based BYOL licenses*, the license is associated with your Console account rather than a single Cloud Volumes ONTAP system. Each system receives its own serial number, but multiple systems under the same account draw from the same shared capacity pool and can share the underlying license.
 
-For *node-based BYOL licenses*, this pooling doesn't apply - each Cloud Volumes ONTAP system requires its own dedicated system license, and licenses aren't shared across systems.
+For *node-based BYOL licenses*, this pooling doesn't apply. Each Cloud Volumes ONTAP system requires its own dedicated system license, and licenses aren't shared across systems.
 
-After the end of availability (EOA) of node-based licenses, NetApp recommends transitioning to capacity-based licensing using the license conversion tool. For instructions, see https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-convert-node-capacity.html[Convert a Cloud Volumes ONTAP node-based license to a capacity-based license^].
+After the end of availability of node-based licenses, NetApp recommends transitioning to capacity-based licensing using the license conversion tool. For instructions, see https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-convert-node-capacity.html[Convert a Cloud Volumes ONTAP node-based license to a capacity-based license^].
 
 === Add unassigned licenses
 
