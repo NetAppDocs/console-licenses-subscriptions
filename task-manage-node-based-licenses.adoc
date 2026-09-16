@@ -31,11 +31,11 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[
 
 == Manage PAYGO subscriptions
 
-The Licenses and subscriptions menu enables you to view details about each of your PAYGO Cloud Volumes ONTAP systems, including the serial number and PAYGO subscription type.
+The Licenses and subscriptions menu enables you to view details about each of your PAYGO Cloud Volumes ONTAP systems, including the serial number and PAYGO subscription type. PAYGO subscriptions from your cloud provider's marketplace are available only for capacity-based licensing.
 
 .Steps
 
-. From the left navigation pane, select *Administration > 	Licenses and subscriptions*.
+. From the left navigation pane, select *Administration > Licenses and subscriptions*.
 
 . Select the *Overview* tab.
 
@@ -53,13 +53,11 @@ Manage licenses that you purchased directly from NetApp by adding and removing s
 [NOTE]
 NetApp has restricted the purchase, extension, and renewal of BYOL licensing. For more information, refer to https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#restricted-availability-of-byol-licensing-for-cloud-volumes-ontap[Restricted availability of BYOL licensing for Cloud Volumes ONTAP^].
 
-BYOL licensing for Cloud Volumes ONTAP now includes both node-based licenses and capacity-based licenses purchased directly from NetApp. PAYGO subscriptions from your cloud provider's marketplace are available only for capacity-based licensing.
+BYOL licensing for Cloud Volumes ONTAP now includes both node-based licenses and capacity-based licenses purchased directly from NetApp.
 
 For *capacity-based BYOL licenses*, the license is associated with your Console account rather than a single Cloud Volumes ONTAP system. Each system receives its own serial number, but multiple systems under the same account draw from the same shared capacity pool and can share the underlying license.
 
-For *node-based BYOL licenses*, this pooling doesn't apply. Each Cloud Volumes ONTAP system requires its own dedicated system license, and licenses aren't shared across systems.
-
-After the end of availability of node-based licenses, NetApp recommends transitioning to capacity-based licensing using the license conversion tool. For instructions, see https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-convert-node-capacity.html[Convert a Cloud Volumes ONTAP node-based license to a capacity-based license^].
+For *node-based BYOL licenses*, this pooling doesn't apply. Each Cloud Volumes ONTAP system requires its own dedicated system license, and licenses aren't shared across systems. However, if you delete a system, you can transfer it to a new system. For more information, see https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-license-management.html[Learn about Cloud Volumes ONTAP node-based BYOL^].
 
 === Add unassigned licenses
 
@@ -67,7 +65,7 @@ Add a BYOL license to the Console so that you can select the license when you cr
 
 .Steps
 
-. From the left navigation pane, select *Administration > 	Licenses and subscriptions*.
+. From the left navigation pane, select *Administration > Licenses and subscriptions*.
 
 . Select the *Overview* tab.
 
@@ -106,7 +104,7 @@ link:https://mydemo.netapp.com/player/?demoId=c96ef113-c338-4e44-9bda-81a8d252de
 
 .Steps
 
-. From the left navigation pane, select *Administration > 	Licenses and subscriptions*.
+. From the left navigation pane, select *Administration > Licenses and subscriptions*.
 
 . Select the *Overview* tab.
 
@@ -152,7 +150,7 @@ When you renew a BYOL subscription by contacting a NetApp representative, the Co
 
 .Steps
 
-. From the left navigation pane, select *Administration > 	Licenses and subscriptions*.
+. From the left navigation pane, select *Administration > Licenses and subscriptions*.
 
 . Select the *Overview* tab.
 
@@ -182,11 +180,11 @@ The number of licenses that you can purchase for a single-node system or HA pair
 
 ==== Add capacity licenses
 
-Purchase an extra capacity license by contacting us through the chat icon in the lower-right of the Console. After you purchase the license, you can apply it to a Cloud Volumes ONTAP system.
+Contact your NetApp representative to purchase an extra capacity license. After you purchase the license, you can apply it to a Cloud Volumes ONTAP system.
 
 .Steps
 
-. From the left navigation pane, select *Administration > 	Licenses and subscriptions*.
+. From the left navigation pane, select *Administration > Licenses and subscriptions*.
 
 . Select the *Overview* tab.
 
@@ -208,7 +206,7 @@ If you extended the term of an extra capacity license, you'll need to update the
 
 .Steps
 
-. From the left navigation pane, select *Administration > 	Licenses and subscriptions*.
+. From the left navigation pane, select *Administration > Licenses and subscriptions*.
 
 . Select the *Overview* tab.
 
@@ -230,7 +228,7 @@ If an extra capacity license expired and is no longer in use, then you can remov
 
 .Steps
 
-. From the left navigation pane, select *Administration > 	Licenses and subscriptions*.
+. From the left navigation pane, select *Administration > Licenses and subscriptions*.
 
 . Select the *Overview* tab.
 
