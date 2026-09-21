@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-manage-node-based-licenses.html
 keywords: license, licensing, install, updating license, system license, add system license, adding a system license,  update byol license, nlf, license generator, extra, by-node, NetApp Console, cloud backup, cloud data sense, cloud tiering
-summary: Manage your BYOL licenses in the NetApp Console to ensure that each Cloud Volumes ONTAP system has a valid license with the required capacity.
+summary: Manage your BYOL licenses in the NetApp Console to ensure that your Cloud Volumes ONTAP systems have valid licenses with the required capacity.
 ---
 
 = Manage BYOL licenses for Cloud Volumes ONTAP
@@ -14,11 +14,11 @@ summary: Manage your BYOL licenses in the NetApp Console to ensure that each Clo
 :target: _blank
 
 [.lead]
-Manage your BYOL (bring your own license) licenses in the NetApp Console to ensure that each Cloud Volumes ONTAP system has a valid license with the required capacity.
-
 //The contents of this page are reused in the CVO doc site. As a result, any links from this page to other pages must use absolute URLs so that the links resolve from the bluexp-NetApp Console doc site.
 
-NetApp recommends capacity-based licensing for all new deployments. If you have an existing license using the previous-generation model, you must convert it to capacity-based licensing. For instructions, see https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-convert-node-capacity.html[Convert a Cloud Volumes ONTAP node-based license to a capacity-based license^].
+Bring-Your-Own License (BYOL) is a charging model in Cloud Volumes ONTAP, in which you pay for capacity consumption through a license that you purchase directly from NetApp instead of through marketplace subscriptions. Manage your BYOL licenses in the NetApp Console to ensure that your Cloud Volumes ONTAP systems have valid licenses with the required capacity. For more information, refer to https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html[Licensing for Cloud Volumes ONTAP^].
+
+NetApp recommends capacity-based licensing for all new deployments. If you have an existing license using the previous-generation node-based model, you must convert it to capacity-based licensing. For instructions, see https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-convert-node-capacity.html[Convert a Cloud Volumes ONTAP node-based license to a capacity-based license^].
 
 NOTE: PAYGO (pay-as-you-go) subscriptions from your cloud provider's marketplace aren't available for private-mode deployments. In private mode, NetApp provides BYOL licenses directly. Node-based licenses are available only for existing private-mode deployments and can't be newly deployed. NetApp has restricted the purchase, extension, and renewal of node-based licenses in private mode since June 25, 2025. If you have an existing node-based license, you must convert it to capacity-based licensing.
 
