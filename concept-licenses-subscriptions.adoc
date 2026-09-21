@@ -19,7 +19,7 @@ You can manage and monitor licenses purchased from NetApp (BYOL), marketplace su
 
 License and subscription information automatically displays in the Console when your Console account is also associated with a NetApp Support Site (NSS) account. If your Console account is not associated with an NSS account, you'll need to manually add licenses. When licenses are added manually, usage, capacity, and other details won't automatically update.
 
-NOTE: You need a Console agent deployed to view subscription information. An agent is also required to view node licenses for Cloud Volumes ONTAP.
+NOTE: You need a Console agent deployed to view subscription information. An agent is also required to view BYOL licenses for Cloud Volumes ONTAP.
 
 === Automatic license discovery
 
