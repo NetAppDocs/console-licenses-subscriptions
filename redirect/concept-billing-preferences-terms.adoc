@@ -1,8 +1,6 @@
 ---
-sidebar: sidebar
 permalink: concept-billing-preferences-terms.html
-keywords: license, licensing, licenses, subscriptions,
-summary: "Licenses and subscriptions enables you to manage and monitor NetApp Console licenses, NetApp marketplace subscriptions, and NetApp Keystone."
+redirect: concept-billing-preferences.html
 ---
 
 = Terms and definitions
@@ -10,7 +8,7 @@ summary: "Licenses and subscriptions enables you to manage and monitor NetApp Co
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 [.lead]
 Billing preferences control how NetApp Console handles payments, invoices, and renewal behavior for your licenses and subscriptions. You set preferences at one of two levels:
