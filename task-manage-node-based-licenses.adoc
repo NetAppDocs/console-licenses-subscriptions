@@ -25,10 +25,6 @@ NOTE: PAYGO (pay-as-you-go) subscriptions from your cloud provider's marketplace
 // Mike: Update the review.docs.netapp.com URL to the public URL before shipping.
 For new private-mode deployments, use capacity-based licensing instead. See https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_capacity-license-darkmode/task-deploying-otc-aws.html#deploy-cloud-volumes-ontap-in-private-mode[Deploy Cloud Volumes ONTAP in private mode^].
 
-You can manage your BYOL Cloud Volumes ONTAP licenses from the NetApp Console.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[Learn more about Cloud Volumes ONTAP licenses^].
-
 == Manage PAYGO subscriptions
 
 The Licenses and subscriptions menu enables you to view details about each of your PAYGO Cloud Volumes ONTAP systems, including the serial number and PAYGO subscription type. PAYGO subscriptions from your cloud provider's marketplace are available only for capacity-based licensing.
