@@ -13,13 +13,24 @@ summary: "Frequently asked questions about licenses and subscriptions in NetApp 
 :imagesdir: ./media/
 
 [.lead]
-This FAQ answers common questions about licenses and subscriptions in NetApp Console. It focuses on concepts, decisions, and constraints that are useful when managing direct licenses, marketplace subscriptions, private offers, Keystone subscriptions, and billing preferences.
+This FAQ answers common questions about licenses and subscriptions in NetApp Console. It focuses on concepts, decisions, and constraints that are useful when managing direct licenses, Marketplace subscriptions, private offers, Keystone subscriptions, and billing preferences.
 
 == Overview and access
 
-.What is the difference between a direct license, a marketplace subscription, and a Keystone subscription in NetApp Console?
+.What is the difference between a direct license, a Marketplace subscription, and a Keystone subscription in NetApp Console?
 
-A direct license is a license purchased directly from NetApp (also called BYOL) and managed in the Console through license keys, invoice recipients, and renewal options. A marketplace subscription corresponds to a cloud marketplace contract (AWS, Azure, or Google Cloud) where usage charges are processed through a cloud provider account. A Keystone subscription is usage that falls under a NetApp Keystone pay-as-you-grow agreement, which can be linked for use with Cloud Volumes ONTAP after NetApp authorizes the account.
+*Direct license::*
+  Purchased from NetApp and typically managed using a license file, serial
+  number, or capacity entitlement. It is commonly called BYOL.
+
+*Marketplace subscription::*
+  Purchased or activated through AWS Marketplace, Azure Marketplace, or Google
+  Cloud Marketplace. Charges are billed through the cloud provider.
+
+*Keystone subscription::*
+  A NetApp consumption agreement. After NetApp authorizes the Console account,
+  eligible Cloud Volumes ONTAP deployments can use Keystone as their billing
+  method.
 
 .Why don't my licenses and subscriptions automatically display in NetApp Console?
 
@@ -33,17 +44,15 @@ You need a Console agent deployed to view subscription information. An agent is 
 
 You can manage licenses and subscriptions for Backup and Recovery, Cloud Tiering, Cloud Volumes ONTAP, Disaster Recovery (BYOL only), and Ransomware Resilience.
 
-.Who can manage licenses and subscriptions, and who has read-only access?
+.Who can manage licenses and subscriptions in NetApp Console?
 
-Access is controlled by user roles. Admin users can view all licenses and subscriptions, add new licenses, associate subscriptions with accounts, modify existing license details, and delete licenses or disassociate subscriptions. Viewer users have read-only access and can only view licenses and subscriptions.
+Users with the *Licenses and subscriptions admin* role can add, edit, and remove direct licenses, and associate or disassociate Marketplace and Keystone subscriptions.
 
-.What Console role do I need to manage licenses and subscriptions?
-
-To manage licenses and subscriptions, you need the Licenses and subscriptions admin role in NetApp Console.
+Users with the corresponding viewer permission can view licenses and subscriptions but cannot make changes.
 
 .Why can't I add a new license or subscription from the Overview dashboard?
 
-You can update and remove licenses from the Overview dashboard for a specific data service, but you cannot add a new license or subscription there. New licenses can only be added from the Direct licenses tab, and new subscriptions can only be added from the Marketplace subscriptions tab.
+The Overview dashboard is intended for reviewing and resolving existing licensing issues. To add a direct license, go to Direct licenses. To add or associate a Marketplace subscription, go to Marketplace subscriptions.
 
 .How does the Console alert me to licenses or subscriptions that need attention?
 
@@ -75,9 +84,9 @@ No. PAYGO (pay-as-you-go) subscriptions from a cloud provider's marketplace aren
 
 Exchanging an unassigned Cloud Volumes ONTAP license revokes that license and creates a dollar-equivalent license for the new service (NetApp Backup and Recovery, Data Classification, or Cloud Tiering). Licensing for an HA pair converts to a 51 TiB direct license, and licensing for a single node converts to a 32 TiB direct license. The converted license keeps the same expiration date as the original Cloud Volumes ONTAP license.
 
-.How does the Console decide whether to charge against a BYOL license or a PAYGO marketplace subscription?
+.How does the Console decide whether to charge against a BYOL license or a PAYGO Marketplace subscription?
 
-The Console always attempts to charge against a license first. If a license isn't available, it charges against a marketplace subscription. Changing the capacity-based licensing package (charging method) doesn't affect whether you're charged through a NetApp-purchased license (BYOL) or a marketplace PAYGO subscription; you don't have to convert a BYOL subscription to a marketplace subscription or vice versa.
+The Console always attempts to charge against a license first. If a license isn't available, it charges against a Marketplace subscription. Changing the capacity-based licensing package (charging method) doesn't affect whether you're charged through a NetApp-purchased license (BYOL) or a Marketplace PAYGO subscription; you don't have to convert a BYOL subscription to a Marketplace subscription or vice versa.
 
 .What happens if I change my charging method but my cloud marketplace contract doesn't include that package?
 
@@ -168,9 +177,3 @@ You can only unlink a Keystone subscription that isn't attached to an existing C
 .How do I request more committed capacity for a Keystone subscription?
 
 You can send a request to NetApp directly from the Console by entering the requested committed capacity for one or more subscriptions and submitting additional details. This creates a ticket in NetApp's system for processing.
-
-== Support
-
-.What do I need before I can open a support case with NetApp?
-
-Before you can open a support case with NetApp technical support, you need to add a NetApp Support Site account to NetApp Console and then register for support.
