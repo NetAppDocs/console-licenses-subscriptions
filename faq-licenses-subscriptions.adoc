@@ -19,18 +19,11 @@ This FAQ answers common questions about licenses and subscriptions in NetApp Con
 
 .What is the difference between a direct license, a Marketplace subscription, and a Keystone subscription in NetApp Console?
 
-*Direct license::*
-  Purchased from NetApp and typically managed using a license file, serial
-  number, or capacity entitlement. It is commonly called BYOL.
+A *direct license* is purchased from NetApp and typically managed using a license file, serial number, or capacity entitlement. It is commonly called BYOL.
 
-*Marketplace subscription::*
-  Purchased or activated through AWS Marketplace, Azure Marketplace, or Google
-  Cloud Marketplace. Charges are billed through the cloud provider.
+A *Marketplace subscription* is purchased or activated through AWS Marketplace, Azure Marketplace, or Google Cloud Marketplace. Charges are billed through the cloud provider.
 
-*Keystone subscription::*
-  A NetApp consumption agreement. After NetApp authorizes the Console account,
-  eligible Cloud Volumes ONTAP deployments can use Keystone as their billing
-  method.
+A *Keystone subscription* is a NetApp consumption agreement. After NetApp authorizes the Console account, eligible Cloud Volumes ONTAP deployments can use Keystone as their billing method.
 
 .Why don't my licenses and subscriptions automatically display in NetApp Console?
 
@@ -60,25 +53,15 @@ The Overview dashboard's "Requires action" tile alerts you to licenses and subsc
 
 == Direct licenses (BYOL)
 
-.Why would I need to add my NetApp Support Site (NSS) account to the Console?
+.What's the difference between using an NSS account and manually uploading a license file?
 
-Associating your Console account with an NSS account allows the Console to automatically query NetApp's licensing service and add licenses without manual entry. It's also required to enter a serial number when adding or updating a license, since the NSS account must be authorized to access that serial number.
+Associating an NSS account lets the Console automatically detect and update your licenses, and it's required to enter a serial number when adding or updating a license.
 
-.When do I need to manually obtain and upload a NetApp license file instead of relying on automatic updates?
-
-You should obtain a NetApp license file to upload if the Console does not have internet access, such as in private mode installations, or if your Console account is not associated with your NSS account. In these cases, the Console can't automatically query or update your licenses and you must manually add or update them using the serial number or license file.
+You need to manually obtain and upload a NetApp license file instead if the Console does not have internet access, or if your Console account is not associated with your NSS account. In these cases, the Console can't automatically query or update your licenses.
 
 .What is the difference between capacity-based and node-based BYOL licensing for Cloud Volumes ONTAP?
 
 For capacity-based BYOL licenses, the license is associated with your Console account rather than a single system; each system gets its own serial number, but multiple systems under the same account draw from a shared capacity pool. For node-based BYOL licenses, pooling doesn't apply: each Cloud Volumes ONTAP system requires its own dedicated system license that isn't shared across systems, though a license can be transferred to a new system if you delete the original one.
-
-.Can I still purchase or renew node-based licenses for Cloud Volumes ONTAP?
-
-NetApp recommends capacity-based licensing for all new deployments. NetApp has restricted the purchase, extension, and renewal of node-based licenses in private mode since June 25, 2025. If you have an existing node-based license, you must convert it to capacity-based licensing; node-based licenses are available only for existing private-mode deployments and can't be newly deployed.
-
-.Are PAYGO subscriptions available for private-mode Cloud Volumes ONTAP deployments?
-
-No. PAYGO (pay-as-you-go) subscriptions from a cloud provider's marketplace aren't available for private-mode deployments. In private mode, NetApp provides BYOL licenses directly instead.
 
 .What happens when I exchange an unassigned Cloud Volumes ONTAP license for another service?
 
@@ -93,10 +76,6 @@ The Console always attempts to charge against a license first. If a license isn'
 If you have a private offer or contract from your cloud provider's marketplace, changing to a charging method that's not included in your contract results in charging against BYOL (if you purchased a license from NetApp) or PAYGO instead.
 
 == Marketplace subscriptions and private offers
-
-.What's the difference between Standard mode and Private/Restricted mode when associating subscriptions?
-
-The Console supports Identity and Access Management (IAM) in standard mode, which uses organizations to manage users and resources, including subscription associations. If you're using the Console in private or restricted mode, you use a Console account instead of an organization to manage users and resources, including subscriptions.
 
 .Can I associate the same Azure or Google Cloud marketplace subscription with more than one Console organization?
 
