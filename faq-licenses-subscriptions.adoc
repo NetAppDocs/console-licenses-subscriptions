@@ -27,11 +27,11 @@ A *Keystone subscription* is a NetApp consumption agreement. After NetApp author
 
 .Why don't my licenses and subscriptions automatically display in NetApp Console?
 
-License and subscription information is displayed automatically only when your Console account is also associated with a NetApp Support Site (NSS) account. If your Console account is not associated with an NSS account, you need to manually add licenses, and usage, capacity, and other details won't automatically update.
+License and subscription information is displayed automatically only when your Console account is also associated with a NetApp Support Site (NSS) account. If your Console account is not associated with an NSS account, you need to manually add licenses. Usage, capacity, and other details also won't automatically update.
 
 .Do I need a Console agent to view my licenses and subscriptions?
 
-You need a Console agent deployed to view subscription information. An agent is also required to view BYOL (direct) licenses for Cloud Volumes ONTAP.
+You need a Console agent deployed to view subscription information. An agent is also required to view direct licenses for Cloud Volumes ONTAP.
 
 .Which services can I manage licenses and subscriptions for in NetApp Console?
 
@@ -45,11 +45,11 @@ Users with the corresponding viewer permission can view licenses and subscriptio
 
 .Why can't I add a new license or subscription from the Overview dashboard?
 
-The Overview dashboard is intended for reviewing and resolving existing licensing issues. To add a direct license, go to Direct licenses. To add or associate a Marketplace subscription, go to Marketplace subscriptions.
+The Overview dashboard is intended for reviewing and resolving existing licensing issues. To add a direct license, go to *Direct licenses*. To add or associate a Marketplace subscription, go to *Marketplace subscriptions*.
 
 .How do I know if a license or subscription needs attention?
 
-The Overview dashboard's "Requires action" tile alerts you to licenses and subscriptions that are expiring or reaching capacity limits. If Resolve doesn't display, there are no issues requiring action. Selecting Resolve takes you to a page where you can view and address issues from the Licenses or Subscriptions tab.
+The Overview dashboard's *Requires action* tile alerts you to licenses and subscriptions that are expiring or reaching capacity limits. If *Resolve* doesn't display, there are no issues requiring action. Selecting *Resolve* takes you to a page where you can view and address issues from the *Licenses* or *Subscriptions* tab.
 
 == Direct licenses (BYOL)
 
@@ -61,7 +61,9 @@ You need to manually obtain and upload a NetApp license file when the Console do
 
 .What is the difference between capacity-based and node-based BYOL licensing for Cloud Volumes ONTAP?
 
-For capacity-based BYOL licenses, the license is associated with your Console account rather than a single system; each system gets its own serial number, but multiple systems under the same account draw from a shared capacity pool. For node-based BYOL licenses, pooling doesn't apply: each Cloud Volumes ONTAP system requires its own dedicated system license that isn't shared across systems, though a license can be transferred to a new system if you delete the original one.
+For capacity-based BYOL licenses, the license is associated with your Console account rather than a single system; each system gets its own serial number, but multiple systems under the same account draw from a shared capacity pool. For node-based BYOL licenses, pooling doesn't apply: each Cloud Volumes ONTAP system requires its own dedicated system license, though a license can be transferred to a new system if you delete the original one.
+
+Node-based licensing is the previous-generation model. NetApp recommends capacity-based licensing for all new deployments, and existing node-based licenses must be converted.
 
 .What happens when I exchange an unassigned Cloud Volumes ONTAP license for another service?
 
@@ -85,7 +87,7 @@ An Azure subscription or Google Cloud project can be associated with only one Ma
 
 .When can I remove a Marketplace subscription from Licenses and subscriptions?
 
-You can only remove subscriptions with a status of Unsubscribed, and all related settings, data, and configuration must be cleared or reset before removal. If the subscription is still configured, the Remove option is not available.
+You can only remove subscriptions with a status of *Unsubscribed*, and all related settings, data, and configuration must be cleared or reset before removal. If the subscription is still configured, the *Remove* option is not available.
 
 .What's the risk of accepting or activating a private offer more than once?
 
@@ -129,15 +131,15 @@ If both subscriptions are available for your AWS account, you can use Billing pr
 
 No. The standalone Cloud Volumes ONTAP subscription supports only capacity-based Essentials and Freemium packages; the Professional package is not supported and continues to bill through the NIS subscription. If you have only the standalone subscription associated, you can deploy Cloud Volumes ONTAP using Essentials, but configuring Backup and Recovery requires a different subscription.
 
-.What are Keystone fields used for in billing preferences?
+.What are Keystone fields used for in Billing preferences?
 
-Keystone fields connect metered service usage to your Keystone billing profile. The Agreement ID is a unique identifier that links the billing record in NetApp Console with your Keystone agreement and allows synchronization of usage reporting. Service scope lists the services or capacity pools covered by the Keystone agreement, clarifying which workloads or deployments are included and ensuring only eligible resources are billed through Keystone.
+Keystone fields connect metered service usage to your Keystone billing profile. The *Agreement ID* is a unique identifier that links the billing record in NetApp Console with your Keystone agreement and allows synchronization of usage reporting. *Service scope* lists the services or capacity pools covered by the Keystone agreement, clarifying which workloads or deployments are included and ensuring only eligible resources are billed through Keystone.
 
 == Keystone subscriptions
 
 .Why must NetApp authorize my Console account before I can use Keystone subscriptions?
 
-NetApp must authorize your Console account for your Keystone subscriptions before you can use or manage them. This authorization makes eligible Keystone subscriptions available in NetApp Console. If the "Welcome to NetApp Keystone" page appears, follow the contact instructions on that page to request authorization.
+NetApp must authorize your Console account for your Keystone subscriptions before you can use or manage them. This authorization makes eligible Keystone subscriptions available in NetApp Console. If the *Welcome to NetApp Keystone* page appears, follow the contact instructions on that page to request authorization.
 
 .What does linking a Keystone subscription do?
 
