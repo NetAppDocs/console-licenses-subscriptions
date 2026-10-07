@@ -19,11 +19,9 @@ This page provides answers to frequently asked questions about licenses and subs
 
 .What is the difference between a direct license, a Marketplace subscription, and a Keystone subscription in NetApp Console?
 
-A *direct license* is purchased from NetApp and typically managed using a license file, serial number, or capacity entitlement. It is commonly called bring-your-own-license (BYOL).
-
-A *Marketplace subscription* is purchased or activated through AWS Marketplace, Azure Marketplace, or Google Cloud Marketplace. Charges are billed through the cloud provider.
-
-A *Keystone subscription* is a NetApp consumption agreement. After NetApp authorizes the Console account, eligible Cloud Volumes ONTAP deployments can use Keystone as their billing method.
+* A *direct license* is purchased from NetApp and typically managed using a license file, serial number, or capacity entitlement. It is commonly called bring-your-own-license (BYOL).
+* A *Marketplace subscription* is purchased or activated through AWS Marketplace, Azure Marketplace, or Google Cloud Marketplace. Charges are billed through the cloud provider.
+* A *Keystone subscription* is a NetApp consumption agreement. After NetApp authorizes the Console account, eligible Cloud Volumes ONTAP deployments can use Keystone as their billing method.
 
 .Why don't my licenses and subscriptions automatically display in NetApp Console?
 
