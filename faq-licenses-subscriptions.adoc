@@ -37,7 +37,7 @@ You can manage licenses and subscriptions for Backup and Recovery, Cloud Tiering
 
 .What roles can manage licenses and subscriptions in NetApp Console?
 
-Users with the *Licenses and subscriptions admin* role can add, edit, and remove direct licenses, and associate or disassociate Marketplace and Keystone subscriptions.
+Users with the Licenses and subscriptions admin role can add, edit, and remove direct licenses, and associate or disassociate Marketplace and Keystone subscriptions.
 
 Users with the corresponding viewer permission can view licenses and subscriptions but cannot make changes.
 
