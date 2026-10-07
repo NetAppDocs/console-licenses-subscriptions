@@ -1,0 +1,163 @@
+---
+sidebar: sidebar
+permalink: faq-licenses-subscriptions.html
+keywords: faq, frequently asked questions, frequently asked questions about licenses and subscriptions, direct licenses, byol, marketplace subscriptions, private offer, keystone, billing preferences, cloud volumes ontap, paygo, nss, capacity-based licensing, node-based licensing
+summary: "Frequently asked questions about licenses and subscriptions in NetApp Console."
+---
+
+= FAQ for licenses and subscriptions
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+This page provides answers to frequently asked questions about licenses and subscriptions in NetApp Console. It focuses on concepts, decisions, and constraints that are useful when managing direct licenses, Marketplace subscriptions, private offers, Keystone subscriptions, and billing preferences.
+
+== Overview and access
+
+.What is the difference between a direct license, a Marketplace subscription, and a Keystone subscription in NetApp Console?
+
+* A *direct license* is purchased from NetApp and typically managed using a license file, serial number, or capacity entitlement. It is commonly called bring-your-own-license (BYOL).
+* A *Marketplace subscription* is purchased or activated through AWS Marketplace, Azure Marketplace, or Google Cloud Marketplace. Charges are billed through the cloud provider.
+* A *Keystone subscription* is a NetApp consumption agreement. After NetApp authorizes your Console account, eligible Cloud Volumes ONTAP deployments can use Keystone as their billing method.
+
+.Why don't my licenses and subscriptions automatically display in NetApp Console?
+
+License and subscription information is displayed automatically only when your Console account is also associated with a NetApp Support Site (NSS) account. If your Console account is not associated with an NSS account, you need to manually add licenses. Usage, capacity, and other details also won't automatically update. https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[Learn how to add your NetApp Support Site account to Console credentials^].
+
+.Do I need a Console agent to view my licenses and subscriptions?
+
+You need a Console agent deployed to view subscription information. An agent is also required to view direct licenses for Cloud Volumes ONTAP.
+
+.Which services can I manage licenses and subscriptions for in NetApp Console?
+
+You can manage licenses and subscriptions for Backup and Recovery, Cloud Tiering, Cloud Volumes ONTAP, Disaster Recovery (BYOL only), and Ransomware Resilience.
+
+.What roles can manage licenses and subscriptions in NetApp Console?
+
+Users with the Licenses and subscriptions admin role can add, edit, and remove direct licenses, and associate or disassociate Marketplace and Keystone subscriptions.
+
+Users with the corresponding viewer permission can view licenses and subscriptions but cannot make changes.
+
+.Why can't I add a new license or subscription from the Overview dashboard?
+
+The Overview dashboard is intended for reviewing and resolving existing licensing issues. To add a direct license, go to *Direct licenses*. To add or associate a Marketplace subscription, go to *Marketplace subscriptions*.
+
+.How do I know if a license or subscription needs attention?
+
+The Overview dashboard's *Requires action* tile alerts you to licenses and subscriptions that are expiring or reaching capacity limits. If *Resolve* doesn't display, there are no issues requiring action. Selecting *Resolve* takes you to a page where you can view and address issues from the *Licenses* or *Subscriptions* tab.
+
+== Direct licenses (BYOL)
+
+.What is the difference between associating an NSS account and manually uploading a license file?
+
+Associating your Console account with an NSS account lets the Console automatically detect and update your licenses. It is also required when you enter a serial number to add or update a license.
+
+You need to manually obtain and upload a NetApp license file when the Console does not have internet access or when your Console account is not associated with an NSS account. In these cases, the Console cannot automatically query or update your licenses.
+
+.What is the difference between capacity-based and node-based BYOL licensing for Cloud Volumes ONTAP?
+
+* For *capacity-based BYOL licenses*, the license is associated with your Console account rather than a single system; each system gets its own serial number, but multiple systems under the same account draw from a shared capacity pool.
+* For *node-based BYOL licenses*, pooling doesn't apply: each Cloud Volumes ONTAP system requires its own dedicated system license, though a license can be transferred to a new system if you delete the original one.
+
+Node-based licensing is the previous-generation model. NetApp recommends capacity-based licensing for all new deployments, and existing node-based licenses must be converted. https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-convert-node-capacity.html[Learn how to convert a node-based license to a capacity-based license^].
+
+.What happens when I exchange an unassigned Cloud Volumes ONTAP license for another service?
+
+Exchanging an unassigned Cloud Volumes ONTAP license revokes that license and creates a dollar-equivalent license for the new service (NetApp Backup and Recovery, Data Classification, or Cloud Tiering).
+
+* Licensing for an HA pair converts to a 51 TiB direct license.
+* Licensing for a single node converts to a 32 TiB direct license.
+
+The converted license keeps the same expiration date as the original Cloud Volumes ONTAP license.
+
+.How do I know whether I'm charged against a BYOL license or a PAYGO Marketplace subscription?
+
+The Console attempts to charge usage against an available NetApp license first. If sufficient license capacity is not available, it charges usage against a linked Marketplace PAYGO subscription.
+
+Changing the capacity-based licensing package does not change whether usage is billed through a NetApp-purchased license (BYOL) or a Marketplace PAYGO subscription. You do not need to convert a BYOL license to a Marketplace subscription, or vice versa.
+
+.What happens if I select a charging method that is not included in my Marketplace contract?
+
+If you select a charging method that is not included in your Marketplace private offer or contract, that Marketplace package cannot be used. Usage is charged against a NetApp license, if available, or through PAYGO instead.
+
+== Marketplace subscriptions and private offers
+
+.How many Marketplace subscriptions can I associate with a single Azure subscription or Google Cloud project?
+
+An Azure subscription or Google Cloud project can be associated with only one Marketplace subscription. If you want to use two different Marketplace subscriptions for workloads under the same Azure subscription or Google Cloud project, you must create two separate Console accounts, one for each subscription.
+
+.When can I remove a Marketplace subscription from Licenses and subscriptions?
+
+You can only remove subscriptions with a status of *Unsubscribed*, and all related settings, data, and configuration must be cleared or reset before removal. If the subscription is still configured, the *Remove* option is not available. link:task-manage-subscriptions.html#remove-a-subscription[Learn how to remove a subscription^].
+
+.What's the risk of accepting or activating a private offer more than once?
+
+Accepting and activating a private offer multiple times can result in double charging. Skipping required steps in the acceptance process can also result in billing errors or activation issues.
+
+.What should I do if the private offer terms, pricing, or details look incorrect?
+
+If you notice discrepancies in the offer terms, pricing, or details, or you are unsure which offer to accept, do not accept the offer. Contact your NetApp sales or account team for clarification before proceeding.
+
+.What happens if I accept an amended Google Cloud private offer or already have an active PAYGO subscription?
+
+If you already have an active PAYGO subscription or an amended private offer, you only need to perform the acceptance steps. In these cases, Google Cloud Marketplace updates the plan within the same listing and retains the same subscription ID, so the subscription association in the Console remains intact.
+
+.Can I accept a Google Cloud private offer using a free trial billing account?
+
+No. Your Google Cloud billing account must not be on a free trial, since free trial accounts cannot accept private offers. Attempting to use a trial billing account results in an error requiring assistance from the NetApp cloud team.
+
+.Will I be double-charged if I use multiple AWS subscription types or migrate between listings?
+
+No duplicate metering occurs when you use multiple subscription types or migrate between listings.
+
+== Keystone subscriptions
+
+.Why must NetApp authorize my Console account before I can use Keystone subscriptions?
+
+NetApp must authorize your Console account for your Keystone subscriptions before you can use or manage them. This authorization makes eligible Keystone subscriptions available in NetApp Console. If the *Welcome to NetApp Keystone* page appears, follow the contact instructions on that page to request authorization. link:task-manage-keystone.html#authorize-your-account[Learn more about authorizing your account for Keystone subscriptions^].
+
+.What does linking a Keystone subscription do?
+
+Linking a Keystone subscription associates it with your Console organization or account and makes it available as a charging method when you create a new Cloud Volumes ONTAP working environment.
+
+.When can I unlink a Keystone subscription?
+
+You can unlink a Keystone subscription only when it is not attached to an existing Cloud Volumes ONTAP subscription.
+
+.How do I request a change to the committed capacity for a Keystone subscription?
+
+You can send a request to NetApp directly from the Console by entering the requested committed capacity for one or more subscriptions and submitting additional details. This creates a ticket in NetApp's system for processing.
+
+== Billing preferences
+
+.What is the difference between "NetApp licenses first" and "Marketplace subscriptions only" billing modes?
+
+"NetApp licenses first" prioritizes billing through your active NetApp licenses, and once that capacity is exhausted, usage rolls over to the linked Marketplace subscription. "Marketplace subscriptions only" directs all billing through Marketplace contracts, bypassing NetApp licenses entirely; this is common for organizations that standardize procurement through cloud provider billing.
+
+.When should I enable Custom CVO configuration in Billing preferences?
+
+Enable Custom CVO configuration if your organization needs to:
+
+* Map multiple Marketplace subscriptions to individual Cloud Volumes ONTAP instances under the same cloud provider, because separate business units or environments maintain different billing accounts.
+* Map one subscription to multiple cloud projects.
+
+For example, if Business Unit A bills to one Azure subscription and Business Unit B bills to another, Custom CVO configuration lets you map each business unit's Cloud Volumes ONTAP instances to its own subscription.
+
+.What happens if I disable Custom CVO configuration after enabling it?
+
+Disabling Custom CVO configuration resets all Cloud Volumes ONTAP billing to the global billing mode (NetApp licenses first or Marketplace subscriptions only) used for your other data services, instead of the per-instance subscription mappings Custom CVO configuration allowed.
+
+.How do I bill Cloud Volumes ONTAP capacity if I have both a standalone AWS subscription and a NetApp Intelligent Services (NIS) subscription?
+
+If both subscriptions are available for your AWS account, you can use Billing preferences to select which subscription is used for Cloud Volumes ONTAP capacity billing. For existing Cloud Volumes ONTAP systems already billed through NIS, adding the standalone subscription does not change billing unless you update Billing preferences. For new deployments created after the standalone subscription is available, the standalone subscription is used by default for capacity billing (Essentials/Freemium) unless you override it. https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html[Learn more about Cloud Volumes ONTAP licensing packages^].
+
+.Can I use the standalone Cloud Volumes ONTAP AWS subscription to bill for the Professional package or Backup and Recovery?
+
+No. The standalone Cloud Volumes ONTAP subscription supports only capacity-based Essentials and Freemium packages; the Professional package is not supported and continues to bill through the NIS subscription. If you have only the standalone subscription associated, you can deploy Cloud Volumes ONTAP using Essentials, but configuring Backup and Recovery requires a different subscription. https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html[Learn more about Cloud Volumes ONTAP licensing packages^].
+
+.What are Keystone fields used for in Billing preferences?
+
+Keystone fields connect metered service usage to your Keystone billing profile. The *Agreement ID* is a unique identifier that links the billing record in NetApp Console with your Keystone agreement and allows synchronization of usage reporting. *Service scope* lists the services or capacity pools covered by the Keystone agreement, clarifying which workloads or deployments are included and ensuring only eligible resources are billed through Keystone.

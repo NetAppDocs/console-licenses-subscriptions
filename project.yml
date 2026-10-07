@@ -52,6 +52,8 @@ sidebar:
             url: /task-manage-billing-preferences.html
     - title: Knowledge and support
       entries:
+      - title: FAQ
+        url: /faq-licenses-subscriptions.html
       - title: Register for support
         url: /task-support-registration.html
       - title: Get help

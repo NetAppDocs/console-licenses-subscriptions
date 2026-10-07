@@ -22,7 +22,7 @@ NetApp recommends capacity-based licensing for all new deployments. If you have 
 
 NOTE: PAYGO (pay-as-you-go) subscriptions from your cloud provider's marketplace aren't available for private-mode deployments. In private mode, NetApp provides BYOL licenses directly. Node-based licenses are available only for existing private-mode deployments and can't be newly deployed. NetApp has restricted the purchase, extension, and renewal of node-based licenses in private mode since June 25, 2025. If you have an existing node-based license, you must convert it to capacity-based licensing.
 
-For new private-mode deployments, use capacity-based licensing instead. See https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_capacity-license-darkmode/task-deploying-otc-aws.html#deploy-cloud-volumes-ontap-in-private-mode[Deploy Cloud Volumes ONTAP in private mode^].
+For new private-mode deployments, use capacity-based licensing instead. See https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-deploying-otc-aws.html#deploy-cloud-volumes-ontap-in-private-mode[Deploy Cloud Volumes ONTAP in private mode^].
 
 == Manage PAYGO subscriptions
 
