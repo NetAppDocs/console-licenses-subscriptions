@@ -107,6 +107,24 @@ No. Your Google Cloud billing account must not be on a free trial, since free tr
 
 No duplicate metering occurs when you use multiple subscription types or migrate between listings.
 
+== Keystone subscriptions
+
+.Why must NetApp authorize my Console account before I can use Keystone subscriptions?
+
+NetApp must authorize your Console account for your Keystone subscriptions before you can use or manage them. This authorization makes eligible Keystone subscriptions available in NetApp Console. If the *Welcome to NetApp Keystone* page appears, follow the contact instructions on that page to request authorization.
+
+.What does linking a Keystone subscription do?
+
+Linking a Keystone subscription associates it with your Console organization or account and makes it available as a charging method when you create a new Cloud Volumes ONTAP working environment.
+
+.When can I unlink a Keystone subscription?
+
+You can unlink a Keystone subscription only when it is not attached to an existing Cloud Volumes ONTAP subscription.
+
+.How do I request a change to the committed capacity for a Keystone subscription?
+
+You can send a request to NetApp directly from the Console by entering the requested committed capacity for one or more subscriptions and submitting additional details. This creates a ticket in NetApp's system for processing.
+
 == Billing preferences
 
 .What is the difference between "NetApp licenses first" and "Marketplace subscriptions only" billing modes?
@@ -132,21 +150,3 @@ No. The standalone Cloud Volumes ONTAP subscription supports only capacity-based
 .What are Keystone fields used for in Billing preferences?
 
 Keystone fields connect metered service usage to your Keystone billing profile. The *Agreement ID* is a unique identifier that links the billing record in NetApp Console with your Keystone agreement and allows synchronization of usage reporting. *Service scope* lists the services or capacity pools covered by the Keystone agreement, clarifying which workloads or deployments are included and ensuring only eligible resources are billed through Keystone.
-
-== Keystone subscriptions
-
-.Why must NetApp authorize my Console account before I can use Keystone subscriptions?
-
-NetApp must authorize your Console account for your Keystone subscriptions before you can use or manage them. This authorization makes eligible Keystone subscriptions available in NetApp Console. If the *Welcome to NetApp Keystone* page appears, follow the contact instructions on that page to request authorization.
-
-.What does linking a Keystone subscription do?
-
-Linking a Keystone subscription associates it with your Console organization or account and makes it available as a charging method when you create a new Cloud Volumes ONTAP working environment.
-
-.When can I unlink a Keystone subscription?
-
-You can unlink a Keystone subscription only when it is not attached to an existing Cloud Volumes ONTAP subscription.
-
-.How do I request a change to the committed capacity for a Keystone subscription?
-
-You can send a request to NetApp directly from the Console by entering the requested committed capacity for one or more subscriptions and submitting additional details. This creates a ticket in NetApp's system for processing.
