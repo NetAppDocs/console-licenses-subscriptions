@@ -80,18 +80,18 @@ When subscribing through AWS marketplace, you can choose from four offerings:
 |*Cloud Volumes ONTAP only (PAYGO)*
 |Standalone Cloud Volumes ONTAP offering with flexible usage-based billing. Recommended for new Cloud Volumes ONTAP deployments.
 
-|*NetApp Intelligence Services (annual contract)*
+|*NetApp Intelligent Services (annual contract)*
 |NetApp data services with annual billing. Supports Cloud Volumes ONTAP for existing contracts only.
 
-|*NetApp Intelligence Services (PAYGO)*
+|*NetApp Intelligent Services (PAYGO)*
 |NetApp data services with flexible usage-based billing. Supports Cloud Volumes ONTAP for existing contracts only.
 |===
 
 If more than one of these subscriptions is associated with your AWS account, use *Billing preferences* to select which subscription is used for Cloud Volumes ONTAP capacity billing.
 
-Billing behavior depends on whether you have existing Cloud Volumes ONTAP systems already running and billed through a NetApp Intelligence Services subscription, or you are deploying new systems after adding a Cloud Volumes ONTAP only subscription. For existing systems, adding a Cloud Volumes ONTAP only subscription does not change billing unless you update *Billing preferences*. For new deployments, a Cloud Volumes ONTAP only subscription is used by default for Cloud Volumes ONTAP capacity billing (Essentials/Freemium), unless you override it in *Billing preferences*.
+Billing behavior depends on whether you have existing Cloud Volumes ONTAP systems already running and billed through a NetApp Intelligent Services subscription, or you are deploying new systems after adding a Cloud Volumes ONTAP only subscription. For existing systems, adding a Cloud Volumes ONTAP only subscription does not change billing unless you update *Billing preferences*. For new deployments, a Cloud Volumes ONTAP only subscription is used by default for Cloud Volumes ONTAP capacity billing (Essentials/Freemium), unless you override it in *Billing preferences*.
 
-The Cloud Volumes ONTAP only offerings support only capacity-based Essentials and Freemium packages. The Professional package is not supported on either Cloud Volumes ONTAP only offering and continues to bill through a NetApp Intelligence Services subscription. If you have only a Cloud Volumes ONTAP only subscription associated, you can deploy Cloud Volumes ONTAP using Essentials, but configuring Backup and Recovery requires a NetApp Intelligence Services subscription.
+The Cloud Volumes ONTAP only offerings support only capacity-based Essentials and Freemium packages. The Professional package is not supported on either Cloud Volumes ONTAP only offering and continues to bill through a NetApp Intelligent Services subscription. If you have only a Cloud Volumes ONTAP only subscription associated, you can deploy Cloud Volumes ONTAP using Essentials, but configuring Backup and Recovery requires a NetApp Intelligent Services subscription.
 
 === Where to configure it
 
