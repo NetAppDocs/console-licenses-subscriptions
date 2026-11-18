@@ -32,11 +32,11 @@ NOTE: For AWS, your account might have more than one NetApp marketplace subscrip
 
 . From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
-. Select *Marketplace Subscriptions*.
+. Select *Marketplace subscriptions*.
 
-. Above the *Subscriptions* table, select *Add Subscription*.
+. Above the *Subscriptions* table, select *Add subscription*.
 
-. In the *Add Subscription* dialog, select a cloud provider.
+. In the *Add subscription* dialog, select a cloud provider.
 
 .. If choosing an AWS subscription, choose the offering you want:
 +
@@ -61,7 +61,7 @@ For Google Cloud, you can also identify marketplace subscriptions associated wit
 
 . From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
-. Select *Marketplace Subscriptions*.
+. Select *Marketplace subscriptions*.
 +
 You'll only see subscriptions associated with the organization you're currently viewing. 
 
@@ -102,7 +102,7 @@ You can rename a subscription to better identify how your organization uses it.
 
 . From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
-. Select *Marketplace Subscriptions*.
+. Select *Marketplace subscriptions*.
 
 . Select the action menu in the row that corresponds to the subscription you want to manage and choose *Rename*.
 
@@ -120,7 +120,7 @@ The Configure option is grayed out if you have unsubscribed from a subscription.
 
 . From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
-. Select *Marketplace Subscriptions*.
+. Select *Marketplace subscriptions*.
 
 . Select the action menu in the row that corresponds to the subscription you want to configure and choose *Configure*.
 
@@ -142,7 +142,7 @@ NOTE: The Console supports Identity and Access Management (IAM) in standard mode
 .Steps
 
 . From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
-. Select *Marketplace Subscriptions*.
+. Select *Marketplace subscriptions*.
 . In the row for the subscription you want to associate, open the action menu then select *Associate*.
 . In the *Associate the subscription* dialog, select the Console organizations you want to associate with the subscription. 
 . Select *Associate*.
@@ -150,7 +150,7 @@ NOTE: The Console supports Identity and Access Management (IAM) in standard mode
 
 == View credentials associated with a subscription
 
-You can view the credentials for a specific subscription from the *Marketplace Subscriptions* page. This allows you to verify how the subscription is billed. Because credentials are tied to the agent you're using, you must select the agent associated with the subscription you want to view.
+You can view the credentials for a specific subscription from the *Marketplace subscriptions* page. This allows you to verify how the subscription is billed. Because credentials are tied to the agent you're using, you must select the agent associated with the subscription you want to view.
 
 NOTE: Use the Agent drop-down in the top navigation bar to switch agents if needed.
 
@@ -159,7 +159,7 @@ NOTE: Use the Agent drop-down in the top navigation bar to switch agents if need
 
 . From the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
-. Select *Marketplace Subscriptions*.
+. Select *Marketplace subscriptions*.
 
 . On the row containing the subscription whose credentials you want to view, select *View*. If multiple credentials are associated with a subscription, no credentials may display and you are directed to select a different agent.
 
@@ -176,7 +176,7 @@ If the subscription is still configured, the *Remove* option is not available.
 
 . In the NetApp Console menu, select *Administration > Licenses and subscriptions*.
 
-. Select *Marketplace Subscriptions*.
+. Select *Marketplace subscriptions*.
 
 . In the row for the subscription you want to remove, open the action menu and select *Remove*.
 
