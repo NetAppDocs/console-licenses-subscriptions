@@ -67,7 +67,7 @@ You'll only see the subscriptions that are associated with the organization that
 * Select image:icon-column-selector.png[the plus icon at the end of the table header] to choose which columns appear in the table. 
 Note that the Term and Auto Renew columns don't appear by default. The Auto Renew column displays renewal information for Azure contracts only.
 
-== Viewing package details
+== View package details
 
 You can view details about the capacity used per package by switching to legacy mode on the Cloud Volumes ONTAP page.
 
